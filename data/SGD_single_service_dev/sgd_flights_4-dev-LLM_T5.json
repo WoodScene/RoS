@@ -1,0 +1,558 @@
+[
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-departure_date>.\n[USER]: I am going to need 2 tickets because I am visiting someone on March 4th. Look for a round trip flight. \n [slot] flights_4-departure_date, it indicates Start date of the trip. So the value of slot <flights_4-departure_date> is \n",
+        "output": "march 4th"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-number_of_tickets>.\n[USER]: I am going to need 2 tickets because I am visiting someone on March 4th. Look for a round trip flight. \n [slot] flights_4-number_of_tickets, it indicates the number of flight tickets for the trip. So the value of slot <flights_4-number_of_tickets> is \n",
+        "output": "2"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-departure_date>.\n[USER]: I am going to need 2 tickets because I am visiting someone on March 4th. Look for a round trip flight. [SYSTEM]: When are you taking the return flight? What is your destination and what city are you leaving from? [USER]: I want flights from Atlanta to San Francisco and I will come back on 12th of March. \n [slot] flights_4-departure_date, it indicates Start date of the trip. So the value of slot <flights_4-departure_date> is \n",
+        "output": "march 4th"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-destination_airport>.\n[USER]: I am going to need 2 tickets because I am visiting someone on March 4th. Look for a round trip flight. [SYSTEM]: When are you taking the return flight? What is your destination and what city are you leaving from? [USER]: I want flights from Atlanta to San Francisco and I will come back on 12th of March. \n [slot] flights_4-destination_airport, it indicates The name of the airport or city to arrive at. So the value of slot <flights_4-destination_airport> is \n",
+        "output": "san francisco"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-number_of_tickets>.\n[USER]: I am going to need 2 tickets because I am visiting someone on March 4th. Look for a round trip flight. [SYSTEM]: When are you taking the return flight? What is your destination and what city are you leaving from? [USER]: I want flights from Atlanta to San Francisco and I will come back on 12th of March. \n [slot] flights_4-number_of_tickets, it indicates the number of flight tickets for the trip. So the value of slot <flights_4-number_of_tickets> is \n",
+        "output": "2"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-origin_airport>.\n[USER]: I am going to need 2 tickets because I am visiting someone on March 4th. Look for a round trip flight. [SYSTEM]: When are you taking the return flight? What is your destination and what city are you leaving from? [USER]: I want flights from Atlanta to San Francisco and I will come back on 12th of March. \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "atlanta"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-return_date>.\n[USER]: I am going to need 2 tickets because I am visiting someone on March 4th. Look for a round trip flight. [SYSTEM]: When are you taking the return flight? What is your destination and what city are you leaving from? [USER]: I want flights from Atlanta to San Francisco and I will come back on 12th of March. \n [slot] flights_4-return_date, it indicates End date of the trip. So the value of slot <flights_4-return_date> is \n",
+        "output": "12th of march"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: I am going to need 2 tickets because I am visiting someone on March 4th. Look for a round trip flight. [SYSTEM]: When are you taking the return flight? What is your destination and what city are you leaving from? [USER]: I want flights from Atlanta to San Francisco and I will come back on 12th of March. [SYSTEM]: There are 4 flights that you will like. How about the American Airlines which is a direct flight and takes off at 3:45 pm. The return flight leaves at 9:20 pm. It will cost you $279. [USER]: What is the time of arrival for the returning flight? \n [slot] flights_4-departure_date, it indicates Start date of the trip. So the value of slot <flights_4-departure_date> is \n",
+        "output": "march 4th"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-destination_airport>.\n[USER]: I am going to need 2 tickets because I am visiting someone on March 4th. Look for a round trip flight. [SYSTEM]: When are you taking the return flight? What is your destination and what city are you leaving from? [USER]: I want flights from Atlanta to San Francisco and I will come back on 12th of March. [SYSTEM]: There are 4 flights that you will like. How about the American Airlines which is a direct flight and takes off at 3:45 pm. The return flight leaves at 9:20 pm. It will cost you $279. [USER]: What is the time of arrival for the returning flight? \n [slot] flights_4-destination_airport, it indicates The name of the airport or city to arrive at. So the value of slot <flights_4-destination_airport> is \n",
+        "output": "san francisco"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-number_of_tickets>.\n[USER]: I am going to need 2 tickets because I am visiting someone on March 4th. Look for a round trip flight. [SYSTEM]: When are you taking the return flight? What is your destination and what city are you leaving from? [USER]: I want flights from Atlanta to San Francisco and I will come back on 12th of March. [SYSTEM]: There are 4 flights that you will like. How about the American Airlines which is a direct flight and takes off at 3:45 pm. The return flight leaves at 9:20 pm. It will cost you $279. [USER]: What is the time of arrival for the returning flight? \n [slot] flights_4-number_of_tickets, it indicates the number of flight tickets for the trip. So the value of slot <flights_4-number_of_tickets> is \n",
+        "output": "2"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-origin_airport>.\n[USER]: I am going to need 2 tickets because I am visiting someone on March 4th. Look for a round trip flight. [SYSTEM]: When are you taking the return flight? What is your destination and what city are you leaving from? [USER]: I want flights from Atlanta to San Francisco and I will come back on 12th of March. [SYSTEM]: There are 4 flights that you will like. How about the American Airlines which is a direct flight and takes off at 3:45 pm. The return flight leaves at 9:20 pm. It will cost you $279. [USER]: What is the time of arrival for the returning flight? \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "atlanta"
+    },
+    {
+        "input": "Track the state of the slot <flights_4-return_date> in the input dialogue.\n[USER]: I am going to need 2 tickets because I am visiting someone on March 4th. Look for a round trip flight. [SYSTEM]: When are you taking the return flight? What is your destination and what city are you leaving from? [USER]: I want flights from Atlanta to San Francisco and I will come back on 12th of March. [SYSTEM]: There are 4 flights that you will like. How about the American Airlines which is a direct flight and takes off at 3:45 pm. The return flight leaves at 9:20 pm. It will cost you $279. [USER]: What is the time of arrival for the returning flight? \n [slot] flights_4-return_date, it indicates End date of the trip. So the value of slot <flights_4-return_date> is \n",
+        "output": "12th of march"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-departure_date>.\n[USER]: I am going to need 2 tickets because I am visiting someone on March 4th. Look for a round trip flight. [SYSTEM]: When are you taking the return flight? What is your destination and what city are you leaving from? [USER]: I want flights from Atlanta to San Francisco and I will come back on 12th of March. [SYSTEM]: There are 4 flights that you will like. How about the American Airlines which is a direct flight and takes off at 3:45 pm. The return flight leaves at 9:20 pm. It will cost you $279. [USER]: What is the time of arrival for the returning flight? [SYSTEM]: The returning flight will land at 5:46 am. [USER]: That is perfect. Thank you. That is all. \n [slot] flights_4-departure_date, it indicates Start date of the trip. So the value of slot <flights_4-departure_date> is \n",
+        "output": "march 4th"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-destination_airport>.\n[USER]: I am going to need 2 tickets because I am visiting someone on March 4th. Look for a round trip flight. [SYSTEM]: When are you taking the return flight? What is your destination and what city are you leaving from? [USER]: I want flights from Atlanta to San Francisco and I will come back on 12th of March. [SYSTEM]: There are 4 flights that you will like. How about the American Airlines which is a direct flight and takes off at 3:45 pm. The return flight leaves at 9:20 pm. It will cost you $279. [USER]: What is the time of arrival for the returning flight? [SYSTEM]: The returning flight will land at 5:46 am. [USER]: That is perfect. Thank you. That is all. \n [slot] flights_4-destination_airport, it indicates The name of the airport or city to arrive at. So the value of slot <flights_4-destination_airport> is \n",
+        "output": "san francisco"
+    },
+    {
+        "input": "Track the state of the slot <flights_4-number_of_tickets> in the input dialogue.\n[USER]: I am going to need 2 tickets because I am visiting someone on March 4th. Look for a round trip flight. [SYSTEM]: When are you taking the return flight? What is your destination and what city are you leaving from? [USER]: I want flights from Atlanta to San Francisco and I will come back on 12th of March. [SYSTEM]: There are 4 flights that you will like. How about the American Airlines which is a direct flight and takes off at 3:45 pm. The return flight leaves at 9:20 pm. It will cost you $279. [USER]: What is the time of arrival for the returning flight? [SYSTEM]: The returning flight will land at 5:46 am. [USER]: That is perfect. Thank you. That is all. \n [slot] flights_4-number_of_tickets, it indicates the number of flight tickets for the trip. So the value of slot <flights_4-number_of_tickets> is \n",
+        "output": "2"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-origin_airport>.\n[USER]: I am going to need 2 tickets because I am visiting someone on March 4th. Look for a round trip flight. [SYSTEM]: When are you taking the return flight? What is your destination and what city are you leaving from? [USER]: I want flights from Atlanta to San Francisco and I will come back on 12th of March. [SYSTEM]: There are 4 flights that you will like. How about the American Airlines which is a direct flight and takes off at 3:45 pm. The return flight leaves at 9:20 pm. It will cost you $279. [USER]: What is the time of arrival for the returning flight? [SYSTEM]: The returning flight will land at 5:46 am. [USER]: That is perfect. Thank you. That is all. \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "atlanta"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-return_date>.\n[USER]: I am going to need 2 tickets because I am visiting someone on March 4th. Look for a round trip flight. [SYSTEM]: When are you taking the return flight? What is your destination and what city are you leaving from? [USER]: I want flights from Atlanta to San Francisco and I will come back on 12th of March. [SYSTEM]: There are 4 flights that you will like. How about the American Airlines which is a direct flight and takes off at 3:45 pm. The return flight leaves at 9:20 pm. It will cost you $279. [USER]: What is the time of arrival for the returning flight? [SYSTEM]: The returning flight will land at 5:46 am. [USER]: That is perfect. Thank you. That is all. \n [slot] flights_4-return_date, it indicates End date of the trip. So the value of slot <flights_4-return_date> is \n",
+        "output": "12th of march"
+    },
+    {
+        "input": "Track the state of the slot <flights_4-destination_airport> in the input dialogue.\n[USER]: Can you find me a round trip flight from Washington to LA, returning on March 4th. \n [slot] flights_4-destination_airport, it indicates The name of the airport or city to arrive at. So the value of slot <flights_4-destination_airport> is \n",
+        "output": "la"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-origin_airport>.\n[USER]: Can you find me a round trip flight from Washington to LA, returning on March 4th. \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "washington"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-return_date>.\n[USER]: Can you find me a round trip flight from Washington to LA, returning on March 4th. \n [slot] flights_4-return_date, it indicates End date of the trip. So the value of slot <flights_4-return_date> is \n",
+        "output": "march 4th"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-departure_date>.\n[USER]: Can you find me a round trip flight from Washington to LA, returning on March 4th. [SYSTEM]: What date did you want to leave? [USER]: Make it for the 2nd. \n [slot] flights_4-departure_date, it indicates Start date of the trip. So the value of slot <flights_4-departure_date> is \n",
+        "output": "the 2nd"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-destination_airport>.\n[USER]: Can you find me a round trip flight from Washington to LA, returning on March 4th. [SYSTEM]: What date did you want to leave? [USER]: Make it for the 2nd. \n [slot] flights_4-destination_airport, it indicates The name of the airport or city to arrive at. So the value of slot <flights_4-destination_airport> is \n",
+        "output": "la"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-origin_airport>.\n[USER]: Can you find me a round trip flight from Washington to LA, returning on March 4th. [SYSTEM]: What date did you want to leave? [USER]: Make it for the 2nd. \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "washington"
+    },
+    {
+        "input": "Track the state of the slot <flights_4-return_date> in the input dialogue.\n[USER]: Can you find me a round trip flight from Washington to LA, returning on March 4th. [SYSTEM]: What date did you want to leave? [USER]: Make it for the 2nd. \n [slot] flights_4-return_date, it indicates End date of the trip. So the value of slot <flights_4-return_date> is \n",
+        "output": "march 4th"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-departure_date>.\n[USER]: Can you find me a round trip flight from Washington to LA, returning on March 4th. [SYSTEM]: What date did you want to leave? [USER]: Make it for the 2nd. [SYSTEM]: There is an American Airlines flight that leaves at 10:30 am with a connecting flight. The return flight leaves at 7:40 am. The ticket is $347. [USER]: That one sounds good. \n [slot] flights_4-departure_date, it indicates Start date of the trip. So the value of slot <flights_4-departure_date> is \n",
+        "output": "the 2nd"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-destination_airport>.\n[USER]: Can you find me a round trip flight from Washington to LA, returning on March 4th. [SYSTEM]: What date did you want to leave? [USER]: Make it for the 2nd. [SYSTEM]: There is an American Airlines flight that leaves at 10:30 am with a connecting flight. The return flight leaves at 7:40 am. The ticket is $347. [USER]: That one sounds good. \n [slot] flights_4-destination_airport, it indicates The name of the airport or city to arrive at. So the value of slot <flights_4-destination_airport> is \n",
+        "output": "la"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-origin_airport>.\n[USER]: Can you find me a round trip flight from Washington to LA, returning on March 4th. [SYSTEM]: What date did you want to leave? [USER]: Make it for the 2nd. [SYSTEM]: There is an American Airlines flight that leaves at 10:30 am with a connecting flight. The return flight leaves at 7:40 am. The ticket is $347. [USER]: That one sounds good. \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "washington"
+    },
+    {
+        "input": "Track the state of the slot <flights_4-return_date> in the input dialogue.\n[USER]: Can you find me a round trip flight from Washington to LA, returning on March 4th. [SYSTEM]: What date did you want to leave? [USER]: Make it for the 2nd. [SYSTEM]: There is an American Airlines flight that leaves at 10:30 am with a connecting flight. The return flight leaves at 7:40 am. The ticket is $347. [USER]: That one sounds good. \n [slot] flights_4-return_date, it indicates End date of the trip. So the value of slot <flights_4-return_date> is \n",
+        "output": "march 4th"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-departure_date>.\n[USER]: Can you find me a round trip flight from Washington to LA, returning on March 4th. [SYSTEM]: What date did you want to leave? [USER]: Make it for the 2nd. [SYSTEM]: There is an American Airlines flight that leaves at 10:30 am with a connecting flight. The return flight leaves at 7:40 am. The ticket is $347. [USER]: That one sounds good. [SYSTEM]: Is there anything else I can do for you? [USER]: No, I'm good for now, thanks. \n [slot] flights_4-departure_date, it indicates Start date of the trip. So the value of slot <flights_4-departure_date> is \n",
+        "output": "the 2nd"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-destination_airport>.\n[USER]: Can you find me a round trip flight from Washington to LA, returning on March 4th. [SYSTEM]: What date did you want to leave? [USER]: Make it for the 2nd. [SYSTEM]: There is an American Airlines flight that leaves at 10:30 am with a connecting flight. The return flight leaves at 7:40 am. The ticket is $347. [USER]: That one sounds good. [SYSTEM]: Is there anything else I can do for you? [USER]: No, I'm good for now, thanks. \n [slot] flights_4-destination_airport, it indicates The name of the airport or city to arrive at. So the value of slot <flights_4-destination_airport> is \n",
+        "output": "la"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-origin_airport>.\n[USER]: Can you find me a round trip flight from Washington to LA, returning on March 4th. [SYSTEM]: What date did you want to leave? [USER]: Make it for the 2nd. [SYSTEM]: There is an American Airlines flight that leaves at 10:30 am with a connecting flight. The return flight leaves at 7:40 am. The ticket is $347. [USER]: That one sounds good. [SYSTEM]: Is there anything else I can do for you? [USER]: No, I'm good for now, thanks. \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "washington"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: Can you find me a round trip flight from Washington to LA, returning on March 4th. [SYSTEM]: What date did you want to leave? [USER]: Make it for the 2nd. [SYSTEM]: There is an American Airlines flight that leaves at 10:30 am with a connecting flight. The return flight leaves at 7:40 am. The ticket is $347. [USER]: That one sounds good. [SYSTEM]: Is there anything else I can do for you? [USER]: No, I'm good for now, thanks. \n [slot] flights_4-return_date, it indicates End date of the trip. So the value of slot <flights_4-return_date> is \n",
+        "output": "march 4th"
+    },
+    {
+        "input": "Track the state of the slot <flights_4-destination_airport> in the input dialogue.\n[USER]: I would like to book a one way flight to Toronto, Ontario. \n [slot] flights_4-destination_airport, it indicates The name of the airport or city to arrive at. So the value of slot <flights_4-destination_airport> is \n",
+        "output": "toronto, ontario"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-departure_date>.\n[USER]: I would like to book a one way flight to Toronto, Ontario. [SYSTEM]: When do you want to travel and where are you departing from? [USER]: I will be departing from Atlanta on the 7th of March. \n [slot] flights_4-departure_date, it indicates Start date of the trip. So the value of slot <flights_4-departure_date> is \n",
+        "output": "7th of march"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-destination_airport>.\n[USER]: I would like to book a one way flight to Toronto, Ontario. [SYSTEM]: When do you want to travel and where are you departing from? [USER]: I will be departing from Atlanta on the 7th of March. \n [slot] flights_4-destination_airport, it indicates The name of the airport or city to arrive at. So the value of slot <flights_4-destination_airport> is \n",
+        "output": "toronto, ontario"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-origin_airport>.\n[USER]: I would like to book a one way flight to Toronto, Ontario. [SYSTEM]: When do you want to travel and where are you departing from? [USER]: I will be departing from Atlanta on the 7th of March. \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "atlanta"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-departure_date>.\n[USER]: I would like to book a one way flight to Toronto, Ontario. [SYSTEM]: When do you want to travel and where are you departing from? [USER]: I will be departing from Atlanta on the 7th of March. [SYSTEM]: I found 4 different flights. There is American Airlines that leaves at 5:10 am for the cost of $197. [USER]: That is all the information I needed. \n [slot] flights_4-departure_date, it indicates Start date of the trip. So the value of slot <flights_4-departure_date> is \n",
+        "output": "7th of march"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-destination_airport>.\n[USER]: I would like to book a one way flight to Toronto, Ontario. [SYSTEM]: When do you want to travel and where are you departing from? [USER]: I will be departing from Atlanta on the 7th of March. [SYSTEM]: I found 4 different flights. There is American Airlines that leaves at 5:10 am for the cost of $197. [USER]: That is all the information I needed. \n [slot] flights_4-destination_airport, it indicates The name of the airport or city to arrive at. So the value of slot <flights_4-destination_airport> is \n",
+        "output": "toronto, ontario"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-origin_airport>.\n[USER]: I would like to book a one way flight to Toronto, Ontario. [SYSTEM]: When do you want to travel and where are you departing from? [USER]: I will be departing from Atlanta on the 7th of March. [SYSTEM]: I found 4 different flights. There is American Airlines that leaves at 5:10 am for the cost of $197. [USER]: That is all the information I needed. \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "atlanta"
+    },
+    {
+        "input": "Track the state of the slot <flights_4-departure_date> in the input dialogue.\n[USER]: I'm taking a trip to Portland on the 6th of March. Can you find me a one flight? I will only be purchasing one ticket. \n [slot] flights_4-departure_date, it indicates Start date of the trip. So the value of slot <flights_4-departure_date> is \n",
+        "output": "6th of march"
+    },
+    {
+        "input": "Track the state of the slot <flights_4-destination_airport> in the input dialogue.\n[USER]: I'm taking a trip to Portland on the 6th of March. Can you find me a one flight? I will only be purchasing one ticket. \n [slot] flights_4-destination_airport, it indicates The name of the airport or city to arrive at. So the value of slot <flights_4-destination_airport> is \n",
+        "output": "portland"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-number_of_tickets>.\n[USER]: I'm taking a trip to Portland on the 6th of March. Can you find me a one flight? I will only be purchasing one ticket. \n [slot] flights_4-number_of_tickets, it indicates the number of flight tickets for the trip. So the value of slot <flights_4-number_of_tickets> is \n",
+        "output": "1"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-departure_date>.\n[USER]: I'm taking a trip to Portland on the 6th of March. Can you find me a one flight? I will only be purchasing one ticket. [SYSTEM]: Okay no problem. What city are you departing from? [USER]: I will be leaving out of NY. \n [slot] flights_4-departure_date, it indicates Start date of the trip. So the value of slot <flights_4-departure_date> is \n",
+        "output": "6th of march"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: I'm taking a trip to Portland on the 6th of March. Can you find me a one flight? I will only be purchasing one ticket. [SYSTEM]: Okay no problem. What city are you departing from? [USER]: I will be leaving out of NY. \n [slot] flights_4-destination_airport, it indicates The name of the airport or city to arrive at. So the value of slot <flights_4-destination_airport> is \n",
+        "output": "portland"
+    },
+    {
+        "input": "Track the state of the slot <flights_4-number_of_tickets> in the input dialogue.\n[USER]: I'm taking a trip to Portland on the 6th of March. Can you find me a one flight? I will only be purchasing one ticket. [SYSTEM]: Okay no problem. What city are you departing from? [USER]: I will be leaving out of NY. \n [slot] flights_4-number_of_tickets, it indicates the number of flight tickets for the trip. So the value of slot <flights_4-number_of_tickets> is \n",
+        "output": "1"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-origin_airport>.\n[USER]: I'm taking a trip to Portland on the 6th of March. Can you find me a one flight? I will only be purchasing one ticket. [SYSTEM]: Okay no problem. What city are you departing from? [USER]: I will be leaving out of NY. \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "ny"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-departure_date>.\n[USER]: I'm taking a trip to Portland on the 6th of March. Can you find me a one flight? I will only be purchasing one ticket. [SYSTEM]: Okay no problem. What city are you departing from? [USER]: I will be leaving out of NY. [SYSTEM]: Okay, I've found 4 flights for you. Are you okay with flight American Airlines? There is a connecting flight taking off at 4:25 am. The ticket will be $278. [USER]: No that's not what I'm looking for. Find something else for me. \n [slot] flights_4-departure_date, it indicates Start date of the trip. So the value of slot <flights_4-departure_date> is \n",
+        "output": "6th of march"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-destination_airport>.\n[USER]: I'm taking a trip to Portland on the 6th of March. Can you find me a one flight? I will only be purchasing one ticket. [SYSTEM]: Okay no problem. What city are you departing from? [USER]: I will be leaving out of NY. [SYSTEM]: Okay, I've found 4 flights for you. Are you okay with flight American Airlines? There is a connecting flight taking off at 4:25 am. The ticket will be $278. [USER]: No that's not what I'm looking for. Find something else for me. \n [slot] flights_4-destination_airport, it indicates The name of the airport or city to arrive at. So the value of slot <flights_4-destination_airport> is \n",
+        "output": "portland"
+    },
+    {
+        "input": "Track the state of the slot <flights_4-number_of_tickets> in the input dialogue.\n[USER]: I'm taking a trip to Portland on the 6th of March. Can you find me a one flight? I will only be purchasing one ticket. [SYSTEM]: Okay no problem. What city are you departing from? [USER]: I will be leaving out of NY. [SYSTEM]: Okay, I've found 4 flights for you. Are you okay with flight American Airlines? There is a connecting flight taking off at 4:25 am. The ticket will be $278. [USER]: No that's not what I'm looking for. Find something else for me. \n [slot] flights_4-number_of_tickets, it indicates the number of flight tickets for the trip. So the value of slot <flights_4-number_of_tickets> is \n",
+        "output": "1"
+    },
+    {
+        "input": "Track the state of the slot <flights_4-origin_airport> in the input dialogue.\n[USER]: I'm taking a trip to Portland on the 6th of March. Can you find me a one flight? I will only be purchasing one ticket. [SYSTEM]: Okay no problem. What city are you departing from? [USER]: I will be leaving out of NY. [SYSTEM]: Okay, I've found 4 flights for you. Are you okay with flight American Airlines? There is a connecting flight taking off at 4:25 am. The ticket will be $278. [USER]: No that's not what I'm looking for. Find something else for me. \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "ny"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-departure_date>.\n[USER]: I'm taking a trip to Portland on the 6th of March. Can you find me a one flight? I will only be purchasing one ticket. [SYSTEM]: Okay no problem. What city are you departing from? [USER]: I will be leaving out of NY. [SYSTEM]: Okay, I've found 4 flights for you. Are you okay with flight American Airlines? There is a connecting flight taking off at 4:25 am. The ticket will be $278. [USER]: No that's not what I'm looking for. Find something else for me. [SYSTEM]: How about Delta Airlines? There is a connecting flight taking off at 5:30 am. Tickets are $313. [USER]: Is this economy or business class? \n [slot] flights_4-departure_date, it indicates Start date of the trip. So the value of slot <flights_4-departure_date> is \n",
+        "output": "6th of march"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: I'm taking a trip to Portland on the 6th of March. Can you find me a one flight? I will only be purchasing one ticket. [SYSTEM]: Okay no problem. What city are you departing from? [USER]: I will be leaving out of NY. [SYSTEM]: Okay, I've found 4 flights for you. Are you okay with flight American Airlines? There is a connecting flight taking off at 4:25 am. The ticket will be $278. [USER]: No that's not what I'm looking for. Find something else for me. [SYSTEM]: How about Delta Airlines? There is a connecting flight taking off at 5:30 am. Tickets are $313. [USER]: Is this economy or business class? \n [slot] flights_4-destination_airport, it indicates The name of the airport or city to arrive at. So the value of slot <flights_4-destination_airport> is \n",
+        "output": "portland"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-number_of_tickets>.\n[USER]: I'm taking a trip to Portland on the 6th of March. Can you find me a one flight? I will only be purchasing one ticket. [SYSTEM]: Okay no problem. What city are you departing from? [USER]: I will be leaving out of NY. [SYSTEM]: Okay, I've found 4 flights for you. Are you okay with flight American Airlines? There is a connecting flight taking off at 4:25 am. The ticket will be $278. [USER]: No that's not what I'm looking for. Find something else for me. [SYSTEM]: How about Delta Airlines? There is a connecting flight taking off at 5:30 am. Tickets are $313. [USER]: Is this economy or business class? \n [slot] flights_4-number_of_tickets, it indicates the number of flight tickets for the trip. So the value of slot <flights_4-number_of_tickets> is \n",
+        "output": "1"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-origin_airport>.\n[USER]: I'm taking a trip to Portland on the 6th of March. Can you find me a one flight? I will only be purchasing one ticket. [SYSTEM]: Okay no problem. What city are you departing from? [USER]: I will be leaving out of NY. [SYSTEM]: Okay, I've found 4 flights for you. Are you okay with flight American Airlines? There is a connecting flight taking off at 4:25 am. The ticket will be $278. [USER]: No that's not what I'm looking for. Find something else for me. [SYSTEM]: How about Delta Airlines? There is a connecting flight taking off at 5:30 am. Tickets are $313. [USER]: Is this economy or business class? \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "ny"
+    },
+    {
+        "input": "Track the state of the slot <flights_4-departure_date> in the input dialogue.\n[USER]: I'm taking a trip to Portland on the 6th of March. Can you find me a one flight? I will only be purchasing one ticket. [SYSTEM]: Okay no problem. What city are you departing from? [USER]: I will be leaving out of NY. [SYSTEM]: Okay, I've found 4 flights for you. Are you okay with flight American Airlines? There is a connecting flight taking off at 4:25 am. The ticket will be $278. [USER]: No that's not what I'm looking for. Find something else for me. [SYSTEM]: How about Delta Airlines? There is a connecting flight taking off at 5:30 am. Tickets are $313. [USER]: Is this economy or business class? [SYSTEM]: The ticket is for an Economy class seat. [USER]: Okay, well that sounds good. That's all I need for now. \n [slot] flights_4-departure_date, it indicates Start date of the trip. So the value of slot <flights_4-departure_date> is \n",
+        "output": "6th of march"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-destination_airport>.\n[USER]: I'm taking a trip to Portland on the 6th of March. Can you find me a one flight? I will only be purchasing one ticket. [SYSTEM]: Okay no problem. What city are you departing from? [USER]: I will be leaving out of NY. [SYSTEM]: Okay, I've found 4 flights for you. Are you okay with flight American Airlines? There is a connecting flight taking off at 4:25 am. The ticket will be $278. [USER]: No that's not what I'm looking for. Find something else for me. [SYSTEM]: How about Delta Airlines? There is a connecting flight taking off at 5:30 am. Tickets are $313. [USER]: Is this economy or business class? [SYSTEM]: The ticket is for an Economy class seat. [USER]: Okay, well that sounds good. That's all I need for now. \n [slot] flights_4-destination_airport, it indicates The name of the airport or city to arrive at. So the value of slot <flights_4-destination_airport> is \n",
+        "output": "portland"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-number_of_tickets>.\n[USER]: I'm taking a trip to Portland on the 6th of March. Can you find me a one flight? I will only be purchasing one ticket. [SYSTEM]: Okay no problem. What city are you departing from? [USER]: I will be leaving out of NY. [SYSTEM]: Okay, I've found 4 flights for you. Are you okay with flight American Airlines? There is a connecting flight taking off at 4:25 am. The ticket will be $278. [USER]: No that's not what I'm looking for. Find something else for me. [SYSTEM]: How about Delta Airlines? There is a connecting flight taking off at 5:30 am. Tickets are $313. [USER]: Is this economy or business class? [SYSTEM]: The ticket is for an Economy class seat. [USER]: Okay, well that sounds good. That's all I need for now. \n [slot] flights_4-number_of_tickets, it indicates the number of flight tickets for the trip. So the value of slot <flights_4-number_of_tickets> is \n",
+        "output": "1"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-origin_airport>.\n[USER]: I'm taking a trip to Portland on the 6th of March. Can you find me a one flight? I will only be purchasing one ticket. [SYSTEM]: Okay no problem. What city are you departing from? [USER]: I will be leaving out of NY. [SYSTEM]: Okay, I've found 4 flights for you. Are you okay with flight American Airlines? There is a connecting flight taking off at 4:25 am. The ticket will be $278. [USER]: No that's not what I'm looking for. Find something else for me. [SYSTEM]: How about Delta Airlines? There is a connecting flight taking off at 5:30 am. Tickets are $313. [USER]: Is this economy or business class? [SYSTEM]: The ticket is for an Economy class seat. [USER]: Okay, well that sounds good. That's all I need for now. \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "ny"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-return_date>.\n[USER]: I'm needing help to book a round trip flight coming home on the 9th of March. \n [slot] flights_4-return_date, it indicates End date of the trip. So the value of slot <flights_4-return_date> is \n",
+        "output": "9th of march"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-departure_date>.\n[USER]: I'm needing help to book a round trip flight coming home on the 9th of March. [SYSTEM]: Alright first tell me about the departure: where from and on what date? Also where is your destination? [USER]: Oh yes, I need to leave next Monday out of SD and I'll be headed to SF. \n [slot] flights_4-departure_date, it indicates Start date of the trip. So the value of slot <flights_4-departure_date> is \n",
+        "output": "next monday"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-destination_airport>.\n[USER]: I'm needing help to book a round trip flight coming home on the 9th of March. [SYSTEM]: Alright first tell me about the departure: where from and on what date? Also where is your destination? [USER]: Oh yes, I need to leave next Monday out of SD and I'll be headed to SF. \n [slot] flights_4-destination_airport, it indicates The name of the airport or city to arrive at. So the value of slot <flights_4-destination_airport> is \n",
+        "output": "sf"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-origin_airport>.\n[USER]: I'm needing help to book a round trip flight coming home on the 9th of March. [SYSTEM]: Alright first tell me about the departure: where from and on what date? Also where is your destination? [USER]: Oh yes, I need to leave next Monday out of SD and I'll be headed to SF. \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "sd"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-return_date>.\n[USER]: I'm needing help to book a round trip flight coming home on the 9th of March. [SYSTEM]: Alright first tell me about the departure: where from and on what date? Also where is your destination? [USER]: Oh yes, I need to leave next Monday out of SD and I'll be headed to SF. \n [slot] flights_4-return_date, it indicates End date of the trip. So the value of slot <flights_4-return_date> is \n",
+        "output": "9th of march"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-departure_date>.\n[USER]: I'm needing help to book a round trip flight coming home on the 9th of March. [SYSTEM]: Alright first tell me about the departure: where from and on what date? Also where is your destination? [USER]: Oh yes, I need to leave next Monday out of SD and I'll be headed to SF. [SYSTEM]: Okay sounds good, there is an available flight with Alaska Airlines that's leaving at 6:15 am and returning at 12:25 pm. It costs $220, and there is also a connecting flight. [USER]: That should be good, that's all I need then. \n [slot] flights_4-departure_date, it indicates Start date of the trip. So the value of slot <flights_4-departure_date> is \n",
+        "output": "next monday"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-destination_airport>.\n[USER]: I'm needing help to book a round trip flight coming home on the 9th of March. [SYSTEM]: Alright first tell me about the departure: where from and on what date? Also where is your destination? [USER]: Oh yes, I need to leave next Monday out of SD and I'll be headed to SF. [SYSTEM]: Okay sounds good, there is an available flight with Alaska Airlines that's leaving at 6:15 am and returning at 12:25 pm. It costs $220, and there is also a connecting flight. [USER]: That should be good, that's all I need then. \n [slot] flights_4-destination_airport, it indicates The name of the airport or city to arrive at. So the value of slot <flights_4-destination_airport> is \n",
+        "output": "sf"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-origin_airport>.\n[USER]: I'm needing help to book a round trip flight coming home on the 9th of March. [SYSTEM]: Alright first tell me about the departure: where from and on what date? Also where is your destination? [USER]: Oh yes, I need to leave next Monday out of SD and I'll be headed to SF. [SYSTEM]: Okay sounds good, there is an available flight with Alaska Airlines that's leaving at 6:15 am and returning at 12:25 pm. It costs $220, and there is also a connecting flight. [USER]: That should be good, that's all I need then. \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "sd"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-return_date>.\n[USER]: I'm needing help to book a round trip flight coming home on the 9th of March. [SYSTEM]: Alright first tell me about the departure: where from and on what date? Also where is your destination? [USER]: Oh yes, I need to leave next Monday out of SD and I'll be headed to SF. [SYSTEM]: Okay sounds good, there is an available flight with Alaska Airlines that's leaving at 6:15 am and returning at 12:25 pm. It costs $220, and there is also a connecting flight. [USER]: That should be good, that's all I need then. \n [slot] flights_4-return_date, it indicates End date of the trip. So the value of slot <flights_4-return_date> is \n",
+        "output": "9th of march"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-departure_date>.\n[USER]: I am planning a trip. I will need three tickets. The tickets will be for a one way flight on Thursday next week. \n [slot] flights_4-departure_date, it indicates Start date of the trip. So the value of slot <flights_4-departure_date> is \n",
+        "output": "thursday next week"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-number_of_tickets>.\n[USER]: I am planning a trip. I will need three tickets. The tickets will be for a one way flight on Thursday next week. \n [slot] flights_4-number_of_tickets, it indicates the number of flight tickets for the trip. So the value of slot <flights_4-number_of_tickets> is \n",
+        "output": "3"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-departure_date>.\n[USER]: I am planning a trip. I will need three tickets. The tickets will be for a one way flight on Thursday next week. [SYSTEM]: Which city would you like to fly out of. [USER]: I am hoping to find a flight out of Los Angeles. \n [slot] flights_4-departure_date, it indicates Start date of the trip. So the value of slot <flights_4-departure_date> is \n",
+        "output": "thursday next week"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-number_of_tickets>.\n[USER]: I am planning a trip. I will need three tickets. The tickets will be for a one way flight on Thursday next week. [SYSTEM]: Which city would you like to fly out of. [USER]: I am hoping to find a flight out of Los Angeles. \n [slot] flights_4-number_of_tickets, it indicates the number of flight tickets for the trip. So the value of slot <flights_4-number_of_tickets> is \n",
+        "output": "3"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-origin_airport>.\n[USER]: I am planning a trip. I will need three tickets. The tickets will be for a one way flight on Thursday next week. [SYSTEM]: Which city would you like to fly out of. [USER]: I am hoping to find a flight out of Los Angeles. \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "los angeles"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: I am planning a trip. I will need three tickets. The tickets will be for a one way flight on Thursday next week. [SYSTEM]: Which city would you like to fly out of. [USER]: I am hoping to find a flight out of Los Angeles. [SYSTEM]: Which city would you like to fly to? [USER]: Atlanta will be my destination. \n [slot] flights_4-departure_date, it indicates Start date of the trip. So the value of slot <flights_4-departure_date> is \n",
+        "output": "thursday next week"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-destination_airport>.\n[USER]: I am planning a trip. I will need three tickets. The tickets will be for a one way flight on Thursday next week. [SYSTEM]: Which city would you like to fly out of. [USER]: I am hoping to find a flight out of Los Angeles. [SYSTEM]: Which city would you like to fly to? [USER]: Atlanta will be my destination. \n [slot] flights_4-destination_airport, it indicates The name of the airport or city to arrive at. So the value of slot <flights_4-destination_airport> is \n",
+        "output": "atlanta"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-number_of_tickets>.\n[USER]: I am planning a trip. I will need three tickets. The tickets will be for a one way flight on Thursday next week. [SYSTEM]: Which city would you like to fly out of. [USER]: I am hoping to find a flight out of Los Angeles. [SYSTEM]: Which city would you like to fly to? [USER]: Atlanta will be my destination. \n [slot] flights_4-number_of_tickets, it indicates the number of flight tickets for the trip. So the value of slot <flights_4-number_of_tickets> is \n",
+        "output": "3"
+    },
+    {
+        "input": "Track the state of the slot <flights_4-origin_airport> in the input dialogue.\n[USER]: I am planning a trip. I will need three tickets. The tickets will be for a one way flight on Thursday next week. [SYSTEM]: Which city would you like to fly out of. [USER]: I am hoping to find a flight out of Los Angeles. [SYSTEM]: Which city would you like to fly to? [USER]: Atlanta will be my destination. \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "los angeles"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-departure_date>.\n[USER]: I am planning a trip. I will need three tickets. The tickets will be for a one way flight on Thursday next week. [SYSTEM]: Which city would you like to fly out of. [USER]: I am hoping to find a flight out of Los Angeles. [SYSTEM]: Which city would you like to fly to? [USER]: Atlanta will be my destination. [SYSTEM]: Is Alaska Airlines acceptable for you. They have a plane leaving at 11:30 pm with no stops. The charge would be $171. [USER]: What time would the flight arrive in Atlanta. \n [slot] flights_4-departure_date, it indicates Start date of the trip. So the value of slot <flights_4-departure_date> is \n",
+        "output": "thursday next week"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-destination_airport>.\n[USER]: I am planning a trip. I will need three tickets. The tickets will be for a one way flight on Thursday next week. [SYSTEM]: Which city would you like to fly out of. [USER]: I am hoping to find a flight out of Los Angeles. [SYSTEM]: Which city would you like to fly to? [USER]: Atlanta will be my destination. [SYSTEM]: Is Alaska Airlines acceptable for you. They have a plane leaving at 11:30 pm with no stops. The charge would be $171. [USER]: What time would the flight arrive in Atlanta. \n [slot] flights_4-destination_airport, it indicates The name of the airport or city to arrive at. So the value of slot <flights_4-destination_airport> is \n",
+        "output": "atlanta"
+    },
+    {
+        "input": "Track the state of the slot <flights_4-number_of_tickets> in the input dialogue.\n[USER]: I am planning a trip. I will need three tickets. The tickets will be for a one way flight on Thursday next week. [SYSTEM]: Which city would you like to fly out of. [USER]: I am hoping to find a flight out of Los Angeles. [SYSTEM]: Which city would you like to fly to? [USER]: Atlanta will be my destination. [SYSTEM]: Is Alaska Airlines acceptable for you. They have a plane leaving at 11:30 pm with no stops. The charge would be $171. [USER]: What time would the flight arrive in Atlanta. \n [slot] flights_4-number_of_tickets, it indicates the number of flight tickets for the trip. So the value of slot <flights_4-number_of_tickets> is \n",
+        "output": "3"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-origin_airport>.\n[USER]: I am planning a trip. I will need three tickets. The tickets will be for a one way flight on Thursday next week. [SYSTEM]: Which city would you like to fly out of. [USER]: I am hoping to find a flight out of Los Angeles. [SYSTEM]: Which city would you like to fly to? [USER]: Atlanta will be my destination. [SYSTEM]: Is Alaska Airlines acceptable for you. They have a plane leaving at 11:30 pm with no stops. The charge would be $171. [USER]: What time would the flight arrive in Atlanta. \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "los angeles"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-departure_date>.\n[USER]: I am planning a trip. I will need three tickets. The tickets will be for a one way flight on Thursday next week. [SYSTEM]: Which city would you like to fly out of. [USER]: I am hoping to find a flight out of Los Angeles. [SYSTEM]: Which city would you like to fly to? [USER]: Atlanta will be my destination. [SYSTEM]: Is Alaska Airlines acceptable for you. They have a plane leaving at 11:30 pm with no stops. The charge would be $171. [USER]: What time would the flight arrive in Atlanta. [SYSTEM]: The arrival time is projected at 7:29 am. [USER]: Awesome. That flight will work for me. \n [slot] flights_4-departure_date, it indicates Start date of the trip. So the value of slot <flights_4-departure_date> is \n",
+        "output": "thursday next week"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-destination_airport>.\n[USER]: I am planning a trip. I will need three tickets. The tickets will be for a one way flight on Thursday next week. [SYSTEM]: Which city would you like to fly out of. [USER]: I am hoping to find a flight out of Los Angeles. [SYSTEM]: Which city would you like to fly to? [USER]: Atlanta will be my destination. [SYSTEM]: Is Alaska Airlines acceptable for you. They have a plane leaving at 11:30 pm with no stops. The charge would be $171. [USER]: What time would the flight arrive in Atlanta. [SYSTEM]: The arrival time is projected at 7:29 am. [USER]: Awesome. That flight will work for me. \n [slot] flights_4-destination_airport, it indicates The name of the airport or city to arrive at. So the value of slot <flights_4-destination_airport> is \n",
+        "output": "atlanta"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-number_of_tickets>.\n[USER]: I am planning a trip. I will need three tickets. The tickets will be for a one way flight on Thursday next week. [SYSTEM]: Which city would you like to fly out of. [USER]: I am hoping to find a flight out of Los Angeles. [SYSTEM]: Which city would you like to fly to? [USER]: Atlanta will be my destination. [SYSTEM]: Is Alaska Airlines acceptable for you. They have a plane leaving at 11:30 pm with no stops. The charge would be $171. [USER]: What time would the flight arrive in Atlanta. [SYSTEM]: The arrival time is projected at 7:29 am. [USER]: Awesome. That flight will work for me. \n [slot] flights_4-number_of_tickets, it indicates the number of flight tickets for the trip. So the value of slot <flights_4-number_of_tickets> is \n",
+        "output": "3"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: I am planning a trip. I will need three tickets. The tickets will be for a one way flight on Thursday next week. [SYSTEM]: Which city would you like to fly out of. [USER]: I am hoping to find a flight out of Los Angeles. [SYSTEM]: Which city would you like to fly to? [USER]: Atlanta will be my destination. [SYSTEM]: Is Alaska Airlines acceptable for you. They have a plane leaving at 11:30 pm with no stops. The charge would be $171. [USER]: What time would the flight arrive in Atlanta. [SYSTEM]: The arrival time is projected at 7:29 am. [USER]: Awesome. That flight will work for me. \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "los angeles"
+    },
+    {
+        "input": "Track the state of the slot <flights_4-departure_date> in the input dialogue.\n[USER]: I am planning a trip. I will need three tickets. The tickets will be for a one way flight on Thursday next week. [SYSTEM]: Which city would you like to fly out of. [USER]: I am hoping to find a flight out of Los Angeles. [SYSTEM]: Which city would you like to fly to? [USER]: Atlanta will be my destination. [SYSTEM]: Is Alaska Airlines acceptable for you. They have a plane leaving at 11:30 pm with no stops. The charge would be $171. [USER]: What time would the flight arrive in Atlanta. [SYSTEM]: The arrival time is projected at 7:29 am. [USER]: Awesome. That flight will work for me. [SYSTEM]: Is there anything else I can do for you? [USER]: Nothing at the moment. Thanks so much for the assistance. \n [slot] flights_4-departure_date, it indicates Start date of the trip. So the value of slot <flights_4-departure_date> is \n",
+        "output": "thursday next week"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-destination_airport>.\n[USER]: I am planning a trip. I will need three tickets. The tickets will be for a one way flight on Thursday next week. [SYSTEM]: Which city would you like to fly out of. [USER]: I am hoping to find a flight out of Los Angeles. [SYSTEM]: Which city would you like to fly to? [USER]: Atlanta will be my destination. [SYSTEM]: Is Alaska Airlines acceptable for you. They have a plane leaving at 11:30 pm with no stops. The charge would be $171. [USER]: What time would the flight arrive in Atlanta. [SYSTEM]: The arrival time is projected at 7:29 am. [USER]: Awesome. That flight will work for me. [SYSTEM]: Is there anything else I can do for you? [USER]: Nothing at the moment. Thanks so much for the assistance. \n [slot] flights_4-destination_airport, it indicates The name of the airport or city to arrive at. So the value of slot <flights_4-destination_airport> is \n",
+        "output": "atlanta"
+    },
+    {
+        "input": "Track the state of the slot <flights_4-number_of_tickets> in the input dialogue.\n[USER]: I am planning a trip. I will need three tickets. The tickets will be for a one way flight on Thursday next week. [SYSTEM]: Which city would you like to fly out of. [USER]: I am hoping to find a flight out of Los Angeles. [SYSTEM]: Which city would you like to fly to? [USER]: Atlanta will be my destination. [SYSTEM]: Is Alaska Airlines acceptable for you. They have a plane leaving at 11:30 pm with no stops. The charge would be $171. [USER]: What time would the flight arrive in Atlanta. [SYSTEM]: The arrival time is projected at 7:29 am. [USER]: Awesome. That flight will work for me. [SYSTEM]: Is there anything else I can do for you? [USER]: Nothing at the moment. Thanks so much for the assistance. \n [slot] flights_4-number_of_tickets, it indicates the number of flight tickets for the trip. So the value of slot <flights_4-number_of_tickets> is \n",
+        "output": "3"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-origin_airport>.\n[USER]: I am planning a trip. I will need three tickets. The tickets will be for a one way flight on Thursday next week. [SYSTEM]: Which city would you like to fly out of. [USER]: I am hoping to find a flight out of Los Angeles. [SYSTEM]: Which city would you like to fly to? [USER]: Atlanta will be my destination. [SYSTEM]: Is Alaska Airlines acceptable for you. They have a plane leaving at 11:30 pm with no stops. The charge would be $171. [USER]: What time would the flight arrive in Atlanta. [SYSTEM]: The arrival time is projected at 7:29 am. [USER]: Awesome. That flight will work for me. [SYSTEM]: Is there anything else I can do for you? [USER]: Nothing at the moment. Thanks so much for the assistance. \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "los angeles"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-departure_date>.\n[USER]: Can you help me find a round trip flight? [SYSTEM]: Which city will you be departing, and which city will you be traveling to? What day will the return flight be? [USER]: I'd like to travel this Sunday until the 10th of March from Chi-town. \n [slot] flights_4-departure_date, it indicates Start date of the trip. So the value of slot <flights_4-departure_date> is \n",
+        "output": "this sunday"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: Can you help me find a round trip flight? [SYSTEM]: Which city will you be departing, and which city will you be traveling to? What day will the return flight be? [USER]: I'd like to travel this Sunday until the 10th of March from Chi-town. \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "chi-town"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-return_date>.\n[USER]: Can you help me find a round trip flight? [SYSTEM]: Which city will you be departing, and which city will you be traveling to? What day will the return flight be? [USER]: I'd like to travel this Sunday until the 10th of March from Chi-town. \n [slot] flights_4-return_date, it indicates End date of the trip. So the value of slot <flights_4-return_date> is \n",
+        "output": "10th of march"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-departure_date>.\n[USER]: Can you help me find a round trip flight? [SYSTEM]: Which city will you be departing, and which city will you be traveling to? What day will the return flight be? [USER]: I'd like to travel this Sunday until the 10th of March from Chi-town. [SYSTEM]: Where will you be traveling? [USER]: Atlanta, GA. \n [slot] flights_4-departure_date, it indicates Start date of the trip. So the value of slot <flights_4-departure_date> is \n",
+        "output": "this sunday"
+    },
+    {
+        "input": "Track the state of the slot <flights_4-destination_airport> in the input dialogue.\n[USER]: Can you help me find a round trip flight? [SYSTEM]: Which city will you be departing, and which city will you be traveling to? What day will the return flight be? [USER]: I'd like to travel this Sunday until the 10th of March from Chi-town. [SYSTEM]: Where will you be traveling? [USER]: Atlanta, GA. \n [slot] flights_4-destination_airport, it indicates The name of the airport or city to arrive at. So the value of slot <flights_4-destination_airport> is \n",
+        "output": "atlanta, ga"
+    },
+    {
+        "input": "Track the state of the slot <flights_4-origin_airport> in the input dialogue.\n[USER]: Can you help me find a round trip flight? [SYSTEM]: Which city will you be departing, and which city will you be traveling to? What day will the return flight be? [USER]: I'd like to travel this Sunday until the 10th of March from Chi-town. [SYSTEM]: Where will you be traveling? [USER]: Atlanta, GA. \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "chi-town"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-return_date>.\n[USER]: Can you help me find a round trip flight? [SYSTEM]: Which city will you be departing, and which city will you be traveling to? What day will the return flight be? [USER]: I'd like to travel this Sunday until the 10th of March from Chi-town. [SYSTEM]: Where will you be traveling? [USER]: Atlanta, GA. \n [slot] flights_4-return_date, it indicates End date of the trip. So the value of slot <flights_4-return_date> is \n",
+        "output": "10th of march"
+    },
+    {
+        "input": "Track the state of the slot <flights_4-departure_date> in the input dialogue.\n[USER]: Can you help me find a round trip flight? [SYSTEM]: Which city will you be departing, and which city will you be traveling to? What day will the return flight be? [USER]: I'd like to travel this Sunday until the 10th of March from Chi-town. [SYSTEM]: Where will you be traveling? [USER]: Atlanta, GA. [SYSTEM]: I found 4 matching flights. One is from American Airlines. The flight will leave at 1:25 pm. It's a connecting flight. The return flight will depart at 5 pm. Tickets are $258. [USER]: That's great, thank you. That'll be all. \n [slot] flights_4-departure_date, it indicates Start date of the trip. So the value of slot <flights_4-departure_date> is \n",
+        "output": "this sunday"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-destination_airport>.\n[USER]: Can you help me find a round trip flight? [SYSTEM]: Which city will you be departing, and which city will you be traveling to? What day will the return flight be? [USER]: I'd like to travel this Sunday until the 10th of March from Chi-town. [SYSTEM]: Where will you be traveling? [USER]: Atlanta, GA. [SYSTEM]: I found 4 matching flights. One is from American Airlines. The flight will leave at 1:25 pm. It's a connecting flight. The return flight will depart at 5 pm. Tickets are $258. [USER]: That's great, thank you. That'll be all. \n [slot] flights_4-destination_airport, it indicates The name of the airport or city to arrive at. So the value of slot <flights_4-destination_airport> is \n",
+        "output": "atlanta, ga"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-origin_airport>.\n[USER]: Can you help me find a round trip flight? [SYSTEM]: Which city will you be departing, and which city will you be traveling to? What day will the return flight be? [USER]: I'd like to travel this Sunday until the 10th of March from Chi-town. [SYSTEM]: Where will you be traveling? [USER]: Atlanta, GA. [SYSTEM]: I found 4 matching flights. One is from American Airlines. The flight will leave at 1:25 pm. It's a connecting flight. The return flight will depart at 5 pm. Tickets are $258. [USER]: That's great, thank you. That'll be all. \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "chi-town"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-return_date>.\n[USER]: Can you help me find a round trip flight? [SYSTEM]: Which city will you be departing, and which city will you be traveling to? What day will the return flight be? [USER]: I'd like to travel this Sunday until the 10th of March from Chi-town. [SYSTEM]: Where will you be traveling? [USER]: Atlanta, GA. [SYSTEM]: I found 4 matching flights. One is from American Airlines. The flight will leave at 1:25 pm. It's a connecting flight. The return flight will depart at 5 pm. Tickets are $258. [USER]: That's great, thank you. That'll be all. \n [slot] flights_4-return_date, it indicates End date of the trip. So the value of slot <flights_4-return_date> is \n",
+        "output": "10th of march"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: I need to attend a conference and i wish to go through a flight. Will you find a round trip flight? [SYSTEM]: Where are you planning to go? [USER]: I am planning to go to SFO. \n [slot] flights_4-destination_airport, it indicates The name of the airport or city to arrive at. So the value of slot <flights_4-destination_airport> is \n",
+        "output": "sfo"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-destination_airport>.\n[USER]: I need to attend a conference and i wish to go through a flight. Will you find a round trip flight? [SYSTEM]: Where are you planning to go? [USER]: I am planning to go to SFO. [SYSTEM]: At which city you need to depart from? [USER]: Please search from Atlanta, GA \n [slot] flights_4-destination_airport, it indicates The name of the airport or city to arrive at. So the value of slot <flights_4-destination_airport> is \n",
+        "output": "sfo"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-origin_airport>.\n[USER]: I need to attend a conference and i wish to go through a flight. Will you find a round trip flight? [SYSTEM]: Where are you planning to go? [USER]: I am planning to go to SFO. [SYSTEM]: At which city you need to depart from? [USER]: Please search from Atlanta, GA \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "atlanta, ga"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-destination_airport>.\n[USER]: I need to attend a conference and i wish to go through a flight. Will you find a round trip flight? [SYSTEM]: Where are you planning to go? [USER]: I am planning to go to SFO. [SYSTEM]: At which city you need to depart from? [USER]: Please search from Atlanta, GA [SYSTEM]: In which day do you wish to take the return flight? [USER]: I wish to return on March 14th. \n [slot] flights_4-destination_airport, it indicates The name of the airport or city to arrive at. So the value of slot <flights_4-destination_airport> is \n",
+        "output": "sfo"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-origin_airport>.\n[USER]: I need to attend a conference and i wish to go through a flight. Will you find a round trip flight? [SYSTEM]: Where are you planning to go? [USER]: I am planning to go to SFO. [SYSTEM]: At which city you need to depart from? [USER]: Please search from Atlanta, GA [SYSTEM]: In which day do you wish to take the return flight? [USER]: I wish to return on March 14th. \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "atlanta, ga"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-return_date>.\n[USER]: I need to attend a conference and i wish to go through a flight. Will you find a round trip flight? [SYSTEM]: Where are you planning to go? [USER]: I am planning to go to SFO. [SYSTEM]: At which city you need to depart from? [USER]: Please search from Atlanta, GA [SYSTEM]: In which day do you wish to take the return flight? [USER]: I wish to return on March 14th. \n [slot] flights_4-return_date, it indicates End date of the trip. So the value of slot <flights_4-return_date> is \n",
+        "output": "march 14th"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: I need to attend a conference and i wish to go through a flight. Will you find a round trip flight? [SYSTEM]: Where are you planning to go? [USER]: I am planning to go to SFO. [SYSTEM]: At which city you need to depart from? [USER]: Please search from Atlanta, GA [SYSTEM]: In which day do you wish to take the return flight? [USER]: I wish to return on March 14th. [SYSTEM]: At which date you wish to start your travel ? [USER]: I want to start my travel on Day after tomorrow. \n [slot] flights_4-departure_date, it indicates Start date of the trip. So the value of slot <flights_4-departure_date> is \n",
+        "output": "day after tomorrow"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: I need to attend a conference and i wish to go through a flight. Will you find a round trip flight? [SYSTEM]: Where are you planning to go? [USER]: I am planning to go to SFO. [SYSTEM]: At which city you need to depart from? [USER]: Please search from Atlanta, GA [SYSTEM]: In which day do you wish to take the return flight? [USER]: I wish to return on March 14th. [SYSTEM]: At which date you wish to start your travel ? [USER]: I want to start my travel on Day after tomorrow. \n [slot] flights_4-destination_airport, it indicates The name of the airport or city to arrive at. So the value of slot <flights_4-destination_airport> is \n",
+        "output": "sfo"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-origin_airport>.\n[USER]: I need to attend a conference and i wish to go through a flight. Will you find a round trip flight? [SYSTEM]: Where are you planning to go? [USER]: I am planning to go to SFO. [SYSTEM]: At which city you need to depart from? [USER]: Please search from Atlanta, GA [SYSTEM]: In which day do you wish to take the return flight? [USER]: I wish to return on March 14th. [SYSTEM]: At which date you wish to start your travel ? [USER]: I want to start my travel on Day after tomorrow. \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "atlanta, ga"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-return_date>.\n[USER]: I need to attend a conference and i wish to go through a flight. Will you find a round trip flight? [SYSTEM]: Where are you planning to go? [USER]: I am planning to go to SFO. [SYSTEM]: At which city you need to depart from? [USER]: Please search from Atlanta, GA [SYSTEM]: In which day do you wish to take the return flight? [USER]: I wish to return on March 14th. [SYSTEM]: At which date you wish to start your travel ? [USER]: I want to start my travel on Day after tomorrow. \n [slot] flights_4-return_date, it indicates End date of the trip. So the value of slot <flights_4-return_date> is \n",
+        "output": "march 14th"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-departure_date>.\n[USER]: I need to attend a conference and i wish to go through a flight. Will you find a round trip flight? [SYSTEM]: Where are you planning to go? [USER]: I am planning to go to SFO. [SYSTEM]: At which city you need to depart from? [USER]: Please search from Atlanta, GA [SYSTEM]: In which day do you wish to take the return flight? [USER]: I wish to return on March 14th. [SYSTEM]: At which date you wish to start your travel ? [USER]: I want to start my travel on Day after tomorrow. [SYSTEM]: I found 4 flights as per your need. What about American Airlines? the flight takes off at 3:45 Pm. It is a direct Flight and the returning flight takes off at 9:20 pm. and the ticket cost is $313. [USER]: Ok that sounds good. that's all i need. \n [slot] flights_4-departure_date, it indicates Start date of the trip. So the value of slot <flights_4-departure_date> is \n",
+        "output": "day after tomorrow"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-destination_airport>.\n[USER]: I need to attend a conference and i wish to go through a flight. Will you find a round trip flight? [SYSTEM]: Where are you planning to go? [USER]: I am planning to go to SFO. [SYSTEM]: At which city you need to depart from? [USER]: Please search from Atlanta, GA [SYSTEM]: In which day do you wish to take the return flight? [USER]: I wish to return on March 14th. [SYSTEM]: At which date you wish to start your travel ? [USER]: I want to start my travel on Day after tomorrow. [SYSTEM]: I found 4 flights as per your need. What about American Airlines? the flight takes off at 3:45 Pm. It is a direct Flight and the returning flight takes off at 9:20 pm. and the ticket cost is $313. [USER]: Ok that sounds good. that's all i need. \n [slot] flights_4-destination_airport, it indicates The name of the airport or city to arrive at. So the value of slot <flights_4-destination_airport> is \n",
+        "output": "sfo"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-origin_airport>.\n[USER]: I need to attend a conference and i wish to go through a flight. Will you find a round trip flight? [SYSTEM]: Where are you planning to go? [USER]: I am planning to go to SFO. [SYSTEM]: At which city you need to depart from? [USER]: Please search from Atlanta, GA [SYSTEM]: In which day do you wish to take the return flight? [USER]: I wish to return on March 14th. [SYSTEM]: At which date you wish to start your travel ? [USER]: I want to start my travel on Day after tomorrow. [SYSTEM]: I found 4 flights as per your need. What about American Airlines? the flight takes off at 3:45 Pm. It is a direct Flight and the returning flight takes off at 9:20 pm. and the ticket cost is $313. [USER]: Ok that sounds good. that's all i need. \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "atlanta, ga"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-return_date>.\n[USER]: I need to attend a conference and i wish to go through a flight. Will you find a round trip flight? [SYSTEM]: Where are you planning to go? [USER]: I am planning to go to SFO. [SYSTEM]: At which city you need to depart from? [USER]: Please search from Atlanta, GA [SYSTEM]: In which day do you wish to take the return flight? [USER]: I wish to return on March 14th. [SYSTEM]: At which date you wish to start your travel ? [USER]: I want to start my travel on Day after tomorrow. [SYSTEM]: I found 4 flights as per your need. What about American Airlines? the flight takes off at 3:45 Pm. It is a direct Flight and the returning flight takes off at 9:20 pm. and the ticket cost is $313. [USER]: Ok that sounds good. that's all i need. \n [slot] flights_4-return_date, it indicates End date of the trip. So the value of slot <flights_4-return_date> is \n",
+        "output": "march 14th"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-number_of_tickets>.\n[USER]: I would like to search for a round trip flight from Vancouver with three tickets available, please. \n [slot] flights_4-number_of_tickets, it indicates the number of flight tickets for the trip. So the value of slot <flights_4-number_of_tickets> is \n",
+        "output": "3"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-origin_airport>.\n[USER]: I would like to search for a round trip flight from Vancouver with three tickets available, please. \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "vancouver"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: I would like to search for a round trip flight from Vancouver with three tickets available, please. [SYSTEM]: What are your travel dates for departure and return? [USER]: I would like to start the trip on the 3rd, and return on the 8th. \n [slot] flights_4-departure_date, it indicates Start date of the trip. So the value of slot <flights_4-departure_date> is \n",
+        "output": "the 3rd"
+    },
+    {
+        "input": "Track the state of the slot <flights_4-number_of_tickets> in the input dialogue.\n[USER]: I would like to search for a round trip flight from Vancouver with three tickets available, please. [SYSTEM]: What are your travel dates for departure and return? [USER]: I would like to start the trip on the 3rd, and return on the 8th. \n [slot] flights_4-number_of_tickets, it indicates the number of flight tickets for the trip. So the value of slot <flights_4-number_of_tickets> is \n",
+        "output": "3"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-origin_airport>.\n[USER]: I would like to search for a round trip flight from Vancouver with three tickets available, please. [SYSTEM]: What are your travel dates for departure and return? [USER]: I would like to start the trip on the 3rd, and return on the 8th. \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "vancouver"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-return_date>.\n[USER]: I would like to search for a round trip flight from Vancouver with three tickets available, please. [SYSTEM]: What are your travel dates for departure and return? [USER]: I would like to start the trip on the 3rd, and return on the 8th. \n [slot] flights_4-return_date, it indicates End date of the trip. So the value of slot <flights_4-return_date> is \n",
+        "output": "the 8th"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-departure_date>.\n[USER]: I would like to search for a round trip flight from Vancouver with three tickets available, please. [SYSTEM]: What are your travel dates for departure and return? [USER]: I would like to start the trip on the 3rd, and return on the 8th. [SYSTEM]: Where would you like to go? [USER]: I will be flying to Washington. \n [slot] flights_4-departure_date, it indicates Start date of the trip. So the value of slot <flights_4-departure_date> is \n",
+        "output": "the 3rd"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-destination_airport>.\n[USER]: I would like to search for a round trip flight from Vancouver with three tickets available, please. [SYSTEM]: What are your travel dates for departure and return? [USER]: I would like to start the trip on the 3rd, and return on the 8th. [SYSTEM]: Where would you like to go? [USER]: I will be flying to Washington. \n [slot] flights_4-destination_airport, it indicates The name of the airport or city to arrive at. So the value of slot <flights_4-destination_airport> is \n",
+        "output": "washington"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-number_of_tickets>.\n[USER]: I would like to search for a round trip flight from Vancouver with three tickets available, please. [SYSTEM]: What are your travel dates for departure and return? [USER]: I would like to start the trip on the 3rd, and return on the 8th. [SYSTEM]: Where would you like to go? [USER]: I will be flying to Washington. \n [slot] flights_4-number_of_tickets, it indicates the number of flight tickets for the trip. So the value of slot <flights_4-number_of_tickets> is \n",
+        "output": "3"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-origin_airport>.\n[USER]: I would like to search for a round trip flight from Vancouver with three tickets available, please. [SYSTEM]: What are your travel dates for departure and return? [USER]: I would like to start the trip on the 3rd, and return on the 8th. [SYSTEM]: Where would you like to go? [USER]: I will be flying to Washington. \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "vancouver"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: I would like to search for a round trip flight from Vancouver with three tickets available, please. [SYSTEM]: What are your travel dates for departure and return? [USER]: I would like to start the trip on the 3rd, and return on the 8th. [SYSTEM]: Where would you like to go? [USER]: I will be flying to Washington. \n [slot] flights_4-return_date, it indicates End date of the trip. So the value of slot <flights_4-return_date> is \n",
+        "output": "the 8th"
+    },
+    {
+        "input": "Track the state of the slot <flights_4-departure_date> in the input dialogue.\n[USER]: I would like to search for a round trip flight from Vancouver with three tickets available, please. [SYSTEM]: What are your travel dates for departure and return? [USER]: I would like to start the trip on the 3rd, and return on the 8th. [SYSTEM]: Where would you like to go? [USER]: I will be flying to Washington. [SYSTEM]: American Airlines has a connecting flight at 1:10 pm, with a return flight at 2:55 pm, for $442. [USER]: Would these be Economy class tickets? What time does the return flight land? \n [slot] flights_4-departure_date, it indicates Start date of the trip. So the value of slot <flights_4-departure_date> is \n",
+        "output": "the 3rd"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-destination_airport>.\n[USER]: I would like to search for a round trip flight from Vancouver with three tickets available, please. [SYSTEM]: What are your travel dates for departure and return? [USER]: I would like to start the trip on the 3rd, and return on the 8th. [SYSTEM]: Where would you like to go? [USER]: I will be flying to Washington. [SYSTEM]: American Airlines has a connecting flight at 1:10 pm, with a return flight at 2:55 pm, for $442. [USER]: Would these be Economy class tickets? What time does the return flight land? \n [slot] flights_4-destination_airport, it indicates The name of the airport or city to arrive at. So the value of slot <flights_4-destination_airport> is \n",
+        "output": "washington"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-number_of_tickets>.\n[USER]: I would like to search for a round trip flight from Vancouver with three tickets available, please. [SYSTEM]: What are your travel dates for departure and return? [USER]: I would like to start the trip on the 3rd, and return on the 8th. [SYSTEM]: Where would you like to go? [USER]: I will be flying to Washington. [SYSTEM]: American Airlines has a connecting flight at 1:10 pm, with a return flight at 2:55 pm, for $442. [USER]: Would these be Economy class tickets? What time does the return flight land? \n [slot] flights_4-number_of_tickets, it indicates the number of flight tickets for the trip. So the value of slot <flights_4-number_of_tickets> is \n",
+        "output": "3"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-origin_airport>.\n[USER]: I would like to search for a round trip flight from Vancouver with three tickets available, please. [SYSTEM]: What are your travel dates for departure and return? [USER]: I would like to start the trip on the 3rd, and return on the 8th. [SYSTEM]: Where would you like to go? [USER]: I will be flying to Washington. [SYSTEM]: American Airlines has a connecting flight at 1:10 pm, with a return flight at 2:55 pm, for $442. [USER]: Would these be Economy class tickets? What time does the return flight land? \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "vancouver"
+    },
+    {
+        "input": "Track the state of the slot <flights_4-return_date> in the input dialogue.\n[USER]: I would like to search for a round trip flight from Vancouver with three tickets available, please. [SYSTEM]: What are your travel dates for departure and return? [USER]: I would like to start the trip on the 3rd, and return on the 8th. [SYSTEM]: Where would you like to go? [USER]: I will be flying to Washington. [SYSTEM]: American Airlines has a connecting flight at 1:10 pm, with a return flight at 2:55 pm, for $442. [USER]: Would these be Economy class tickets? What time does the return flight land? \n [slot] flights_4-return_date, it indicates End date of the trip. So the value of slot <flights_4-return_date> is \n",
+        "output": "the 8th"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-departure_date>.\n[USER]: I would like to search for a round trip flight from Vancouver with three tickets available, please. [SYSTEM]: What are your travel dates for departure and return? [USER]: I would like to start the trip on the 3rd, and return on the 8th. [SYSTEM]: Where would you like to go? [USER]: I will be flying to Washington. [SYSTEM]: American Airlines has a connecting flight at 1:10 pm, with a return flight at 2:55 pm, for $442. [USER]: Would these be Economy class tickets? What time does the return flight land? [SYSTEM]: Yes, the seats are Economy. The return flight arrives at 9:56 pm. [USER]: OK, that all sounds good. \n [slot] flights_4-departure_date, it indicates Start date of the trip. So the value of slot <flights_4-departure_date> is \n",
+        "output": "the 3rd"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-destination_airport>.\n[USER]: I would like to search for a round trip flight from Vancouver with three tickets available, please. [SYSTEM]: What are your travel dates for departure and return? [USER]: I would like to start the trip on the 3rd, and return on the 8th. [SYSTEM]: Where would you like to go? [USER]: I will be flying to Washington. [SYSTEM]: American Airlines has a connecting flight at 1:10 pm, with a return flight at 2:55 pm, for $442. [USER]: Would these be Economy class tickets? What time does the return flight land? [SYSTEM]: Yes, the seats are Economy. The return flight arrives at 9:56 pm. [USER]: OK, that all sounds good. \n [slot] flights_4-destination_airport, it indicates The name of the airport or city to arrive at. So the value of slot <flights_4-destination_airport> is \n",
+        "output": "washington"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-number_of_tickets>.\n[USER]: I would like to search for a round trip flight from Vancouver with three tickets available, please. [SYSTEM]: What are your travel dates for departure and return? [USER]: I would like to start the trip on the 3rd, and return on the 8th. [SYSTEM]: Where would you like to go? [USER]: I will be flying to Washington. [SYSTEM]: American Airlines has a connecting flight at 1:10 pm, with a return flight at 2:55 pm, for $442. [USER]: Would these be Economy class tickets? What time does the return flight land? [SYSTEM]: Yes, the seats are Economy. The return flight arrives at 9:56 pm. [USER]: OK, that all sounds good. \n [slot] flights_4-number_of_tickets, it indicates the number of flight tickets for the trip. So the value of slot <flights_4-number_of_tickets> is \n",
+        "output": "3"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-origin_airport>.\n[USER]: I would like to search for a round trip flight from Vancouver with three tickets available, please. [SYSTEM]: What are your travel dates for departure and return? [USER]: I would like to start the trip on the 3rd, and return on the 8th. [SYSTEM]: Where would you like to go? [USER]: I will be flying to Washington. [SYSTEM]: American Airlines has a connecting flight at 1:10 pm, with a return flight at 2:55 pm, for $442. [USER]: Would these be Economy class tickets? What time does the return flight land? [SYSTEM]: Yes, the seats are Economy. The return flight arrives at 9:56 pm. [USER]: OK, that all sounds good. \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "vancouver"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-return_date>.\n[USER]: I would like to search for a round trip flight from Vancouver with three tickets available, please. [SYSTEM]: What are your travel dates for departure and return? [USER]: I would like to start the trip on the 3rd, and return on the 8th. [SYSTEM]: Where would you like to go? [USER]: I will be flying to Washington. [SYSTEM]: American Airlines has a connecting flight at 1:10 pm, with a return flight at 2:55 pm, for $442. [USER]: Would these be Economy class tickets? What time does the return flight land? [SYSTEM]: Yes, the seats are Economy. The return flight arrives at 9:56 pm. [USER]: OK, that all sounds good. \n [slot] flights_4-return_date, it indicates End date of the trip. So the value of slot <flights_4-return_date> is \n",
+        "output": "the 8th"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-departure_date>.\n[USER]: I would like to search for a round trip flight from Vancouver with three tickets available, please. [SYSTEM]: What are your travel dates for departure and return? [USER]: I would like to start the trip on the 3rd, and return on the 8th. [SYSTEM]: Where would you like to go? [USER]: I will be flying to Washington. [SYSTEM]: American Airlines has a connecting flight at 1:10 pm, with a return flight at 2:55 pm, for $442. [USER]: Would these be Economy class tickets? What time does the return flight land? [SYSTEM]: Yes, the seats are Economy. The return flight arrives at 9:56 pm. [USER]: OK, that all sounds good. [SYSTEM]: Is there anything else I can help you with? [USER]: No, thank you for your help. \n [slot] flights_4-departure_date, it indicates Start date of the trip. So the value of slot <flights_4-departure_date> is \n",
+        "output": "the 3rd"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-destination_airport>.\n[USER]: I would like to search for a round trip flight from Vancouver with three tickets available, please. [SYSTEM]: What are your travel dates for departure and return? [USER]: I would like to start the trip on the 3rd, and return on the 8th. [SYSTEM]: Where would you like to go? [USER]: I will be flying to Washington. [SYSTEM]: American Airlines has a connecting flight at 1:10 pm, with a return flight at 2:55 pm, for $442. [USER]: Would these be Economy class tickets? What time does the return flight land? [SYSTEM]: Yes, the seats are Economy. The return flight arrives at 9:56 pm. [USER]: OK, that all sounds good. [SYSTEM]: Is there anything else I can help you with? [USER]: No, thank you for your help. \n [slot] flights_4-destination_airport, it indicates The name of the airport or city to arrive at. So the value of slot <flights_4-destination_airport> is \n",
+        "output": "washington"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <flights_4-number_of_tickets>.\n[USER]: I would like to search for a round trip flight from Vancouver with three tickets available, please. [SYSTEM]: What are your travel dates for departure and return? [USER]: I would like to start the trip on the 3rd, and return on the 8th. [SYSTEM]: Where would you like to go? [USER]: I will be flying to Washington. [SYSTEM]: American Airlines has a connecting flight at 1:10 pm, with a return flight at 2:55 pm, for $442. [USER]: Would these be Economy class tickets? What time does the return flight land? [SYSTEM]: Yes, the seats are Economy. The return flight arrives at 9:56 pm. [USER]: OK, that all sounds good. [SYSTEM]: Is there anything else I can help you with? [USER]: No, thank you for your help. \n [slot] flights_4-number_of_tickets, it indicates the number of flight tickets for the trip. So the value of slot <flights_4-number_of_tickets> is \n",
+        "output": "3"
+    },
+    {
+        "input": "Track the state of the slot <flights_4-origin_airport> in the input dialogue.\n[USER]: I would like to search for a round trip flight from Vancouver with three tickets available, please. [SYSTEM]: What are your travel dates for departure and return? [USER]: I would like to start the trip on the 3rd, and return on the 8th. [SYSTEM]: Where would you like to go? [USER]: I will be flying to Washington. [SYSTEM]: American Airlines has a connecting flight at 1:10 pm, with a return flight at 2:55 pm, for $442. [USER]: Would these be Economy class tickets? What time does the return flight land? [SYSTEM]: Yes, the seats are Economy. The return flight arrives at 9:56 pm. [USER]: OK, that all sounds good. [SYSTEM]: Is there anything else I can help you with? [USER]: No, thank you for your help. \n [slot] flights_4-origin_airport, it indicates The name of the airport or city to depart from. So the value of slot <flights_4-origin_airport> is \n",
+        "output": "vancouver"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <flights_4-return_date>.\n[USER]: I would like to search for a round trip flight from Vancouver with three tickets available, please. [SYSTEM]: What are your travel dates for departure and return? [USER]: I would like to start the trip on the 3rd, and return on the 8th. [SYSTEM]: Where would you like to go? [USER]: I will be flying to Washington. [SYSTEM]: American Airlines has a connecting flight at 1:10 pm, with a return flight at 2:55 pm, for $442. [USER]: Would these be Economy class tickets? What time does the return flight land? [SYSTEM]: Yes, the seats are Economy. The return flight arrives at 9:56 pm. [USER]: OK, that all sounds good. [SYSTEM]: Is there anything else I can help you with? [USER]: No, thank you for your help. \n [slot] flights_4-return_date, it indicates End date of the trip. So the value of slot <flights_4-return_date> is \n",
+        "output": "the 8th"
+    }
+]

@@ -1,0 +1,417 @@
+[
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-genre>.",
+        "input": "[USER]: I'd like to watch a movie [SYSTEM]: What kind of movie? [USER]: A Funny genre of movies \n [slot] media_2-genre, it indicates Main genre of the movie. So the value of slot <media_2-genre> is \n",
+        "output": "funny"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_2-genre>.",
+        "input": "[USER]: I'd like to watch a movie [SYSTEM]: What kind of movie? [USER]: A Funny genre of movies [SYSTEM]: Do you prefer A Madea Family Funeral, Auntie Mame or Dr. Strangelove? [USER]: Can you search for an Adventure movie? \n [slot] media_2-genre, it indicates Main genre of the movie. So the value of slot <media_2-genre> is \n",
+        "output": "adventure"
+    },
+    {
+        "instruction": "Track the state of the slot <media_2-genre> in the input dialogue.",
+        "input": "[USER]: I'd like to watch a movie [SYSTEM]: What kind of movie? [USER]: A Funny genre of movies [SYSTEM]: Do you prefer A Madea Family Funeral, Auntie Mame or Dr. Strangelove? [USER]: Can you search for an Adventure movie? [SYSTEM]: There are Captain Marvel, Shazam! and The Poseidon Adventure [USER]: Do you have other proposals? \n [slot] media_2-genre, it indicates Main genre of the movie. So the value of slot <media_2-genre> is \n",
+        "output": "adventure"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-genre>.",
+        "input": "[USER]: I'd like to watch a movie [SYSTEM]: What kind of movie? [USER]: A Funny genre of movies [SYSTEM]: Do you prefer A Madea Family Funeral, Auntie Mame or Dr. Strangelove? [USER]: Can you search for an Adventure movie? [SYSTEM]: There are Captain Marvel, Shazam! and The Poseidon Adventure [USER]: Do you have other proposals? [SYSTEM]: I propose you True Grit [USER]: Oh, True Grit is fantastic! I would like to rent it with Spanish subtitles \n [slot] media_2-genre, it indicates Main genre of the movie. So the value of slot <media_2-genre> is \n",
+        "output": "adventure"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-movie_name>.",
+        "input": "[USER]: I'd like to watch a movie [SYSTEM]: What kind of movie? [USER]: A Funny genre of movies [SYSTEM]: Do you prefer A Madea Family Funeral, Auntie Mame or Dr. Strangelove? [USER]: Can you search for an Adventure movie? [SYSTEM]: There are Captain Marvel, Shazam! and The Poseidon Adventure [USER]: Do you have other proposals? [SYSTEM]: I propose you True Grit [USER]: Oh, True Grit is fantastic! I would like to rent it with Spanish subtitles \n [slot] media_2-movie_name, it indicates Name of the movie. So the value of slot <media_2-movie_name> is \n",
+        "output": "true grit"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-subtitle_language>.",
+        "input": "[USER]: I'd like to watch a movie [SYSTEM]: What kind of movie? [USER]: A Funny genre of movies [SYSTEM]: Do you prefer A Madea Family Funeral, Auntie Mame or Dr. Strangelove? [USER]: Can you search for an Adventure movie? [SYSTEM]: There are Captain Marvel, Shazam! and The Poseidon Adventure [USER]: Do you have other proposals? [SYSTEM]: I propose you True Grit [USER]: Oh, True Grit is fantastic! I would like to rent it with Spanish subtitles \n [slot] media_2-subtitle_language, it indicates Language to use for subtitles (or None for no subtitles). So the value of slot <media_2-subtitle_language> is \n",
+        "output": "spanish"
+    },
+    {
+        "instruction": "Track the state of the slot <media_2-genre> in the input dialogue.",
+        "input": "[USER]: I'd like to watch a movie [SYSTEM]: What kind of movie? [USER]: A Funny genre of movies [SYSTEM]: Do you prefer A Madea Family Funeral, Auntie Mame or Dr. Strangelove? [USER]: Can you search for an Adventure movie? [SYSTEM]: There are Captain Marvel, Shazam! and The Poseidon Adventure [USER]: Do you have other proposals? [SYSTEM]: I propose you True Grit [USER]: Oh, True Grit is fantastic! I would like to rent it with Spanish subtitles [SYSTEM]: True grit with Spanish subtitles: do you confirm? [USER]: No, I changed my mind: with no subtitles \n [slot] media_2-genre, it indicates Main genre of the movie. So the value of slot <media_2-genre> is \n",
+        "output": "adventure"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_2-movie_name>.",
+        "input": "[USER]: I'd like to watch a movie [SYSTEM]: What kind of movie? [USER]: A Funny genre of movies [SYSTEM]: Do you prefer A Madea Family Funeral, Auntie Mame or Dr. Strangelove? [USER]: Can you search for an Adventure movie? [SYSTEM]: There are Captain Marvel, Shazam! and The Poseidon Adventure [USER]: Do you have other proposals? [SYSTEM]: I propose you True Grit [USER]: Oh, True Grit is fantastic! I would like to rent it with Spanish subtitles [SYSTEM]: True grit with Spanish subtitles: do you confirm? [USER]: No, I changed my mind: with no subtitles \n [slot] media_2-movie_name, it indicates Name of the movie. So the value of slot <media_2-movie_name> is \n",
+        "output": "true grit"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-subtitle_language>.",
+        "input": "[USER]: I'd like to watch a movie [SYSTEM]: What kind of movie? [USER]: A Funny genre of movies [SYSTEM]: Do you prefer A Madea Family Funeral, Auntie Mame or Dr. Strangelove? [USER]: Can you search for an Adventure movie? [SYSTEM]: There are Captain Marvel, Shazam! and The Poseidon Adventure [USER]: Do you have other proposals? [SYSTEM]: I propose you True Grit [USER]: Oh, True Grit is fantastic! I would like to rent it with Spanish subtitles [SYSTEM]: True grit with Spanish subtitles: do you confirm? [USER]: No, I changed my mind: with no subtitles \n [slot] media_2-subtitle_language, it indicates Language to use for subtitles (or None for no subtitles). So the value of slot <media_2-subtitle_language> is \n",
+        "output": "none"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_2-genre>.",
+        "input": "[USER]: I'd like to watch a movie [SYSTEM]: What kind of movie? [USER]: A Funny genre of movies [SYSTEM]: Do you prefer A Madea Family Funeral, Auntie Mame or Dr. Strangelove? [USER]: Can you search for an Adventure movie? [SYSTEM]: There are Captain Marvel, Shazam! and The Poseidon Adventure [USER]: Do you have other proposals? [SYSTEM]: I propose you True Grit [USER]: Oh, True Grit is fantastic! I would like to rent it with Spanish subtitles [SYSTEM]: True grit with Spanish subtitles: do you confirm? [USER]: No, I changed my mind: with no subtitles [SYSTEM]: True Grit with no subtitles: it's correct? [USER]: Yes, It's correct! What is the rental cost? Who is the leading actor? \n [slot] media_2-genre, it indicates Main genre of the movie. So the value of slot <media_2-genre> is \n",
+        "output": "adventure"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-movie_name>.",
+        "input": "[USER]: I'd like to watch a movie [SYSTEM]: What kind of movie? [USER]: A Funny genre of movies [SYSTEM]: Do you prefer A Madea Family Funeral, Auntie Mame or Dr. Strangelove? [USER]: Can you search for an Adventure movie? [SYSTEM]: There are Captain Marvel, Shazam! and The Poseidon Adventure [USER]: Do you have other proposals? [SYSTEM]: I propose you True Grit [USER]: Oh, True Grit is fantastic! I would like to rent it with Spanish subtitles [SYSTEM]: True grit with Spanish subtitles: do you confirm? [USER]: No, I changed my mind: with no subtitles [SYSTEM]: True Grit with no subtitles: it's correct? [USER]: Yes, It's correct! What is the rental cost? Who is the leading actor? \n [slot] media_2-movie_name, it indicates Name of the movie. So the value of slot <media_2-movie_name> is \n",
+        "output": "true grit"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_2-subtitle_language>.",
+        "input": "[USER]: I'd like to watch a movie [SYSTEM]: What kind of movie? [USER]: A Funny genre of movies [SYSTEM]: Do you prefer A Madea Family Funeral, Auntie Mame or Dr. Strangelove? [USER]: Can you search for an Adventure movie? [SYSTEM]: There are Captain Marvel, Shazam! and The Poseidon Adventure [USER]: Do you have other proposals? [SYSTEM]: I propose you True Grit [USER]: Oh, True Grit is fantastic! I would like to rent it with Spanish subtitles [SYSTEM]: True grit with Spanish subtitles: do you confirm? [USER]: No, I changed my mind: with no subtitles [SYSTEM]: True Grit with no subtitles: it's correct? [USER]: Yes, It's correct! What is the rental cost? Who is the leading actor? \n [slot] media_2-subtitle_language, it indicates Language to use for subtitles (or None for no subtitles). So the value of slot <media_2-subtitle_language> is \n",
+        "output": "none"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-genre>.",
+        "input": "[USER]: I'd like to watch a movie [SYSTEM]: What kind of movie? [USER]: A Funny genre of movies [SYSTEM]: Do you prefer A Madea Family Funeral, Auntie Mame or Dr. Strangelove? [USER]: Can you search for an Adventure movie? [SYSTEM]: There are Captain Marvel, Shazam! and The Poseidon Adventure [USER]: Do you have other proposals? [SYSTEM]: I propose you True Grit [USER]: Oh, True Grit is fantastic! I would like to rent it with Spanish subtitles [SYSTEM]: True grit with Spanish subtitles: do you confirm? [USER]: No, I changed my mind: with no subtitles [SYSTEM]: True Grit with no subtitles: it's correct? [USER]: Yes, It's correct! What is the rental cost? Who is the leading actor? [SYSTEM]: $6 to rent. The leading actor is Matt Damon. Your movie is booked and you will see it within 3 days [USER]: Thanks a lot! Bye! \n [slot] media_2-genre, it indicates Main genre of the movie. So the value of slot <media_2-genre> is \n",
+        "output": "adventure"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I'd like to watch a movie [SYSTEM]: What kind of movie? [USER]: A Funny genre of movies [SYSTEM]: Do you prefer A Madea Family Funeral, Auntie Mame or Dr. Strangelove? [USER]: Can you search for an Adventure movie? [SYSTEM]: There are Captain Marvel, Shazam! and The Poseidon Adventure [USER]: Do you have other proposals? [SYSTEM]: I propose you True Grit [USER]: Oh, True Grit is fantastic! I would like to rent it with Spanish subtitles [SYSTEM]: True grit with Spanish subtitles: do you confirm? [USER]: No, I changed my mind: with no subtitles [SYSTEM]: True Grit with no subtitles: it's correct? [USER]: Yes, It's correct! What is the rental cost? Who is the leading actor? [SYSTEM]: $6 to rent. The leading actor is Matt Damon. Your movie is booked and you will see it within 3 days [USER]: Thanks a lot! Bye! \n [slot] media_2-movie_name, it indicates Name of the movie. So the value of slot <media_2-movie_name> is \n",
+        "output": "true grit"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-subtitle_language>.",
+        "input": "[USER]: I'd like to watch a movie [SYSTEM]: What kind of movie? [USER]: A Funny genre of movies [SYSTEM]: Do you prefer A Madea Family Funeral, Auntie Mame or Dr. Strangelove? [USER]: Can you search for an Adventure movie? [SYSTEM]: There are Captain Marvel, Shazam! and The Poseidon Adventure [USER]: Do you have other proposals? [SYSTEM]: I propose you True Grit [USER]: Oh, True Grit is fantastic! I would like to rent it with Spanish subtitles [SYSTEM]: True grit with Spanish subtitles: do you confirm? [USER]: No, I changed my mind: with no subtitles [SYSTEM]: True Grit with no subtitles: it's correct? [USER]: Yes, It's correct! What is the rental cost? Who is the leading actor? [SYSTEM]: $6 to rent. The leading actor is Matt Damon. Your movie is booked and you will see it within 3 days [USER]: Thanks a lot! Bye! \n [slot] media_2-subtitle_language, it indicates Language to use for subtitles (or None for no subtitles). So the value of slot <media_2-subtitle_language> is \n",
+        "output": "none"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-genre>.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. \n [slot] media_2-genre, it indicates Main genre of the movie. So the value of slot <media_2-genre> is \n",
+        "output": "love story"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-actors>.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. [SYSTEM]: Are you interested in watching After, Pillow Talk or Say Anything? [USER]: What other movies are there? Is there anything from George Sidney and with the actor Larry Barton? \n [slot] media_2-actors, it indicates Name of an actor starring in the movie. So the value of slot <media_2-actors> is \n",
+        "output": "larry barton"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-director>.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. [SYSTEM]: Are you interested in watching After, Pillow Talk or Say Anything? [USER]: What other movies are there? Is there anything from George Sidney and with the actor Larry Barton? \n [slot] media_2-director, it indicates Name of the director of the movie. So the value of slot <media_2-director> is \n",
+        "output": "george sidney"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_2-genre>.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. [SYSTEM]: Are you interested in watching After, Pillow Talk or Say Anything? [USER]: What other movies are there? Is there anything from George Sidney and with the actor Larry Barton? \n [slot] media_2-genre, it indicates Main genre of the movie. So the value of slot <media_2-genre> is \n",
+        "output": "love story"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-actors>.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. [SYSTEM]: Are you interested in watching After, Pillow Talk or Say Anything? [USER]: What other movies are there? Is there anything from George Sidney and with the actor Larry Barton? [SYSTEM]: There is 1 movie that match your criteria. Are you interested in Viva Las Vegas? [USER]: Yes, Viva Las Vegas sounds appealing. \n [slot] media_2-actors, it indicates Name of an actor starring in the movie. So the value of slot <media_2-actors> is \n",
+        "output": "larry barton"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-director>.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. [SYSTEM]: Are you interested in watching After, Pillow Talk or Say Anything? [USER]: What other movies are there? Is there anything from George Sidney and with the actor Larry Barton? [SYSTEM]: There is 1 movie that match your criteria. Are you interested in Viva Las Vegas? [USER]: Yes, Viva Las Vegas sounds appealing. \n [slot] media_2-director, it indicates Name of the director of the movie. So the value of slot <media_2-director> is \n",
+        "output": "george sidney"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-genre>.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. [SYSTEM]: Are you interested in watching After, Pillow Talk or Say Anything? [USER]: What other movies are there? Is there anything from George Sidney and with the actor Larry Barton? [SYSTEM]: There is 1 movie that match your criteria. Are you interested in Viva Las Vegas? [USER]: Yes, Viva Las Vegas sounds appealing. \n [slot] media_2-genre, it indicates Main genre of the movie. So the value of slot <media_2-genre> is \n",
+        "output": "love story"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_2-movie_name>.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. [SYSTEM]: Are you interested in watching After, Pillow Talk or Say Anything? [USER]: What other movies are there? Is there anything from George Sidney and with the actor Larry Barton? [SYSTEM]: There is 1 movie that match your criteria. Are you interested in Viva Las Vegas? [USER]: Yes, Viva Las Vegas sounds appealing. \n [slot] media_2-movie_name, it indicates Name of the movie. So the value of slot <media_2-movie_name> is \n",
+        "output": "viva las vegas"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-actors>.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. [SYSTEM]: Are you interested in watching After, Pillow Talk or Say Anything? [USER]: What other movies are there? Is there anything from George Sidney and with the actor Larry Barton? [SYSTEM]: There is 1 movie that match your criteria. Are you interested in Viva Las Vegas? [USER]: Yes, Viva Las Vegas sounds appealing. [SYSTEM]: Do you want to rent it? [USER]: Yes, rent it. I want English subtitles on it. \n [slot] media_2-actors, it indicates Name of an actor starring in the movie. So the value of slot <media_2-actors> is \n",
+        "output": "larry barton"
+    },
+    {
+        "instruction": "Track the state of the slot <media_2-director> in the input dialogue.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. [SYSTEM]: Are you interested in watching After, Pillow Talk or Say Anything? [USER]: What other movies are there? Is there anything from George Sidney and with the actor Larry Barton? [SYSTEM]: There is 1 movie that match your criteria. Are you interested in Viva Las Vegas? [USER]: Yes, Viva Las Vegas sounds appealing. [SYSTEM]: Do you want to rent it? [USER]: Yes, rent it. I want English subtitles on it. \n [slot] media_2-director, it indicates Name of the director of the movie. So the value of slot <media_2-director> is \n",
+        "output": "george sidney"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-genre>.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. [SYSTEM]: Are you interested in watching After, Pillow Talk or Say Anything? [USER]: What other movies are there? Is there anything from George Sidney and with the actor Larry Barton? [SYSTEM]: There is 1 movie that match your criteria. Are you interested in Viva Las Vegas? [USER]: Yes, Viva Las Vegas sounds appealing. [SYSTEM]: Do you want to rent it? [USER]: Yes, rent it. I want English subtitles on it. \n [slot] media_2-genre, it indicates Main genre of the movie. So the value of slot <media_2-genre> is \n",
+        "output": "love story"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_2-movie_name>.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. [SYSTEM]: Are you interested in watching After, Pillow Talk or Say Anything? [USER]: What other movies are there? Is there anything from George Sidney and with the actor Larry Barton? [SYSTEM]: There is 1 movie that match your criteria. Are you interested in Viva Las Vegas? [USER]: Yes, Viva Las Vegas sounds appealing. [SYSTEM]: Do you want to rent it? [USER]: Yes, rent it. I want English subtitles on it. \n [slot] media_2-movie_name, it indicates Name of the movie. So the value of slot <media_2-movie_name> is \n",
+        "output": "viva las vegas"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-subtitle_language>.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. [SYSTEM]: Are you interested in watching After, Pillow Talk or Say Anything? [USER]: What other movies are there? Is there anything from George Sidney and with the actor Larry Barton? [SYSTEM]: There is 1 movie that match your criteria. Are you interested in Viva Las Vegas? [USER]: Yes, Viva Las Vegas sounds appealing. [SYSTEM]: Do you want to rent it? [USER]: Yes, rent it. I want English subtitles on it. \n [slot] media_2-subtitle_language, it indicates Language to use for subtitles (or None for no subtitles). So the value of slot <media_2-subtitle_language> is \n",
+        "output": "english"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_2-actors>.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. [SYSTEM]: Are you interested in watching After, Pillow Talk or Say Anything? [USER]: What other movies are there? Is there anything from George Sidney and with the actor Larry Barton? [SYSTEM]: There is 1 movie that match your criteria. Are you interested in Viva Las Vegas? [USER]: Yes, Viva Las Vegas sounds appealing. [SYSTEM]: Do you want to rent it? [USER]: Yes, rent it. I want English subtitles on it. [SYSTEM]: Please confirm: Renting Viva Las Vegas with English subtitles. [USER]: No, I want to watch it with Spanish Subtitles. \n [slot] media_2-actors, it indicates Name of an actor starring in the movie. So the value of slot <media_2-actors> is \n",
+        "output": "larry barton"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_2-director>.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. [SYSTEM]: Are you interested in watching After, Pillow Talk or Say Anything? [USER]: What other movies are there? Is there anything from George Sidney and with the actor Larry Barton? [SYSTEM]: There is 1 movie that match your criteria. Are you interested in Viva Las Vegas? [USER]: Yes, Viva Las Vegas sounds appealing. [SYSTEM]: Do you want to rent it? [USER]: Yes, rent it. I want English subtitles on it. [SYSTEM]: Please confirm: Renting Viva Las Vegas with English subtitles. [USER]: No, I want to watch it with Spanish Subtitles. \n [slot] media_2-director, it indicates Name of the director of the movie. So the value of slot <media_2-director> is \n",
+        "output": "george sidney"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_2-genre>.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. [SYSTEM]: Are you interested in watching After, Pillow Talk or Say Anything? [USER]: What other movies are there? Is there anything from George Sidney and with the actor Larry Barton? [SYSTEM]: There is 1 movie that match your criteria. Are you interested in Viva Las Vegas? [USER]: Yes, Viva Las Vegas sounds appealing. [SYSTEM]: Do you want to rent it? [USER]: Yes, rent it. I want English subtitles on it. [SYSTEM]: Please confirm: Renting Viva Las Vegas with English subtitles. [USER]: No, I want to watch it with Spanish Subtitles. \n [slot] media_2-genre, it indicates Main genre of the movie. So the value of slot <media_2-genre> is \n",
+        "output": "love story"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-movie_name>.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. [SYSTEM]: Are you interested in watching After, Pillow Talk or Say Anything? [USER]: What other movies are there? Is there anything from George Sidney and with the actor Larry Barton? [SYSTEM]: There is 1 movie that match your criteria. Are you interested in Viva Las Vegas? [USER]: Yes, Viva Las Vegas sounds appealing. [SYSTEM]: Do you want to rent it? [USER]: Yes, rent it. I want English subtitles on it. [SYSTEM]: Please confirm: Renting Viva Las Vegas with English subtitles. [USER]: No, I want to watch it with Spanish Subtitles. \n [slot] media_2-movie_name, it indicates Name of the movie. So the value of slot <media_2-movie_name> is \n",
+        "output": "viva las vegas"
+    },
+    {
+        "instruction": "Track the state of the slot <media_2-subtitle_language> in the input dialogue.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. [SYSTEM]: Are you interested in watching After, Pillow Talk or Say Anything? [USER]: What other movies are there? Is there anything from George Sidney and with the actor Larry Barton? [SYSTEM]: There is 1 movie that match your criteria. Are you interested in Viva Las Vegas? [USER]: Yes, Viva Las Vegas sounds appealing. [SYSTEM]: Do you want to rent it? [USER]: Yes, rent it. I want English subtitles on it. [SYSTEM]: Please confirm: Renting Viva Las Vegas with English subtitles. [USER]: No, I want to watch it with Spanish Subtitles. \n [slot] media_2-subtitle_language, it indicates Language to use for subtitles (or None for no subtitles). So the value of slot <media_2-subtitle_language> is \n",
+        "output": "spanish"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-actors>.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. [SYSTEM]: Are you interested in watching After, Pillow Talk or Say Anything? [USER]: What other movies are there? Is there anything from George Sidney and with the actor Larry Barton? [SYSTEM]: There is 1 movie that match your criteria. Are you interested in Viva Las Vegas? [USER]: Yes, Viva Las Vegas sounds appealing. [SYSTEM]: Do you want to rent it? [USER]: Yes, rent it. I want English subtitles on it. [SYSTEM]: Please confirm: Renting Viva Las Vegas with English subtitles. [USER]: No, I want to watch it with Spanish Subtitles. [SYSTEM]: Please confirm: Renting Viva Las Vegas with Spanish subtitles. [USER]: Yes, that is correct \n [slot] media_2-actors, it indicates Name of an actor starring in the movie. So the value of slot <media_2-actors> is \n",
+        "output": "larry barton"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_2-director>.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. [SYSTEM]: Are you interested in watching After, Pillow Talk or Say Anything? [USER]: What other movies are there? Is there anything from George Sidney and with the actor Larry Barton? [SYSTEM]: There is 1 movie that match your criteria. Are you interested in Viva Las Vegas? [USER]: Yes, Viva Las Vegas sounds appealing. [SYSTEM]: Do you want to rent it? [USER]: Yes, rent it. I want English subtitles on it. [SYSTEM]: Please confirm: Renting Viva Las Vegas with English subtitles. [USER]: No, I want to watch it with Spanish Subtitles. [SYSTEM]: Please confirm: Renting Viva Las Vegas with Spanish subtitles. [USER]: Yes, that is correct \n [slot] media_2-director, it indicates Name of the director of the movie. So the value of slot <media_2-director> is \n",
+        "output": "george sidney"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-genre>.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. [SYSTEM]: Are you interested in watching After, Pillow Talk or Say Anything? [USER]: What other movies are there? Is there anything from George Sidney and with the actor Larry Barton? [SYSTEM]: There is 1 movie that match your criteria. Are you interested in Viva Las Vegas? [USER]: Yes, Viva Las Vegas sounds appealing. [SYSTEM]: Do you want to rent it? [USER]: Yes, rent it. I want English subtitles on it. [SYSTEM]: Please confirm: Renting Viva Las Vegas with English subtitles. [USER]: No, I want to watch it with Spanish Subtitles. [SYSTEM]: Please confirm: Renting Viva Las Vegas with Spanish subtitles. [USER]: Yes, that is correct \n [slot] media_2-genre, it indicates Main genre of the movie. So the value of slot <media_2-genre> is \n",
+        "output": "love story"
+    },
+    {
+        "instruction": "Track the state of the slot <media_2-movie_name> in the input dialogue.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. [SYSTEM]: Are you interested in watching After, Pillow Talk or Say Anything? [USER]: What other movies are there? Is there anything from George Sidney and with the actor Larry Barton? [SYSTEM]: There is 1 movie that match your criteria. Are you interested in Viva Las Vegas? [USER]: Yes, Viva Las Vegas sounds appealing. [SYSTEM]: Do you want to rent it? [USER]: Yes, rent it. I want English subtitles on it. [SYSTEM]: Please confirm: Renting Viva Las Vegas with English subtitles. [USER]: No, I want to watch it with Spanish Subtitles. [SYSTEM]: Please confirm: Renting Viva Las Vegas with Spanish subtitles. [USER]: Yes, that is correct \n [slot] media_2-movie_name, it indicates Name of the movie. So the value of slot <media_2-movie_name> is \n",
+        "output": "viva las vegas"
+    },
+    {
+        "instruction": "Track the state of the slot <media_2-subtitle_language> in the input dialogue.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. [SYSTEM]: Are you interested in watching After, Pillow Talk or Say Anything? [USER]: What other movies are there? Is there anything from George Sidney and with the actor Larry Barton? [SYSTEM]: There is 1 movie that match your criteria. Are you interested in Viva Las Vegas? [USER]: Yes, Viva Las Vegas sounds appealing. [SYSTEM]: Do you want to rent it? [USER]: Yes, rent it. I want English subtitles on it. [SYSTEM]: Please confirm: Renting Viva Las Vegas with English subtitles. [USER]: No, I want to watch it with Spanish Subtitles. [SYSTEM]: Please confirm: Renting Viva Las Vegas with Spanish subtitles. [USER]: Yes, that is correct \n [slot] media_2-subtitle_language, it indicates Language to use for subtitles (or None for no subtitles). So the value of slot <media_2-subtitle_language> is \n",
+        "output": "spanish"
+    },
+    {
+        "instruction": "Track the state of the slot <media_2-actors> in the input dialogue.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. [SYSTEM]: Are you interested in watching After, Pillow Talk or Say Anything? [USER]: What other movies are there? Is there anything from George Sidney and with the actor Larry Barton? [SYSTEM]: There is 1 movie that match your criteria. Are you interested in Viva Las Vegas? [USER]: Yes, Viva Las Vegas sounds appealing. [SYSTEM]: Do you want to rent it? [USER]: Yes, rent it. I want English subtitles on it. [SYSTEM]: Please confirm: Renting Viva Las Vegas with English subtitles. [USER]: No, I want to watch it with Spanish Subtitles. [SYSTEM]: Please confirm: Renting Viva Las Vegas with Spanish subtitles. [USER]: Yes, that is correct [SYSTEM]: Move was rented. You have 3 days to watch it. [USER]: Thanks a lot. \n [slot] media_2-actors, it indicates Name of an actor starring in the movie. So the value of slot <media_2-actors> is \n",
+        "output": "larry barton"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-director>.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. [SYSTEM]: Are you interested in watching After, Pillow Talk or Say Anything? [USER]: What other movies are there? Is there anything from George Sidney and with the actor Larry Barton? [SYSTEM]: There is 1 movie that match your criteria. Are you interested in Viva Las Vegas? [USER]: Yes, Viva Las Vegas sounds appealing. [SYSTEM]: Do you want to rent it? [USER]: Yes, rent it. I want English subtitles on it. [SYSTEM]: Please confirm: Renting Viva Las Vegas with English subtitles. [USER]: No, I want to watch it with Spanish Subtitles. [SYSTEM]: Please confirm: Renting Viva Las Vegas with Spanish subtitles. [USER]: Yes, that is correct [SYSTEM]: Move was rented. You have 3 days to watch it. [USER]: Thanks a lot. \n [slot] media_2-director, it indicates Name of the director of the movie. So the value of slot <media_2-director> is \n",
+        "output": "george sidney"
+    },
+    {
+        "instruction": "Track the state of the slot <media_2-genre> in the input dialogue.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. [SYSTEM]: Are you interested in watching After, Pillow Talk or Say Anything? [USER]: What other movies are there? Is there anything from George Sidney and with the actor Larry Barton? [SYSTEM]: There is 1 movie that match your criteria. Are you interested in Viva Las Vegas? [USER]: Yes, Viva Las Vegas sounds appealing. [SYSTEM]: Do you want to rent it? [USER]: Yes, rent it. I want English subtitles on it. [SYSTEM]: Please confirm: Renting Viva Las Vegas with English subtitles. [USER]: No, I want to watch it with Spanish Subtitles. [SYSTEM]: Please confirm: Renting Viva Las Vegas with Spanish subtitles. [USER]: Yes, that is correct [SYSTEM]: Move was rented. You have 3 days to watch it. [USER]: Thanks a lot. \n [slot] media_2-genre, it indicates Main genre of the movie. So the value of slot <media_2-genre> is \n",
+        "output": "love story"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-movie_name>.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. [SYSTEM]: Are you interested in watching After, Pillow Talk or Say Anything? [USER]: What other movies are there? Is there anything from George Sidney and with the actor Larry Barton? [SYSTEM]: There is 1 movie that match your criteria. Are you interested in Viva Las Vegas? [USER]: Yes, Viva Las Vegas sounds appealing. [SYSTEM]: Do you want to rent it? [USER]: Yes, rent it. I want English subtitles on it. [SYSTEM]: Please confirm: Renting Viva Las Vegas with English subtitles. [USER]: No, I want to watch it with Spanish Subtitles. [SYSTEM]: Please confirm: Renting Viva Las Vegas with Spanish subtitles. [USER]: Yes, that is correct [SYSTEM]: Move was rented. You have 3 days to watch it. [USER]: Thanks a lot. \n [slot] media_2-movie_name, it indicates Name of the movie. So the value of slot <media_2-movie_name> is \n",
+        "output": "viva las vegas"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-subtitle_language>.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. [SYSTEM]: Are you interested in watching After, Pillow Talk or Say Anything? [USER]: What other movies are there? Is there anything from George Sidney and with the actor Larry Barton? [SYSTEM]: There is 1 movie that match your criteria. Are you interested in Viva Las Vegas? [USER]: Yes, Viva Las Vegas sounds appealing. [SYSTEM]: Do you want to rent it? [USER]: Yes, rent it. I want English subtitles on it. [SYSTEM]: Please confirm: Renting Viva Las Vegas with English subtitles. [USER]: No, I want to watch it with Spanish Subtitles. [SYSTEM]: Please confirm: Renting Viva Las Vegas with Spanish subtitles. [USER]: Yes, that is correct [SYSTEM]: Move was rented. You have 3 days to watch it. [USER]: Thanks a lot. \n [slot] media_2-subtitle_language, it indicates Language to use for subtitles (or None for no subtitles). So the value of slot <media_2-subtitle_language> is \n",
+        "output": "spanish"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-actors>.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. [SYSTEM]: Are you interested in watching After, Pillow Talk or Say Anything? [USER]: What other movies are there? Is there anything from George Sidney and with the actor Larry Barton? [SYSTEM]: There is 1 movie that match your criteria. Are you interested in Viva Las Vegas? [USER]: Yes, Viva Las Vegas sounds appealing. [SYSTEM]: Do you want to rent it? [USER]: Yes, rent it. I want English subtitles on it. [SYSTEM]: Please confirm: Renting Viva Las Vegas with English subtitles. [USER]: No, I want to watch it with Spanish Subtitles. [SYSTEM]: Please confirm: Renting Viva Las Vegas with Spanish subtitles. [USER]: Yes, that is correct [SYSTEM]: Move was rented. You have 3 days to watch it. [USER]: Thanks a lot. [SYSTEM]: Is there anything else I can help you with? [USER]: No, that would be all. \n [slot] media_2-actors, it indicates Name of an actor starring in the movie. So the value of slot <media_2-actors> is \n",
+        "output": "larry barton"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-director>.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. [SYSTEM]: Are you interested in watching After, Pillow Talk or Say Anything? [USER]: What other movies are there? Is there anything from George Sidney and with the actor Larry Barton? [SYSTEM]: There is 1 movie that match your criteria. Are you interested in Viva Las Vegas? [USER]: Yes, Viva Las Vegas sounds appealing. [SYSTEM]: Do you want to rent it? [USER]: Yes, rent it. I want English subtitles on it. [SYSTEM]: Please confirm: Renting Viva Las Vegas with English subtitles. [USER]: No, I want to watch it with Spanish Subtitles. [SYSTEM]: Please confirm: Renting Viva Las Vegas with Spanish subtitles. [USER]: Yes, that is correct [SYSTEM]: Move was rented. You have 3 days to watch it. [USER]: Thanks a lot. [SYSTEM]: Is there anything else I can help you with? [USER]: No, that would be all. \n [slot] media_2-director, it indicates Name of the director of the movie. So the value of slot <media_2-director> is \n",
+        "output": "george sidney"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-genre>.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. [SYSTEM]: Are you interested in watching After, Pillow Talk or Say Anything? [USER]: What other movies are there? Is there anything from George Sidney and with the actor Larry Barton? [SYSTEM]: There is 1 movie that match your criteria. Are you interested in Viva Las Vegas? [USER]: Yes, Viva Las Vegas sounds appealing. [SYSTEM]: Do you want to rent it? [USER]: Yes, rent it. I want English subtitles on it. [SYSTEM]: Please confirm: Renting Viva Las Vegas with English subtitles. [USER]: No, I want to watch it with Spanish Subtitles. [SYSTEM]: Please confirm: Renting Viva Las Vegas with Spanish subtitles. [USER]: Yes, that is correct [SYSTEM]: Move was rented. You have 3 days to watch it. [USER]: Thanks a lot. [SYSTEM]: Is there anything else I can help you with? [USER]: No, that would be all. \n [slot] media_2-genre, it indicates Main genre of the movie. So the value of slot <media_2-genre> is \n",
+        "output": "love story"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. [SYSTEM]: Are you interested in watching After, Pillow Talk or Say Anything? [USER]: What other movies are there? Is there anything from George Sidney and with the actor Larry Barton? [SYSTEM]: There is 1 movie that match your criteria. Are you interested in Viva Las Vegas? [USER]: Yes, Viva Las Vegas sounds appealing. [SYSTEM]: Do you want to rent it? [USER]: Yes, rent it. I want English subtitles on it. [SYSTEM]: Please confirm: Renting Viva Las Vegas with English subtitles. [USER]: No, I want to watch it with Spanish Subtitles. [SYSTEM]: Please confirm: Renting Viva Las Vegas with Spanish subtitles. [USER]: Yes, that is correct [SYSTEM]: Move was rented. You have 3 days to watch it. [USER]: Thanks a lot. [SYSTEM]: Is there anything else I can help you with? [USER]: No, that would be all. \n [slot] media_2-movie_name, it indicates Name of the movie. So the value of slot <media_2-movie_name> is \n",
+        "output": "viva las vegas"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-subtitle_language>.",
+        "input": "[USER]: I want to watch something, what is playing interesting for rent? [SYSTEM]: What type of movie do you want to see? [USER]: I want to watch a Love story movie. [SYSTEM]: Are you interested in watching After, Pillow Talk or Say Anything? [USER]: What other movies are there? Is there anything from George Sidney and with the actor Larry Barton? [SYSTEM]: There is 1 movie that match your criteria. Are you interested in Viva Las Vegas? [USER]: Yes, Viva Las Vegas sounds appealing. [SYSTEM]: Do you want to rent it? [USER]: Yes, rent it. I want English subtitles on it. [SYSTEM]: Please confirm: Renting Viva Las Vegas with English subtitles. [USER]: No, I want to watch it with Spanish Subtitles. [SYSTEM]: Please confirm: Renting Viva Las Vegas with Spanish subtitles. [USER]: Yes, that is correct [SYSTEM]: Move was rented. You have 3 days to watch it. [USER]: Thanks a lot. [SYSTEM]: Is there anything else I can help you with? [USER]: No, that would be all. \n [slot] media_2-subtitle_language, it indicates Language to use for subtitles (or None for no subtitles). So the value of slot <media_2-subtitle_language> is \n",
+        "output": "spanish"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_2-director>.",
+        "input": "[USER]: Hello, could you help me search for movies directed by Tyler Perry? \n [slot] media_2-director, it indicates Name of the director of the movie. So the value of slot <media_2-director> is \n",
+        "output": "tyler perry"
+    },
+    {
+        "instruction": "Track the state of the slot <media_2-director> in the input dialogue.",
+        "input": "[USER]: Hello, could you help me search for movies directed by Tyler Perry? [SYSTEM]: Do you have any preferred genres? [USER]: I would like something on the line of Comic. \n [slot] media_2-director, it indicates Name of the director of the movie. So the value of slot <media_2-director> is \n",
+        "output": "tyler perry"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_2-genre>.",
+        "input": "[USER]: Hello, could you help me search for movies directed by Tyler Perry? [SYSTEM]: Do you have any preferred genres? [USER]: I would like something on the line of Comic. \n [slot] media_2-genre, it indicates Main genre of the movie. So the value of slot <media_2-genre> is \n",
+        "output": "comic"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-director>.",
+        "input": "[USER]: Hello, could you help me search for movies directed by Tyler Perry? [SYSTEM]: Do you have any preferred genres? [USER]: I would like something on the line of Comic. [SYSTEM]: I have found 1 suitable movie titled A Madea Family Funeral. [USER]: Family funeral sounds great, could you help me rent it? \n [slot] media_2-director, it indicates Name of the director of the movie. So the value of slot <media_2-director> is \n",
+        "output": "tyler perry"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_2-genre>.",
+        "input": "[USER]: Hello, could you help me search for movies directed by Tyler Perry? [SYSTEM]: Do you have any preferred genres? [USER]: I would like something on the line of Comic. [SYSTEM]: I have found 1 suitable movie titled A Madea Family Funeral. [USER]: Family funeral sounds great, could you help me rent it? \n [slot] media_2-genre, it indicates Main genre of the movie. So the value of slot <media_2-genre> is \n",
+        "output": "comic"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-movie_name>.",
+        "input": "[USER]: Hello, could you help me search for movies directed by Tyler Perry? [SYSTEM]: Do you have any preferred genres? [USER]: I would like something on the line of Comic. [SYSTEM]: I have found 1 suitable movie titled A Madea Family Funeral. [USER]: Family funeral sounds great, could you help me rent it? \n [slot] media_2-movie_name, it indicates Name of the movie. So the value of slot <media_2-movie_name> is \n",
+        "output": "a madea family funeral"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_2-director>.",
+        "input": "[USER]: Hello, could you help me search for movies directed by Tyler Perry? [SYSTEM]: Do you have any preferred genres? [USER]: I would like something on the line of Comic. [SYSTEM]: I have found 1 suitable movie titled A Madea Family Funeral. [USER]: Family funeral sounds great, could you help me rent it? [SYSTEM]: Sure, please confirm your rental of A Madea Family Funeral with no subtitles. [USER]: Could you reserve one with Mandarin subtitles instead? \n [slot] media_2-director, it indicates Name of the director of the movie. So the value of slot <media_2-director> is \n",
+        "output": "tyler perry"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-genre>.",
+        "input": "[USER]: Hello, could you help me search for movies directed by Tyler Perry? [SYSTEM]: Do you have any preferred genres? [USER]: I would like something on the line of Comic. [SYSTEM]: I have found 1 suitable movie titled A Madea Family Funeral. [USER]: Family funeral sounds great, could you help me rent it? [SYSTEM]: Sure, please confirm your rental of A Madea Family Funeral with no subtitles. [USER]: Could you reserve one with Mandarin subtitles instead? \n [slot] media_2-genre, it indicates Main genre of the movie. So the value of slot <media_2-genre> is \n",
+        "output": "comic"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-movie_name>.",
+        "input": "[USER]: Hello, could you help me search for movies directed by Tyler Perry? [SYSTEM]: Do you have any preferred genres? [USER]: I would like something on the line of Comic. [SYSTEM]: I have found 1 suitable movie titled A Madea Family Funeral. [USER]: Family funeral sounds great, could you help me rent it? [SYSTEM]: Sure, please confirm your rental of A Madea Family Funeral with no subtitles. [USER]: Could you reserve one with Mandarin subtitles instead? \n [slot] media_2-movie_name, it indicates Name of the movie. So the value of slot <media_2-movie_name> is \n",
+        "output": "a madea family funeral"
+    },
+    {
+        "instruction": "Track the state of the slot <media_2-subtitle_language> in the input dialogue.",
+        "input": "[USER]: Hello, could you help me search for movies directed by Tyler Perry? [SYSTEM]: Do you have any preferred genres? [USER]: I would like something on the line of Comic. [SYSTEM]: I have found 1 suitable movie titled A Madea Family Funeral. [USER]: Family funeral sounds great, could you help me rent it? [SYSTEM]: Sure, please confirm your rental of A Madea Family Funeral with no subtitles. [USER]: Could you reserve one with Mandarin subtitles instead? \n [slot] media_2-subtitle_language, it indicates Language to use for subtitles (or None for no subtitles). So the value of slot <media_2-subtitle_language> is \n",
+        "output": "mandarin"
+    },
+    {
+        "instruction": "Track the state of the slot <media_2-director> in the input dialogue.",
+        "input": "[USER]: Hello, could you help me search for movies directed by Tyler Perry? [SYSTEM]: Do you have any preferred genres? [USER]: I would like something on the line of Comic. [SYSTEM]: I have found 1 suitable movie titled A Madea Family Funeral. [USER]: Family funeral sounds great, could you help me rent it? [SYSTEM]: Sure, please confirm your rental of A Madea Family Funeral with no subtitles. [USER]: Could you reserve one with Mandarin subtitles instead? [SYSTEM]: Sure, please confirm your rental of A Madea Family Funeral with Mandarin subtitles. [USER]: That sounds great! \n [slot] media_2-director, it indicates Name of the director of the movie. So the value of slot <media_2-director> is \n",
+        "output": "tyler perry"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_2-genre>.",
+        "input": "[USER]: Hello, could you help me search for movies directed by Tyler Perry? [SYSTEM]: Do you have any preferred genres? [USER]: I would like something on the line of Comic. [SYSTEM]: I have found 1 suitable movie titled A Madea Family Funeral. [USER]: Family funeral sounds great, could you help me rent it? [SYSTEM]: Sure, please confirm your rental of A Madea Family Funeral with no subtitles. [USER]: Could you reserve one with Mandarin subtitles instead? [SYSTEM]: Sure, please confirm your rental of A Madea Family Funeral with Mandarin subtitles. [USER]: That sounds great! \n [slot] media_2-genre, it indicates Main genre of the movie. So the value of slot <media_2-genre> is \n",
+        "output": "comic"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-movie_name>.",
+        "input": "[USER]: Hello, could you help me search for movies directed by Tyler Perry? [SYSTEM]: Do you have any preferred genres? [USER]: I would like something on the line of Comic. [SYSTEM]: I have found 1 suitable movie titled A Madea Family Funeral. [USER]: Family funeral sounds great, could you help me rent it? [SYSTEM]: Sure, please confirm your rental of A Madea Family Funeral with no subtitles. [USER]: Could you reserve one with Mandarin subtitles instead? [SYSTEM]: Sure, please confirm your rental of A Madea Family Funeral with Mandarin subtitles. [USER]: That sounds great! \n [slot] media_2-movie_name, it indicates Name of the movie. So the value of slot <media_2-movie_name> is \n",
+        "output": "a madea family funeral"
+    },
+    {
+        "instruction": "Track the state of the slot <media_2-subtitle_language> in the input dialogue.",
+        "input": "[USER]: Hello, could you help me search for movies directed by Tyler Perry? [SYSTEM]: Do you have any preferred genres? [USER]: I would like something on the line of Comic. [SYSTEM]: I have found 1 suitable movie titled A Madea Family Funeral. [USER]: Family funeral sounds great, could you help me rent it? [SYSTEM]: Sure, please confirm your rental of A Madea Family Funeral with no subtitles. [USER]: Could you reserve one with Mandarin subtitles instead? [SYSTEM]: Sure, please confirm your rental of A Madea Family Funeral with Mandarin subtitles. [USER]: That sounds great! \n [slot] media_2-subtitle_language, it indicates Language to use for subtitles (or None for no subtitles). So the value of slot <media_2-subtitle_language> is \n",
+        "output": "mandarin"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-director>.",
+        "input": "[USER]: Hello, could you help me search for movies directed by Tyler Perry? [SYSTEM]: Do you have any preferred genres? [USER]: I would like something on the line of Comic. [SYSTEM]: I have found 1 suitable movie titled A Madea Family Funeral. [USER]: Family funeral sounds great, could you help me rent it? [SYSTEM]: Sure, please confirm your rental of A Madea Family Funeral with no subtitles. [USER]: Could you reserve one with Mandarin subtitles instead? [SYSTEM]: Sure, please confirm your rental of A Madea Family Funeral with Mandarin subtitles. [USER]: That sounds great! [SYSTEM]: Your rental has been made, please watch it within 3 days. [USER]: Sure, that's all I need. Thank you! \n [slot] media_2-director, it indicates Name of the director of the movie. So the value of slot <media_2-director> is \n",
+        "output": "tyler perry"
+    },
+    {
+        "instruction": "Track the state of the slot <media_2-genre> in the input dialogue.",
+        "input": "[USER]: Hello, could you help me search for movies directed by Tyler Perry? [SYSTEM]: Do you have any preferred genres? [USER]: I would like something on the line of Comic. [SYSTEM]: I have found 1 suitable movie titled A Madea Family Funeral. [USER]: Family funeral sounds great, could you help me rent it? [SYSTEM]: Sure, please confirm your rental of A Madea Family Funeral with no subtitles. [USER]: Could you reserve one with Mandarin subtitles instead? [SYSTEM]: Sure, please confirm your rental of A Madea Family Funeral with Mandarin subtitles. [USER]: That sounds great! [SYSTEM]: Your rental has been made, please watch it within 3 days. [USER]: Sure, that's all I need. Thank you! \n [slot] media_2-genre, it indicates Main genre of the movie. So the value of slot <media_2-genre> is \n",
+        "output": "comic"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-movie_name>.",
+        "input": "[USER]: Hello, could you help me search for movies directed by Tyler Perry? [SYSTEM]: Do you have any preferred genres? [USER]: I would like something on the line of Comic. [SYSTEM]: I have found 1 suitable movie titled A Madea Family Funeral. [USER]: Family funeral sounds great, could you help me rent it? [SYSTEM]: Sure, please confirm your rental of A Madea Family Funeral with no subtitles. [USER]: Could you reserve one with Mandarin subtitles instead? [SYSTEM]: Sure, please confirm your rental of A Madea Family Funeral with Mandarin subtitles. [USER]: That sounds great! [SYSTEM]: Your rental has been made, please watch it within 3 days. [USER]: Sure, that's all I need. Thank you! \n [slot] media_2-movie_name, it indicates Name of the movie. So the value of slot <media_2-movie_name> is \n",
+        "output": "a madea family funeral"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-subtitle_language>.",
+        "input": "[USER]: Hello, could you help me search for movies directed by Tyler Perry? [SYSTEM]: Do you have any preferred genres? [USER]: I would like something on the line of Comic. [SYSTEM]: I have found 1 suitable movie titled A Madea Family Funeral. [USER]: Family funeral sounds great, could you help me rent it? [SYSTEM]: Sure, please confirm your rental of A Madea Family Funeral with no subtitles. [USER]: Could you reserve one with Mandarin subtitles instead? [SYSTEM]: Sure, please confirm your rental of A Madea Family Funeral with Mandarin subtitles. [USER]: That sounds great! [SYSTEM]: Your rental has been made, please watch it within 3 days. [USER]: Sure, that's all I need. Thank you! \n [slot] media_2-subtitle_language, it indicates Language to use for subtitles (or None for no subtitles). So the value of slot <media_2-subtitle_language> is \n",
+        "output": "mandarin"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_2-director>.",
+        "input": "[USER]: Me and my boyfriend are planning a movie night, can you find us something to watch? [SYSTEM]: Of course! What kind of movie do you fancy? [USER]: I'm thinking drama.. can you find something directed by Robin Bissell? \n [slot] media_2-director, it indicates Name of the director of the movie. So the value of slot <media_2-director> is \n",
+        "output": "robin bissell"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: Me and my boyfriend are planning a movie night, can you find us something to watch? [SYSTEM]: Of course! What kind of movie do you fancy? [USER]: I'm thinking drama.. can you find something directed by Robin Bissell? \n [slot] media_2-genre, it indicates Main genre of the movie. So the value of slot <media_2-genre> is \n",
+        "output": "drama"
+    },
+    {
+        "instruction": "Track the state of the slot <media_2-director> in the input dialogue.",
+        "input": "[USER]: Me and my boyfriend are planning a movie night, can you find us something to watch? [SYSTEM]: Of course! What kind of movie do you fancy? [USER]: I'm thinking drama.. can you find something directed by Robin Bissell? [SYSTEM]: I've found this 1, how do you feel about The Best of Enemies? [USER]: Yes, The Best of Enemies would be perfect! \n [slot] media_2-director, it indicates Name of the director of the movie. So the value of slot <media_2-director> is \n",
+        "output": "robin bissell"
+    },
+    {
+        "instruction": "Track the state of the slot <media_2-genre> in the input dialogue.",
+        "input": "[USER]: Me and my boyfriend are planning a movie night, can you find us something to watch? [SYSTEM]: Of course! What kind of movie do you fancy? [USER]: I'm thinking drama.. can you find something directed by Robin Bissell? [SYSTEM]: I've found this 1, how do you feel about The Best of Enemies? [USER]: Yes, The Best of Enemies would be perfect! \n [slot] media_2-genre, it indicates Main genre of the movie. So the value of slot <media_2-genre> is \n",
+        "output": "drama"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_2-movie_name>.",
+        "input": "[USER]: Me and my boyfriend are planning a movie night, can you find us something to watch? [SYSTEM]: Of course! What kind of movie do you fancy? [USER]: I'm thinking drama.. can you find something directed by Robin Bissell? [SYSTEM]: I've found this 1, how do you feel about The Best of Enemies? [USER]: Yes, The Best of Enemies would be perfect! \n [slot] media_2-movie_name, it indicates Name of the movie. So the value of slot <media_2-movie_name> is \n",
+        "output": "the best of enemies"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-director>.",
+        "input": "[USER]: Me and my boyfriend are planning a movie night, can you find us something to watch? [SYSTEM]: Of course! What kind of movie do you fancy? [USER]: I'm thinking drama.. can you find something directed by Robin Bissell? [SYSTEM]: I've found this 1, how do you feel about The Best of Enemies? [USER]: Yes, The Best of Enemies would be perfect! [SYSTEM]: Great, do you want me to rent it for you? [USER]: Yes please, no subtitles though \n [slot] media_2-director, it indicates Name of the director of the movie. So the value of slot <media_2-director> is \n",
+        "output": "robin bissell"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-genre>.",
+        "input": "[USER]: Me and my boyfriend are planning a movie night, can you find us something to watch? [SYSTEM]: Of course! What kind of movie do you fancy? [USER]: I'm thinking drama.. can you find something directed by Robin Bissell? [SYSTEM]: I've found this 1, how do you feel about The Best of Enemies? [USER]: Yes, The Best of Enemies would be perfect! [SYSTEM]: Great, do you want me to rent it for you? [USER]: Yes please, no subtitles though \n [slot] media_2-genre, it indicates Main genre of the movie. So the value of slot <media_2-genre> is \n",
+        "output": "drama"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_2-movie_name>.",
+        "input": "[USER]: Me and my boyfriend are planning a movie night, can you find us something to watch? [SYSTEM]: Of course! What kind of movie do you fancy? [USER]: I'm thinking drama.. can you find something directed by Robin Bissell? [SYSTEM]: I've found this 1, how do you feel about The Best of Enemies? [USER]: Yes, The Best of Enemies would be perfect! [SYSTEM]: Great, do you want me to rent it for you? [USER]: Yes please, no subtitles though \n [slot] media_2-movie_name, it indicates Name of the movie. So the value of slot <media_2-movie_name> is \n",
+        "output": "the best of enemies"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_2-subtitle_language>.",
+        "input": "[USER]: Me and my boyfriend are planning a movie night, can you find us something to watch? [SYSTEM]: Of course! What kind of movie do you fancy? [USER]: I'm thinking drama.. can you find something directed by Robin Bissell? [SYSTEM]: I've found this 1, how do you feel about The Best of Enemies? [USER]: Yes, The Best of Enemies would be perfect! [SYSTEM]: Great, do you want me to rent it for you? [USER]: Yes please, no subtitles though \n [slot] media_2-subtitle_language, it indicates Language to use for subtitles (or None for no subtitles). So the value of slot <media_2-subtitle_language> is \n",
+        "output": "none"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: Me and my boyfriend are planning a movie night, can you find us something to watch? [SYSTEM]: Of course! What kind of movie do you fancy? [USER]: I'm thinking drama.. can you find something directed by Robin Bissell? [SYSTEM]: I've found this 1, how do you feel about The Best of Enemies? [USER]: Yes, The Best of Enemies would be perfect! [SYSTEM]: Great, do you want me to rent it for you? [USER]: Yes please, no subtitles though [SYSTEM]: Okay, just to confirm, are you happy for me to rent The Best of Enemies with no subtitles? [USER]: Yes please! How much will it cost? \n [slot] media_2-director, it indicates Name of the director of the movie. So the value of slot <media_2-director> is \n",
+        "output": "robin bissell"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <media_2-genre>.",
+        "input": "[USER]: Me and my boyfriend are planning a movie night, can you find us something to watch? [SYSTEM]: Of course! What kind of movie do you fancy? [USER]: I'm thinking drama.. can you find something directed by Robin Bissell? [SYSTEM]: I've found this 1, how do you feel about The Best of Enemies? [USER]: Yes, The Best of Enemies would be perfect! [SYSTEM]: Great, do you want me to rent it for you? [USER]: Yes please, no subtitles though [SYSTEM]: Okay, just to confirm, are you happy for me to rent The Best of Enemies with no subtitles? [USER]: Yes please! How much will it cost? \n [slot] media_2-genre, it indicates Main genre of the movie. So the value of slot <media_2-genre> is \n",
+        "output": "drama"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-movie_name>.",
+        "input": "[USER]: Me and my boyfriend are planning a movie night, can you find us something to watch? [SYSTEM]: Of course! What kind of movie do you fancy? [USER]: I'm thinking drama.. can you find something directed by Robin Bissell? [SYSTEM]: I've found this 1, how do you feel about The Best of Enemies? [USER]: Yes, The Best of Enemies would be perfect! [SYSTEM]: Great, do you want me to rent it for you? [USER]: Yes please, no subtitles though [SYSTEM]: Okay, just to confirm, are you happy for me to rent The Best of Enemies with no subtitles? [USER]: Yes please! How much will it cost? \n [slot] media_2-movie_name, it indicates Name of the movie. So the value of slot <media_2-movie_name> is \n",
+        "output": "the best of enemies"
+    },
+    {
+        "instruction": "Track the state of the slot <media_2-subtitle_language> in the input dialogue.",
+        "input": "[USER]: Me and my boyfriend are planning a movie night, can you find us something to watch? [SYSTEM]: Of course! What kind of movie do you fancy? [USER]: I'm thinking drama.. can you find something directed by Robin Bissell? [SYSTEM]: I've found this 1, how do you feel about The Best of Enemies? [USER]: Yes, The Best of Enemies would be perfect! [SYSTEM]: Great, do you want me to rent it for you? [USER]: Yes please, no subtitles though [SYSTEM]: Okay, just to confirm, are you happy for me to rent The Best of Enemies with no subtitles? [USER]: Yes please! How much will it cost? \n [slot] media_2-subtitle_language, it indicates Language to use for subtitles (or None for no subtitles). So the value of slot <media_2-subtitle_language> is \n",
+        "output": "none"
+    },
+    {
+        "instruction": "Track the state of the slot <media_2-director> in the input dialogue.",
+        "input": "[USER]: Me and my boyfriend are planning a movie night, can you find us something to watch? [SYSTEM]: Of course! What kind of movie do you fancy? [USER]: I'm thinking drama.. can you find something directed by Robin Bissell? [SYSTEM]: I've found this 1, how do you feel about The Best of Enemies? [USER]: Yes, The Best of Enemies would be perfect! [SYSTEM]: Great, do you want me to rent it for you? [USER]: Yes please, no subtitles though [SYSTEM]: Okay, just to confirm, are you happy for me to rent The Best of Enemies with no subtitles? [USER]: Yes please! How much will it cost? [SYSTEM]: I've rented it for you! It costs $4 and you have 3 days to watch it [USER]: Lovely, thank you! \n [slot] media_2-director, it indicates Name of the director of the movie. So the value of slot <media_2-director> is \n",
+        "output": "robin bissell"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-genre>.",
+        "input": "[USER]: Me and my boyfriend are planning a movie night, can you find us something to watch? [SYSTEM]: Of course! What kind of movie do you fancy? [USER]: I'm thinking drama.. can you find something directed by Robin Bissell? [SYSTEM]: I've found this 1, how do you feel about The Best of Enemies? [USER]: Yes, The Best of Enemies would be perfect! [SYSTEM]: Great, do you want me to rent it for you? [USER]: Yes please, no subtitles though [SYSTEM]: Okay, just to confirm, are you happy for me to rent The Best of Enemies with no subtitles? [USER]: Yes please! How much will it cost? [SYSTEM]: I've rented it for you! It costs $4 and you have 3 days to watch it [USER]: Lovely, thank you! \n [slot] media_2-genre, it indicates Main genre of the movie. So the value of slot <media_2-genre> is \n",
+        "output": "drama"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-movie_name>.",
+        "input": "[USER]: Me and my boyfriend are planning a movie night, can you find us something to watch? [SYSTEM]: Of course! What kind of movie do you fancy? [USER]: I'm thinking drama.. can you find something directed by Robin Bissell? [SYSTEM]: I've found this 1, how do you feel about The Best of Enemies? [USER]: Yes, The Best of Enemies would be perfect! [SYSTEM]: Great, do you want me to rent it for you? [USER]: Yes please, no subtitles though [SYSTEM]: Okay, just to confirm, are you happy for me to rent The Best of Enemies with no subtitles? [USER]: Yes please! How much will it cost? [SYSTEM]: I've rented it for you! It costs $4 and you have 3 days to watch it [USER]: Lovely, thank you! \n [slot] media_2-movie_name, it indicates Name of the movie. So the value of slot <media_2-movie_name> is \n",
+        "output": "the best of enemies"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <media_2-subtitle_language>.",
+        "input": "[USER]: Me and my boyfriend are planning a movie night, can you find us something to watch? [SYSTEM]: Of course! What kind of movie do you fancy? [USER]: I'm thinking drama.. can you find something directed by Robin Bissell? [SYSTEM]: I've found this 1, how do you feel about The Best of Enemies? [USER]: Yes, The Best of Enemies would be perfect! [SYSTEM]: Great, do you want me to rent it for you? [USER]: Yes please, no subtitles though [SYSTEM]: Okay, just to confirm, are you happy for me to rent The Best of Enemies with no subtitles? [USER]: Yes please! How much will it cost? [SYSTEM]: I've rented it for you! It costs $4 and you have 3 days to watch it [USER]: Lovely, thank you! \n [slot] media_2-subtitle_language, it indicates Language to use for subtitles (or None for no subtitles). So the value of slot <media_2-subtitle_language> is \n",
+        "output": "none"
+    }
+]

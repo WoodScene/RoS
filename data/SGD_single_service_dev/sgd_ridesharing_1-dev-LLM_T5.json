@@ -1,0 +1,574 @@
+[
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-shared_ride>.\n[USER]: Hi i need a help, i am going for a ride with my friend, can you help me to call a cab? [SYSTEM]: Sure, I will help you, Are you comfortable with shared ride? [USER]: Ok, no problem with a shared ride. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-destination>.\n[USER]: Hi i need a help, i am going for a ride with my friend, can you help me to call a cab? [SYSTEM]: Sure, I will help you, Are you comfortable with shared ride? [USER]: Ok, no problem with a shared ride. [SYSTEM]: Where are you going and how many people is the cab for? [USER]: i am going to 125 crescent Drive and it is for 2 people \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "125 crescent drive"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-number_of_riders>.\n[USER]: Hi i need a help, i am going for a ride with my friend, can you help me to call a cab? [SYSTEM]: Sure, I will help you, Are you comfortable with shared ride? [USER]: Ok, no problem with a shared ride. [SYSTEM]: Where are you going and how many people is the cab for? [USER]: i am going to 125 crescent Drive and it is for 2 people \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "2"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-shared_ride>.\n[USER]: Hi i need a help, i am going for a ride with my friend, can you help me to call a cab? [SYSTEM]: Sure, I will help you, Are you comfortable with shared ride? [USER]: Ok, no problem with a shared ride. [SYSTEM]: Where are you going and how many people is the cab for? [USER]: i am going to 125 crescent Drive and it is for 2 people \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-destination>.\n[USER]: Hi i need a help, i am going for a ride with my friend, can you help me to call a cab? [SYSTEM]: Sure, I will help you, Are you comfortable with shared ride? [USER]: Ok, no problem with a shared ride. [SYSTEM]: Where are you going and how many people is the cab for? [USER]: i am going to 125 crescent Drive and it is for 2 people [SYSTEM]: please confirm the following details: You are going to 125 crescent Drive and the cab is for 2 people, You need a shared ride. [USER]: Yes, that's correct \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "125 crescent drive"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-number_of_riders>.\n[USER]: Hi i need a help, i am going for a ride with my friend, can you help me to call a cab? [SYSTEM]: Sure, I will help you, Are you comfortable with shared ride? [USER]: Ok, no problem with a shared ride. [SYSTEM]: Where are you going and how many people is the cab for? [USER]: i am going to 125 crescent Drive and it is for 2 people [SYSTEM]: please confirm the following details: You are going to 125 crescent Drive and the cab is for 2 people, You need a shared ride. [USER]: Yes, that's correct \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "2"
+    },
+    {
+        "input": "Track the state of the slot <ridesharing_1-shared_ride> in the input dialogue.\n[USER]: Hi i need a help, i am going for a ride with my friend, can you help me to call a cab? [SYSTEM]: Sure, I will help you, Are you comfortable with shared ride? [USER]: Ok, no problem with a shared ride. [SYSTEM]: Where are you going and how many people is the cab for? [USER]: i am going to 125 crescent Drive and it is for 2 people [SYSTEM]: please confirm the following details: You are going to 125 crescent Drive and the cab is for 2 people, You need a shared ride. [USER]: Yes, that's correct \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-destination>.\n[USER]: Hi i need a help, i am going for a ride with my friend, can you help me to call a cab? [SYSTEM]: Sure, I will help you, Are you comfortable with shared ride? [USER]: Ok, no problem with a shared ride. [SYSTEM]: Where are you going and how many people is the cab for? [USER]: i am going to 125 crescent Drive and it is for 2 people [SYSTEM]: please confirm the following details: You are going to 125 crescent Drive and the cab is for 2 people, You need a shared ride. [USER]: Yes, that's correct [SYSTEM]: Congrats, Your ride has been booked and cab is on the way [USER]: Ok, Could you tell me how long is the ride? \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "125 crescent drive"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-number_of_riders>.\n[USER]: Hi i need a help, i am going for a ride with my friend, can you help me to call a cab? [SYSTEM]: Sure, I will help you, Are you comfortable with shared ride? [USER]: Ok, no problem with a shared ride. [SYSTEM]: Where are you going and how many people is the cab for? [USER]: i am going to 125 crescent Drive and it is for 2 people [SYSTEM]: please confirm the following details: You are going to 125 crescent Drive and the cab is for 2 people, You need a shared ride. [USER]: Yes, that's correct [SYSTEM]: Congrats, Your ride has been booked and cab is on the way [USER]: Ok, Could you tell me how long is the ride? \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "2"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-shared_ride>.\n[USER]: Hi i need a help, i am going for a ride with my friend, can you help me to call a cab? [SYSTEM]: Sure, I will help you, Are you comfortable with shared ride? [USER]: Ok, no problem with a shared ride. [SYSTEM]: Where are you going and how many people is the cab for? [USER]: i am going to 125 crescent Drive and it is for 2 people [SYSTEM]: please confirm the following details: You are going to 125 crescent Drive and the cab is for 2 people, You need a shared ride. [USER]: Yes, that's correct [SYSTEM]: Congrats, Your ride has been booked and cab is on the way [USER]: Ok, Could you tell me how long is the ride? \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-destination>.\n[USER]: Hi i need a help, i am going for a ride with my friend, can you help me to call a cab? [SYSTEM]: Sure, I will help you, Are you comfortable with shared ride? [USER]: Ok, no problem with a shared ride. [SYSTEM]: Where are you going and how many people is the cab for? [USER]: i am going to 125 crescent Drive and it is for 2 people [SYSTEM]: please confirm the following details: You are going to 125 crescent Drive and the cab is for 2 people, You need a shared ride. [USER]: Yes, that's correct [SYSTEM]: Congrats, Your ride has been booked and cab is on the way [USER]: Ok, Could you tell me how long is the ride? [SYSTEM]: The ride will last about 11 minutes [USER]: Thank you very much for your help \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "125 crescent drive"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: Hi i need a help, i am going for a ride with my friend, can you help me to call a cab? [SYSTEM]: Sure, I will help you, Are you comfortable with shared ride? [USER]: Ok, no problem with a shared ride. [SYSTEM]: Where are you going and how many people is the cab for? [USER]: i am going to 125 crescent Drive and it is for 2 people [SYSTEM]: please confirm the following details: You are going to 125 crescent Drive and the cab is for 2 people, You need a shared ride. [USER]: Yes, that's correct [SYSTEM]: Congrats, Your ride has been booked and cab is on the way [USER]: Ok, Could you tell me how long is the ride? [SYSTEM]: The ride will last about 11 minutes [USER]: Thank you very much for your help \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "2"
+    },
+    {
+        "input": "Track the state of the slot <ridesharing_1-shared_ride> in the input dialogue.\n[USER]: Hi i need a help, i am going for a ride with my friend, can you help me to call a cab? [SYSTEM]: Sure, I will help you, Are you comfortable with shared ride? [USER]: Ok, no problem with a shared ride. [SYSTEM]: Where are you going and how many people is the cab for? [USER]: i am going to 125 crescent Drive and it is for 2 people [SYSTEM]: please confirm the following details: You are going to 125 crescent Drive and the cab is for 2 people, You need a shared ride. [USER]: Yes, that's correct [SYSTEM]: Congrats, Your ride has been booked and cab is on the way [USER]: Ok, Could you tell me how long is the ride? [SYSTEM]: The ride will last about 11 minutes [USER]: Thank you very much for your help \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-destination>.\n[USER]: Hi i need a help, i am going for a ride with my friend, can you help me to call a cab? [SYSTEM]: Sure, I will help you, Are you comfortable with shared ride? [USER]: Ok, no problem with a shared ride. [SYSTEM]: Where are you going and how many people is the cab for? [USER]: i am going to 125 crescent Drive and it is for 2 people [SYSTEM]: please confirm the following details: You are going to 125 crescent Drive and the cab is for 2 people, You need a shared ride. [USER]: Yes, that's correct [SYSTEM]: Congrats, Your ride has been booked and cab is on the way [USER]: Ok, Could you tell me how long is the ride? [SYSTEM]: The ride will last about 11 minutes [USER]: Thank you very much for your help [SYSTEM]: you are welcome, Shall i help you with anything more? [USER]: No, thanks, That's all i need.bye \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "125 crescent drive"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-number_of_riders>.\n[USER]: Hi i need a help, i am going for a ride with my friend, can you help me to call a cab? [SYSTEM]: Sure, I will help you, Are you comfortable with shared ride? [USER]: Ok, no problem with a shared ride. [SYSTEM]: Where are you going and how many people is the cab for? [USER]: i am going to 125 crescent Drive and it is for 2 people [SYSTEM]: please confirm the following details: You are going to 125 crescent Drive and the cab is for 2 people, You need a shared ride. [USER]: Yes, that's correct [SYSTEM]: Congrats, Your ride has been booked and cab is on the way [USER]: Ok, Could you tell me how long is the ride? [SYSTEM]: The ride will last about 11 minutes [USER]: Thank you very much for your help [SYSTEM]: you are welcome, Shall i help you with anything more? [USER]: No, thanks, That's all i need.bye \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "2"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: Hi i need a help, i am going for a ride with my friend, can you help me to call a cab? [SYSTEM]: Sure, I will help you, Are you comfortable with shared ride? [USER]: Ok, no problem with a shared ride. [SYSTEM]: Where are you going and how many people is the cab for? [USER]: i am going to 125 crescent Drive and it is for 2 people [SYSTEM]: please confirm the following details: You are going to 125 crescent Drive and the cab is for 2 people, You need a shared ride. [USER]: Yes, that's correct [SYSTEM]: Congrats, Your ride has been booked and cab is on the way [USER]: Ok, Could you tell me how long is the ride? [SYSTEM]: The ride will last about 11 minutes [USER]: Thank you very much for your help [SYSTEM]: you are welcome, Shall i help you with anything more? [USER]: No, thanks, That's all i need.bye \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-number_of_riders>.\n[USER]: I have to get a cab. Can you get me one for two people? \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "2"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: I have to get a cab. Can you get me one for two people? \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-destination>.\n[USER]: I have to get a cab. Can you get me one for two people? [SYSTEM]: Where will you go? [USER]: Kuleto's restaurant is my goal. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "kuleto's restaurant"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-number_of_riders>.\n[USER]: I have to get a cab. Can you get me one for two people? [SYSTEM]: Where will you go? [USER]: Kuleto's restaurant is my goal. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "2"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-shared_ride>.\n[USER]: I have to get a cab. Can you get me one for two people? [SYSTEM]: Where will you go? [USER]: Kuleto's restaurant is my goal. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Track the state of the slot <ridesharing_1-destination> in the input dialogue.\n[USER]: I have to get a cab. Can you get me one for two people? [SYSTEM]: Where will you go? [USER]: Kuleto's restaurant is my goal. [SYSTEM]: I think I have it: You have 2 going to Kuleto's restaurant? You will like a shared ride? [USER]: That's the coach I want. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "kuleto's restaurant"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-number_of_riders>.\n[USER]: I have to get a cab. Can you get me one for two people? [SYSTEM]: Where will you go? [USER]: Kuleto's restaurant is my goal. [SYSTEM]: I think I have it: You have 2 going to Kuleto's restaurant? You will like a shared ride? [USER]: That's the coach I want. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "2"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-shared_ride>.\n[USER]: I have to get a cab. Can you get me one for two people? [SYSTEM]: Where will you go? [USER]: Kuleto's restaurant is my goal. [SYSTEM]: I think I have it: You have 2 going to Kuleto's restaurant? You will like a shared ride? [USER]: That's the coach I want. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-destination>.\n[USER]: I have to get a cab. Can you get me one for two people? [SYSTEM]: Where will you go? [USER]: Kuleto's restaurant is my goal. [SYSTEM]: I think I have it: You have 2 going to Kuleto's restaurant? You will like a shared ride? [USER]: That's the coach I want. [SYSTEM]: Your ride is scheduled and the cab is coming. [USER]: How long a ride is it? \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "kuleto's restaurant"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-number_of_riders>.\n[USER]: I have to get a cab. Can you get me one for two people? [SYSTEM]: Where will you go? [USER]: Kuleto's restaurant is my goal. [SYSTEM]: I think I have it: You have 2 going to Kuleto's restaurant? You will like a shared ride? [USER]: That's the coach I want. [SYSTEM]: Your ride is scheduled and the cab is coming. [USER]: How long a ride is it? \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "2"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-shared_ride>.\n[USER]: I have to get a cab. Can you get me one for two people? [SYSTEM]: Where will you go? [USER]: Kuleto's restaurant is my goal. [SYSTEM]: I think I have it: You have 2 going to Kuleto's restaurant? You will like a shared ride? [USER]: That's the coach I want. [SYSTEM]: Your ride is scheduled and the cab is coming. [USER]: How long a ride is it? \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-destination>.\n[USER]: I have to get a cab. Can you get me one for two people? [SYSTEM]: Where will you go? [USER]: Kuleto's restaurant is my goal. [SYSTEM]: I think I have it: You have 2 going to Kuleto's restaurant? You will like a shared ride? [USER]: That's the coach I want. [SYSTEM]: Your ride is scheduled and the cab is coming. [USER]: How long a ride is it? [SYSTEM]: The ride is 28 min. long. [USER]: Perfect, that's great. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "kuleto's restaurant"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-number_of_riders>.\n[USER]: I have to get a cab. Can you get me one for two people? [SYSTEM]: Where will you go? [USER]: Kuleto's restaurant is my goal. [SYSTEM]: I think I have it: You have 2 going to Kuleto's restaurant? You will like a shared ride? [USER]: That's the coach I want. [SYSTEM]: Your ride is scheduled and the cab is coming. [USER]: How long a ride is it? [SYSTEM]: The ride is 28 min. long. [USER]: Perfect, that's great. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "2"
+    },
+    {
+        "input": "Track the state of the slot <ridesharing_1-shared_ride> in the input dialogue.\n[USER]: I have to get a cab. Can you get me one for two people? [SYSTEM]: Where will you go? [USER]: Kuleto's restaurant is my goal. [SYSTEM]: I think I have it: You have 2 going to Kuleto's restaurant? You will like a shared ride? [USER]: That's the coach I want. [SYSTEM]: Your ride is scheduled and the cab is coming. [USER]: How long a ride is it? [SYSTEM]: The ride is 28 min. long. [USER]: Perfect, that's great. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-destination>.\n[USER]: I have to get a cab. Can you get me one for two people? [SYSTEM]: Where will you go? [USER]: Kuleto's restaurant is my goal. [SYSTEM]: I think I have it: You have 2 going to Kuleto's restaurant? You will like a shared ride? [USER]: That's the coach I want. [SYSTEM]: Your ride is scheduled and the cab is coming. [USER]: How long a ride is it? [SYSTEM]: The ride is 28 min. long. [USER]: Perfect, that's great. [SYSTEM]: What more is there from you? [USER]: Nothing. I'm good. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "kuleto's restaurant"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: I have to get a cab. Can you get me one for two people? [SYSTEM]: Where will you go? [USER]: Kuleto's restaurant is my goal. [SYSTEM]: I think I have it: You have 2 going to Kuleto's restaurant? You will like a shared ride? [USER]: That's the coach I want. [SYSTEM]: Your ride is scheduled and the cab is coming. [USER]: How long a ride is it? [SYSTEM]: The ride is 28 min. long. [USER]: Perfect, that's great. [SYSTEM]: What more is there from you? [USER]: Nothing. I'm good. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "2"
+    },
+    {
+        "input": "Track the state of the slot <ridesharing_1-shared_ride> in the input dialogue.\n[USER]: I have to get a cab. Can you get me one for two people? [SYSTEM]: Where will you go? [USER]: Kuleto's restaurant is my goal. [SYSTEM]: I think I have it: You have 2 going to Kuleto's restaurant? You will like a shared ride? [USER]: That's the coach I want. [SYSTEM]: Your ride is scheduled and the cab is coming. [USER]: How long a ride is it? [SYSTEM]: The ride is 28 min. long. [USER]: Perfect, that's great. [SYSTEM]: What more is there from you? [USER]: Nothing. I'm good. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-destination>.\n[USER]: I want to visit Chili's Grill & Bar for which I need to call a cab, help me. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "chili's grill & bar"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-destination>.\n[USER]: I want to visit Chili's Grill & Bar for which I need to call a cab, help me. [SYSTEM]: Let me know your suggestion on shared ride and how many members are in your team? [USER]: I need the cab for 4 people and yes, it is okay for me to share the ride. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "chili's grill & bar"
+    },
+    {
+        "input": "Track the state of the slot <ridesharing_1-number_of_riders> in the input dialogue.\n[USER]: I want to visit Chili's Grill & Bar for which I need to call a cab, help me. [SYSTEM]: Let me know your suggestion on shared ride and how many members are in your team? [USER]: I need the cab for 4 people and yes, it is okay for me to share the ride. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "4"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-shared_ride>.\n[USER]: I want to visit Chili's Grill & Bar for which I need to call a cab, help me. [SYSTEM]: Let me know your suggestion on shared ride and how many members are in your team? [USER]: I need the cab for 4 people and yes, it is okay for me to share the ride. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-destination>.\n[USER]: I want to visit Chili's Grill & Bar for which I need to call a cab, help me. [SYSTEM]: Let me know your suggestion on shared ride and how many members are in your team? [USER]: I need the cab for 4 people and yes, it is okay for me to share the ride. [SYSTEM]: Please confirm to book a cab with shared ride for 4 persons to Chili's Grill & Bar. [USER]: A change in my plan and please check with cab for three persons to SS United States. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "ss united states"
+    },
+    {
+        "input": "Track the state of the slot <ridesharing_1-number_of_riders> in the input dialogue.\n[USER]: I want to visit Chili's Grill & Bar for which I need to call a cab, help me. [SYSTEM]: Let me know your suggestion on shared ride and how many members are in your team? [USER]: I need the cab for 4 people and yes, it is okay for me to share the ride. [SYSTEM]: Please confirm to book a cab with shared ride for 4 persons to Chili's Grill & Bar. [USER]: A change in my plan and please check with cab for three persons to SS United States. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "3"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-shared_ride>.\n[USER]: I want to visit Chili's Grill & Bar for which I need to call a cab, help me. [SYSTEM]: Let me know your suggestion on shared ride and how many members are in your team? [USER]: I need the cab for 4 people and yes, it is okay for me to share the ride. [SYSTEM]: Please confirm to book a cab with shared ride for 4 persons to Chili's Grill & Bar. [USER]: A change in my plan and please check with cab for three persons to SS United States. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-destination>.\n[USER]: I want to visit Chili's Grill & Bar for which I need to call a cab, help me. [SYSTEM]: Let me know your suggestion on shared ride and how many members are in your team? [USER]: I need the cab for 4 people and yes, it is okay for me to share the ride. [SYSTEM]: Please confirm to book a cab with shared ride for 4 persons to Chili's Grill & Bar. [USER]: A change in my plan and please check with cab for three persons to SS United States. [SYSTEM]: Please confirm to book a cab for 3 persons to SS United States. [USER]: That is fine, let me know the cost and timing of that ride. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "ss united states"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-number_of_riders>.\n[USER]: I want to visit Chili's Grill & Bar for which I need to call a cab, help me. [SYSTEM]: Let me know your suggestion on shared ride and how many members are in your team? [USER]: I need the cab for 4 people and yes, it is okay for me to share the ride. [SYSTEM]: Please confirm to book a cab with shared ride for 4 persons to Chili's Grill & Bar. [USER]: A change in my plan and please check with cab for three persons to SS United States. [SYSTEM]: Please confirm to book a cab for 3 persons to SS United States. [USER]: That is fine, let me know the cost and timing of that ride. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "3"
+    },
+    {
+        "input": "Track the state of the slot <ridesharing_1-shared_ride> in the input dialogue.\n[USER]: I want to visit Chili's Grill & Bar for which I need to call a cab, help me. [SYSTEM]: Let me know your suggestion on shared ride and how many members are in your team? [USER]: I need the cab for 4 people and yes, it is okay for me to share the ride. [SYSTEM]: Please confirm to book a cab with shared ride for 4 persons to Chili's Grill & Bar. [USER]: A change in my plan and please check with cab for three persons to SS United States. [SYSTEM]: Please confirm to book a cab for 3 persons to SS United States. [USER]: That is fine, let me know the cost and timing of that ride. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-destination>.\n[USER]: I want to visit Chili's Grill & Bar for which I need to call a cab, help me. [SYSTEM]: Let me know your suggestion on shared ride and how many members are in your team? [USER]: I need the cab for 4 people and yes, it is okay for me to share the ride. [SYSTEM]: Please confirm to book a cab with shared ride for 4 persons to Chili's Grill & Bar. [USER]: A change in my plan and please check with cab for three persons to SS United States. [SYSTEM]: Please confirm to book a cab for 3 persons to SS United States. [USER]: That is fine, let me know the cost and timing of that ride. [SYSTEM]: Your cab was booked successfully and the cost for that ride is $28.04 and it will lost about 20 minutes. Is that okay? [USER]: Thanks, that is helpful to me. Thanks, that's all now. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "ss united states"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: I want to visit Chili's Grill & Bar for which I need to call a cab, help me. [SYSTEM]: Let me know your suggestion on shared ride and how many members are in your team? [USER]: I need the cab for 4 people and yes, it is okay for me to share the ride. [SYSTEM]: Please confirm to book a cab with shared ride for 4 persons to Chili's Grill & Bar. [USER]: A change in my plan and please check with cab for three persons to SS United States. [SYSTEM]: Please confirm to book a cab for 3 persons to SS United States. [USER]: That is fine, let me know the cost and timing of that ride. [SYSTEM]: Your cab was booked successfully and the cost for that ride is $28.04 and it will lost about 20 minutes. Is that okay? [USER]: Thanks, that is helpful to me. Thanks, that's all now. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "3"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-shared_ride>.\n[USER]: I want to visit Chili's Grill & Bar for which I need to call a cab, help me. [SYSTEM]: Let me know your suggestion on shared ride and how many members are in your team? [USER]: I need the cab for 4 people and yes, it is okay for me to share the ride. [SYSTEM]: Please confirm to book a cab with shared ride for 4 persons to Chili's Grill & Bar. [USER]: A change in my plan and please check with cab for three persons to SS United States. [SYSTEM]: Please confirm to book a cab for 3 persons to SS United States. [USER]: That is fine, let me know the cost and timing of that ride. [SYSTEM]: Your cab was booked successfully and the cost for that ride is $28.04 and it will lost about 20 minutes. Is that okay? [USER]: Thanks, that is helpful to me. Thanks, that's all now. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Track the state of the slot <ridesharing_1-number_of_riders> in the input dialogue.\n[USER]: I need a cab for one person. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "1"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: I need a cab for one person. [SYSTEM]: Where would you like to go? Are you interested in a shared ride? [USER]: I would not mind taking a shared ride to the National Science Centre. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "national science centre"
+    },
+    {
+        "input": "Track the state of the slot <ridesharing_1-number_of_riders> in the input dialogue.\n[USER]: I need a cab for one person. [SYSTEM]: Where would you like to go? Are you interested in a shared ride? [USER]: I would not mind taking a shared ride to the National Science Centre. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "1"
+    },
+    {
+        "input": "Track the state of the slot <ridesharing_1-shared_ride> in the input dialogue.\n[USER]: I need a cab for one person. [SYSTEM]: Where would you like to go? Are you interested in a shared ride? [USER]: I would not mind taking a shared ride to the National Science Centre. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Track the state of the slot <ridesharing_1-destination> in the input dialogue.\n[USER]: I need a cab for one person. [SYSTEM]: Where would you like to go? Are you interested in a shared ride? [USER]: I would not mind taking a shared ride to the National Science Centre. [SYSTEM]: I would like to confirm the following: a shared ride for 1 person at the National Science Centre. [USER]: That would be great. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "national science centre"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: I need a cab for one person. [SYSTEM]: Where would you like to go? Are you interested in a shared ride? [USER]: I would not mind taking a shared ride to the National Science Centre. [SYSTEM]: I would like to confirm the following: a shared ride for 1 person at the National Science Centre. [USER]: That would be great. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "1"
+    },
+    {
+        "input": "Track the state of the slot <ridesharing_1-shared_ride> in the input dialogue.\n[USER]: I need a cab for one person. [SYSTEM]: Where would you like to go? Are you interested in a shared ride? [USER]: I would not mind taking a shared ride to the National Science Centre. [SYSTEM]: I would like to confirm the following: a shared ride for 1 person at the National Science Centre. [USER]: That would be great. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-destination>.\n[USER]: I need a cab for one person. [SYSTEM]: Where would you like to go? Are you interested in a shared ride? [USER]: I would not mind taking a shared ride to the National Science Centre. [SYSTEM]: I would like to confirm the following: a shared ride for 1 person at the National Science Centre. [USER]: That would be great. [SYSTEM]: I have booked the ride and it would arrive by you shortly. [USER]: How long is the journey. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "national science centre"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-number_of_riders>.\n[USER]: I need a cab for one person. [SYSTEM]: Where would you like to go? Are you interested in a shared ride? [USER]: I would not mind taking a shared ride to the National Science Centre. [SYSTEM]: I would like to confirm the following: a shared ride for 1 person at the National Science Centre. [USER]: That would be great. [SYSTEM]: I have booked the ride and it would arrive by you shortly. [USER]: How long is the journey. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "1"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-shared_ride>.\n[USER]: I need a cab for one person. [SYSTEM]: Where would you like to go? Are you interested in a shared ride? [USER]: I would not mind taking a shared ride to the National Science Centre. [SYSTEM]: I would like to confirm the following: a shared ride for 1 person at the National Science Centre. [USER]: That would be great. [SYSTEM]: I have booked the ride and it would arrive by you shortly. [USER]: How long is the journey. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-destination>.\n[USER]: I need a cab for one person. [SYSTEM]: Where would you like to go? Are you interested in a shared ride? [USER]: I would not mind taking a shared ride to the National Science Centre. [SYSTEM]: I would like to confirm the following: a shared ride for 1 person at the National Science Centre. [USER]: That would be great. [SYSTEM]: I have booked the ride and it would arrive by you shortly. [USER]: How long is the journey. [SYSTEM]: The ride is approximately 13 minutes. [USER]: You have been very helpful. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "national science centre"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-number_of_riders>.\n[USER]: I need a cab for one person. [SYSTEM]: Where would you like to go? Are you interested in a shared ride? [USER]: I would not mind taking a shared ride to the National Science Centre. [SYSTEM]: I would like to confirm the following: a shared ride for 1 person at the National Science Centre. [USER]: That would be great. [SYSTEM]: I have booked the ride and it would arrive by you shortly. [USER]: How long is the journey. [SYSTEM]: The ride is approximately 13 minutes. [USER]: You have been very helpful. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "1"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-shared_ride>.\n[USER]: I need a cab for one person. [SYSTEM]: Where would you like to go? Are you interested in a shared ride? [USER]: I would not mind taking a shared ride to the National Science Centre. [SYSTEM]: I would like to confirm the following: a shared ride for 1 person at the National Science Centre. [USER]: That would be great. [SYSTEM]: I have booked the ride and it would arrive by you shortly. [USER]: How long is the journey. [SYSTEM]: The ride is approximately 13 minutes. [USER]: You have been very helpful. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-destination>.\n[USER]: I need a cab for one person. [SYSTEM]: Where would you like to go? Are you interested in a shared ride? [USER]: I would not mind taking a shared ride to the National Science Centre. [SYSTEM]: I would like to confirm the following: a shared ride for 1 person at the National Science Centre. [USER]: That would be great. [SYSTEM]: I have booked the ride and it would arrive by you shortly. [USER]: How long is the journey. [SYSTEM]: The ride is approximately 13 minutes. [USER]: You have been very helpful. [SYSTEM]: Is there anything else I can assist you with? [USER]: No, you have been most helpful. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "national science centre"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-number_of_riders>.\n[USER]: I need a cab for one person. [SYSTEM]: Where would you like to go? Are you interested in a shared ride? [USER]: I would not mind taking a shared ride to the National Science Centre. [SYSTEM]: I would like to confirm the following: a shared ride for 1 person at the National Science Centre. [USER]: That would be great. [SYSTEM]: I have booked the ride and it would arrive by you shortly. [USER]: How long is the journey. [SYSTEM]: The ride is approximately 13 minutes. [USER]: You have been very helpful. [SYSTEM]: Is there anything else I can assist you with? [USER]: No, you have been most helpful. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "1"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-shared_ride>.\n[USER]: I need a cab for one person. [SYSTEM]: Where would you like to go? Are you interested in a shared ride? [USER]: I would not mind taking a shared ride to the National Science Centre. [SYSTEM]: I would like to confirm the following: a shared ride for 1 person at the National Science Centre. [USER]: That would be great. [SYSTEM]: I have booked the ride and it would arrive by you shortly. [USER]: How long is the journey. [SYSTEM]: The ride is approximately 13 minutes. [USER]: You have been very helpful. [SYSTEM]: Is there anything else I can assist you with? [USER]: No, you have been most helpful. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-destination>.\n[USER]: Help me please call a cab. [SYSTEM]: You want a shared ride and where? [USER]: A shared ride is good for me because I need to go to 2100 Avy Avenue. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "2100 avy avenue"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-shared_ride>.\n[USER]: Help me please call a cab. [SYSTEM]: You want a shared ride and where? [USER]: A shared ride is good for me because I need to go to 2100 Avy Avenue. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-destination>.\n[USER]: Help me please call a cab. [SYSTEM]: You want a shared ride and where? [USER]: A shared ride is good for me because I need to go to 2100 Avy Avenue. [SYSTEM]: For how many person is the cab for ? [USER]: For three people. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "2100 avy avenue"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-number_of_riders>.\n[USER]: Help me please call a cab. [SYSTEM]: You want a shared ride and where? [USER]: A shared ride is good for me because I need to go to 2100 Avy Avenue. [SYSTEM]: For how many person is the cab for ? [USER]: For three people. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "3"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-shared_ride>.\n[USER]: Help me please call a cab. [SYSTEM]: You want a shared ride and where? [USER]: A shared ride is good for me because I need to go to 2100 Avy Avenue. [SYSTEM]: For how many person is the cab for ? [USER]: For three people. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-destination>.\n[USER]: Help me please call a cab. [SYSTEM]: You want a shared ride and where? [USER]: A shared ride is good for me because I need to go to 2100 Avy Avenue. [SYSTEM]: For how many person is the cab for ? [USER]: For three people. [SYSTEM]: You want a shared ride and you want to go to 2100 Avy Avenue.The cab would be for 3 person.Correct? [USER]: Ye is very good. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "2100 avy avenue"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: Help me please call a cab. [SYSTEM]: You want a shared ride and where? [USER]: A shared ride is good for me because I need to go to 2100 Avy Avenue. [SYSTEM]: For how many person is the cab for ? [USER]: For three people. [SYSTEM]: You want a shared ride and you want to go to 2100 Avy Avenue.The cab would be for 3 person.Correct? [USER]: Ye is very good. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "3"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-shared_ride>.\n[USER]: Help me please call a cab. [SYSTEM]: You want a shared ride and where? [USER]: A shared ride is good for me because I need to go to 2100 Avy Avenue. [SYSTEM]: For how many person is the cab for ? [USER]: For three people. [SYSTEM]: You want a shared ride and you want to go to 2100 Avy Avenue.The cab would be for 3 person.Correct? [USER]: Ye is very good. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-destination>.\n[USER]: Help me please call a cab. [SYSTEM]: You want a shared ride and where? [USER]: A shared ride is good for me because I need to go to 2100 Avy Avenue. [SYSTEM]: For how many person is the cab for ? [USER]: For three people. [SYSTEM]: You want a shared ride and you want to go to 2100 Avy Avenue.The cab would be for 3 person.Correct? [USER]: Ye is very good. [SYSTEM]: Was booked and the cab is on its way. [USER]: Thanks a lot for all. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "2100 avy avenue"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-number_of_riders>.\n[USER]: Help me please call a cab. [SYSTEM]: You want a shared ride and where? [USER]: A shared ride is good for me because I need to go to 2100 Avy Avenue. [SYSTEM]: For how many person is the cab for ? [USER]: For three people. [SYSTEM]: You want a shared ride and you want to go to 2100 Avy Avenue.The cab would be for 3 person.Correct? [USER]: Ye is very good. [SYSTEM]: Was booked and the cab is on its way. [USER]: Thanks a lot for all. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "3"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-shared_ride>.\n[USER]: Help me please call a cab. [SYSTEM]: You want a shared ride and where? [USER]: A shared ride is good for me because I need to go to 2100 Avy Avenue. [SYSTEM]: For how many person is the cab for ? [USER]: For three people. [SYSTEM]: You want a shared ride and you want to go to 2100 Avy Avenue.The cab would be for 3 person.Correct? [USER]: Ye is very good. [SYSTEM]: Was booked and the cab is on its way. [USER]: Thanks a lot for all. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-destination>.\n[USER]: Help me please call a cab. [SYSTEM]: You want a shared ride and where? [USER]: A shared ride is good for me because I need to go to 2100 Avy Avenue. [SYSTEM]: For how many person is the cab for ? [USER]: For three people. [SYSTEM]: You want a shared ride and you want to go to 2100 Avy Avenue.The cab would be for 3 person.Correct? [USER]: Ye is very good. [SYSTEM]: Was booked and the cab is on its way. [USER]: Thanks a lot for all. [SYSTEM]: Can I still help you? [USER]: No, it's enough thanks anyway. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "2100 avy avenue"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-number_of_riders>.\n[USER]: Help me please call a cab. [SYSTEM]: You want a shared ride and where? [USER]: A shared ride is good for me because I need to go to 2100 Avy Avenue. [SYSTEM]: For how many person is the cab for ? [USER]: For three people. [SYSTEM]: You want a shared ride and you want to go to 2100 Avy Avenue.The cab would be for 3 person.Correct? [USER]: Ye is very good. [SYSTEM]: Was booked and the cab is on its way. [USER]: Thanks a lot for all. [SYSTEM]: Can I still help you? [USER]: No, it's enough thanks anyway. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "3"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: Help me please call a cab. [SYSTEM]: You want a shared ride and where? [USER]: A shared ride is good for me because I need to go to 2100 Avy Avenue. [SYSTEM]: For how many person is the cab for ? [USER]: For three people. [SYSTEM]: You want a shared ride and you want to go to 2100 Avy Avenue.The cab would be for 3 person.Correct? [USER]: Ye is very good. [SYSTEM]: Was booked and the cab is on its way. [USER]: Thanks a lot for all. [SYSTEM]: Can I still help you? [USER]: No, it's enough thanks anyway. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-destination>.\n[USER]: My car broke down and I need to find a ride to 599 Railroad Avenue. Can you help me call a cab or a shared ride? \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "599 railroad avenue"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-shared_ride>.\n[USER]: My car broke down and I need to find a ride to 599 Railroad Avenue. Can you help me call a cab or a shared ride? \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Track the state of the slot <ridesharing_1-destination> in the input dialogue.\n[USER]: My car broke down and I need to find a ride to 599 Railroad Avenue. Can you help me call a cab or a shared ride? [SYSTEM]: Absolutely, how many people will be in the cab? [USER]: I only need the cab for one person. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "599 railroad avenue"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-number_of_riders>.\n[USER]: My car broke down and I need to find a ride to 599 Railroad Avenue. Can you help me call a cab or a shared ride? [SYSTEM]: Absolutely, how many people will be in the cab? [USER]: I only need the cab for one person. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "1"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-shared_ride>.\n[USER]: My car broke down and I need to find a ride to 599 Railroad Avenue. Can you help me call a cab or a shared ride? [SYSTEM]: Absolutely, how many people will be in the cab? [USER]: I only need the cab for one person. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-destination>.\n[USER]: My car broke down and I need to find a ride to 599 Railroad Avenue. Can you help me call a cab or a shared ride? [SYSTEM]: Absolutely, how many people will be in the cab? [USER]: I only need the cab for one person. [SYSTEM]: Before I contact a cab service please confirm the details for me. You need a cab for 1 person, going to 599 Railroad Avenue. Is that right? [USER]: No, i'm sorry, I had the address wrong. I need to go to 5988 Newpark Mall Road. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "5988 newpark mall road"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-number_of_riders>.\n[USER]: My car broke down and I need to find a ride to 599 Railroad Avenue. Can you help me call a cab or a shared ride? [SYSTEM]: Absolutely, how many people will be in the cab? [USER]: I only need the cab for one person. [SYSTEM]: Before I contact a cab service please confirm the details for me. You need a cab for 1 person, going to 599 Railroad Avenue. Is that right? [USER]: No, i'm sorry, I had the address wrong. I need to go to 5988 Newpark Mall Road. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "1"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-shared_ride>.\n[USER]: My car broke down and I need to find a ride to 599 Railroad Avenue. Can you help me call a cab or a shared ride? [SYSTEM]: Absolutely, how many people will be in the cab? [USER]: I only need the cab for one person. [SYSTEM]: Before I contact a cab service please confirm the details for me. You need a cab for 1 person, going to 599 Railroad Avenue. Is that right? [USER]: No, i'm sorry, I had the address wrong. I need to go to 5988 Newpark Mall Road. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-destination>.\n[USER]: My car broke down and I need to find a ride to 599 Railroad Avenue. Can you help me call a cab or a shared ride? [SYSTEM]: Absolutely, how many people will be in the cab? [USER]: I only need the cab for one person. [SYSTEM]: Before I contact a cab service please confirm the details for me. You need a cab for 1 person, going to 599 Railroad Avenue. Is that right? [USER]: No, i'm sorry, I had the address wrong. I need to go to 5988 Newpark Mall Road. [SYSTEM]: Okay, I've updated the details and now have you needing a cab for 1 person going to 5988 Newpark Mall Road. [USER]: Yes, the information you have is correct. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "5988 newpark mall road"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-number_of_riders>.\n[USER]: My car broke down and I need to find a ride to 599 Railroad Avenue. Can you help me call a cab or a shared ride? [SYSTEM]: Absolutely, how many people will be in the cab? [USER]: I only need the cab for one person. [SYSTEM]: Before I contact a cab service please confirm the details for me. You need a cab for 1 person, going to 599 Railroad Avenue. Is that right? [USER]: No, i'm sorry, I had the address wrong. I need to go to 5988 Newpark Mall Road. [SYSTEM]: Okay, I've updated the details and now have you needing a cab for 1 person going to 5988 Newpark Mall Road. [USER]: Yes, the information you have is correct. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "1"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-shared_ride>.\n[USER]: My car broke down and I need to find a ride to 599 Railroad Avenue. Can you help me call a cab or a shared ride? [SYSTEM]: Absolutely, how many people will be in the cab? [USER]: I only need the cab for one person. [SYSTEM]: Before I contact a cab service please confirm the details for me. You need a cab for 1 person, going to 599 Railroad Avenue. Is that right? [USER]: No, i'm sorry, I had the address wrong. I need to go to 5988 Newpark Mall Road. [SYSTEM]: Okay, I've updated the details and now have you needing a cab for 1 person going to 5988 Newpark Mall Road. [USER]: Yes, the information you have is correct. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-destination>.\n[USER]: My car broke down and I need to find a ride to 599 Railroad Avenue. Can you help me call a cab or a shared ride? [SYSTEM]: Absolutely, how many people will be in the cab? [USER]: I only need the cab for one person. [SYSTEM]: Before I contact a cab service please confirm the details for me. You need a cab for 1 person, going to 599 Railroad Avenue. Is that right? [USER]: No, i'm sorry, I had the address wrong. I need to go to 5988 Newpark Mall Road. [SYSTEM]: Okay, I've updated the details and now have you needing a cab for 1 person going to 5988 Newpark Mall Road. [USER]: Yes, the information you have is correct. [SYSTEM]: I have booked a cab for you and it is currently on the way. [USER]: Thank you so much, you are a life saver. That will be all for now. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "5988 newpark mall road"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-number_of_riders>.\n[USER]: My car broke down and I need to find a ride to 599 Railroad Avenue. Can you help me call a cab or a shared ride? [SYSTEM]: Absolutely, how many people will be in the cab? [USER]: I only need the cab for one person. [SYSTEM]: Before I contact a cab service please confirm the details for me. You need a cab for 1 person, going to 599 Railroad Avenue. Is that right? [USER]: No, i'm sorry, I had the address wrong. I need to go to 5988 Newpark Mall Road. [SYSTEM]: Okay, I've updated the details and now have you needing a cab for 1 person going to 5988 Newpark Mall Road. [USER]: Yes, the information you have is correct. [SYSTEM]: I have booked a cab for you and it is currently on the way. [USER]: Thank you so much, you are a life saver. That will be all for now. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "1"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-shared_ride>.\n[USER]: My car broke down and I need to find a ride to 599 Railroad Avenue. Can you help me call a cab or a shared ride? [SYSTEM]: Absolutely, how many people will be in the cab? [USER]: I only need the cab for one person. [SYSTEM]: Before I contact a cab service please confirm the details for me. You need a cab for 1 person, going to 599 Railroad Avenue. Is that right? [USER]: No, i'm sorry, I had the address wrong. I need to go to 5988 Newpark Mall Road. [SYSTEM]: Okay, I've updated the details and now have you needing a cab for 1 person going to 5988 Newpark Mall Road. [USER]: Yes, the information you have is correct. [SYSTEM]: I have booked a cab for you and it is currently on the way. [USER]: Thank you so much, you are a life saver. That will be all for now. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-number_of_riders>.\n[USER]: I want to book a cab for 4 people, help me to call the one. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "4"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-destination>.\n[USER]: I want to book a cab for 4 people, help me to call the one. [SYSTEM]: Let me know whether shared ride is okay for your and to which place do you like to travel? [USER]: Yes, I can adjust with shared ride and I need to go to 1027 Airport Boulevard. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "1027 airport boulevard"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-number_of_riders>.\n[USER]: I want to book a cab for 4 people, help me to call the one. [SYSTEM]: Let me know whether shared ride is okay for your and to which place do you like to travel? [USER]: Yes, I can adjust with shared ride and I need to go to 1027 Airport Boulevard. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "4"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-shared_ride>.\n[USER]: I want to book a cab for 4 people, help me to call the one. [SYSTEM]: Let me know whether shared ride is okay for your and to which place do you like to travel? [USER]: Yes, I can adjust with shared ride and I need to go to 1027 Airport Boulevard. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-destination>.\n[USER]: I want to book a cab for 4 people, help me to call the one. [SYSTEM]: Let me know whether shared ride is okay for your and to which place do you like to travel? [USER]: Yes, I can adjust with shared ride and I need to go to 1027 Airport Boulevard. [SYSTEM]: Please confirm to book a cab with shared ride for 4 people to 1027 Airport Boulevard. [USER]: That is confirmed and also check with cost and timing details. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "1027 airport boulevard"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: I want to book a cab for 4 people, help me to call the one. [SYSTEM]: Let me know whether shared ride is okay for your and to which place do you like to travel? [USER]: Yes, I can adjust with shared ride and I need to go to 1027 Airport Boulevard. [SYSTEM]: Please confirm to book a cab with shared ride for 4 people to 1027 Airport Boulevard. [USER]: That is confirmed and also check with cost and timing details. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "4"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-shared_ride>.\n[USER]: I want to book a cab for 4 people, help me to call the one. [SYSTEM]: Let me know whether shared ride is okay for your and to which place do you like to travel? [USER]: Yes, I can adjust with shared ride and I need to go to 1027 Airport Boulevard. [SYSTEM]: Please confirm to book a cab with shared ride for 4 people to 1027 Airport Boulevard. [USER]: That is confirmed and also check with cost and timing details. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Track the state of the slot <ridesharing_1-destination> in the input dialogue.\n[USER]: I want to book a cab for 4 people, help me to call the one. [SYSTEM]: Let me know whether shared ride is okay for your and to which place do you like to travel? [USER]: Yes, I can adjust with shared ride and I need to go to 1027 Airport Boulevard. [SYSTEM]: Please confirm to book a cab with shared ride for 4 people to 1027 Airport Boulevard. [USER]: That is confirmed and also check with cost and timing details. [SYSTEM]: It costs $30.48 for this travel and it will take 12 minutes to reach your destination. Your booking was confirmed. [USER]: Thanks for your help and that's all. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "1027 airport boulevard"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-number_of_riders>.\n[USER]: I want to book a cab for 4 people, help me to call the one. [SYSTEM]: Let me know whether shared ride is okay for your and to which place do you like to travel? [USER]: Yes, I can adjust with shared ride and I need to go to 1027 Airport Boulevard. [SYSTEM]: Please confirm to book a cab with shared ride for 4 people to 1027 Airport Boulevard. [USER]: That is confirmed and also check with cost and timing details. [SYSTEM]: It costs $30.48 for this travel and it will take 12 minutes to reach your destination. Your booking was confirmed. [USER]: Thanks for your help and that's all. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "4"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-shared_ride>.\n[USER]: I want to book a cab for 4 people, help me to call the one. [SYSTEM]: Let me know whether shared ride is okay for your and to which place do you like to travel? [USER]: Yes, I can adjust with shared ride and I need to go to 1027 Airport Boulevard. [SYSTEM]: Please confirm to book a cab with shared ride for 4 people to 1027 Airport Boulevard. [USER]: That is confirmed and also check with cost and timing details. [SYSTEM]: It costs $30.48 for this travel and it will take 12 minutes to reach your destination. Your booking was confirmed. [USER]: Thanks for your help and that's all. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Track the state of the slot <ridesharing_1-number_of_riders> in the input dialogue.\n[USER]: Please get me a cab. I need it for two persons please. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "2"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-destination>.\n[USER]: Please get me a cab. I need it for two persons please. [SYSTEM]: Where will you go? [USER]: Mancora Cebicheria please. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "mancora cebicheria"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: Please get me a cab. I need it for two persons please. [SYSTEM]: Where will you go? [USER]: Mancora Cebicheria please. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "2"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-destination>.\n[USER]: Please get me a cab. I need it for two persons please. [SYSTEM]: Where will you go? [USER]: Mancora Cebicheria please. [SYSTEM]: Do you want shared ride option? [USER]: That's fine. I need to get to Pelayo's Mexican Food. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "pelayo's mexican food"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: Please get me a cab. I need it for two persons please. [SYSTEM]: Where will you go? [USER]: Mancora Cebicheria please. [SYSTEM]: Do you want shared ride option? [USER]: That's fine. I need to get to Pelayo's Mexican Food. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "2"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: Please get me a cab. I need it for two persons please. [SYSTEM]: Where will you go? [USER]: Mancora Cebicheria please. [SYSTEM]: Do you want shared ride option? [USER]: That's fine. I need to get to Pelayo's Mexican Food. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-destination>.\n[USER]: Please get me a cab. I need it for two persons please. [SYSTEM]: Where will you go? [USER]: Mancora Cebicheria please. [SYSTEM]: Do you want shared ride option? [USER]: That's fine. I need to get to Pelayo's Mexican Food. [SYSTEM]: Fine, you want to get to Pelayo's Mexican Food. 2 people need to ride and you want shared riding. [USER]: That's the thing I want. Sure. What is the length of the ride? \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "pelayo's mexican food"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-number_of_riders>.\n[USER]: Please get me a cab. I need it for two persons please. [SYSTEM]: Where will you go? [USER]: Mancora Cebicheria please. [SYSTEM]: Do you want shared ride option? [USER]: That's fine. I need to get to Pelayo's Mexican Food. [SYSTEM]: Fine, you want to get to Pelayo's Mexican Food. 2 people need to ride and you want shared riding. [USER]: That's the thing I want. Sure. What is the length of the ride? \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "2"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-shared_ride>.\n[USER]: Please get me a cab. I need it for two persons please. [SYSTEM]: Where will you go? [USER]: Mancora Cebicheria please. [SYSTEM]: Do you want shared ride option? [USER]: That's fine. I need to get to Pelayo's Mexican Food. [SYSTEM]: Fine, you want to get to Pelayo's Mexican Food. 2 people need to ride and you want shared riding. [USER]: That's the thing I want. Sure. What is the length of the ride? \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-destination>.\n[USER]: Please get me a cab. I need it for two persons please. [SYSTEM]: Where will you go? [USER]: Mancora Cebicheria please. [SYSTEM]: Do you want shared ride option? [USER]: That's fine. I need to get to Pelayo's Mexican Food. [SYSTEM]: Fine, you want to get to Pelayo's Mexican Food. 2 people need to ride and you want shared riding. [USER]: That's the thing I want. Sure. What is the length of the ride? [SYSTEM]: 17 minutes and it will run you $23.86. [USER]: Wonderful, you're great. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "pelayo's mexican food"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-number_of_riders>.\n[USER]: Please get me a cab. I need it for two persons please. [SYSTEM]: Where will you go? [USER]: Mancora Cebicheria please. [SYSTEM]: Do you want shared ride option? [USER]: That's fine. I need to get to Pelayo's Mexican Food. [SYSTEM]: Fine, you want to get to Pelayo's Mexican Food. 2 people need to ride and you want shared riding. [USER]: That's the thing I want. Sure. What is the length of the ride? [SYSTEM]: 17 minutes and it will run you $23.86. [USER]: Wonderful, you're great. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "2"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-shared_ride>.\n[USER]: Please get me a cab. I need it for two persons please. [SYSTEM]: Where will you go? [USER]: Mancora Cebicheria please. [SYSTEM]: Do you want shared ride option? [USER]: That's fine. I need to get to Pelayo's Mexican Food. [SYSTEM]: Fine, you want to get to Pelayo's Mexican Food. 2 people need to ride and you want shared riding. [USER]: That's the thing I want. Sure. What is the length of the ride? [SYSTEM]: 17 minutes and it will run you $23.86. [USER]: Wonderful, you're great. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-destination>.\n[USER]: Please get me a cab. I need it for two persons please. [SYSTEM]: Where will you go? [USER]: Mancora Cebicheria please. [SYSTEM]: Do you want shared ride option? [USER]: That's fine. I need to get to Pelayo's Mexican Food. [SYSTEM]: Fine, you want to get to Pelayo's Mexican Food. 2 people need to ride and you want shared riding. [USER]: That's the thing I want. Sure. What is the length of the ride? [SYSTEM]: 17 minutes and it will run you $23.86. [USER]: Wonderful, you're great. [SYSTEM]: Is there anything else I may help with? [USER]: nothin. Thanks. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "pelayo's mexican food"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-number_of_riders>.\n[USER]: Please get me a cab. I need it for two persons please. [SYSTEM]: Where will you go? [USER]: Mancora Cebicheria please. [SYSTEM]: Do you want shared ride option? [USER]: That's fine. I need to get to Pelayo's Mexican Food. [SYSTEM]: Fine, you want to get to Pelayo's Mexican Food. 2 people need to ride and you want shared riding. [USER]: That's the thing I want. Sure. What is the length of the ride? [SYSTEM]: 17 minutes and it will run you $23.86. [USER]: Wonderful, you're great. [SYSTEM]: Is there anything else I may help with? [USER]: nothin. Thanks. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "2"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-shared_ride>.\n[USER]: Please get me a cab. I need it for two persons please. [SYSTEM]: Where will you go? [USER]: Mancora Cebicheria please. [SYSTEM]: Do you want shared ride option? [USER]: That's fine. I need to get to Pelayo's Mexican Food. [SYSTEM]: Fine, you want to get to Pelayo's Mexican Food. 2 people need to ride and you want shared riding. [USER]: That's the thing I want. Sure. What is the length of the ride? [SYSTEM]: 17 minutes and it will run you $23.86. [USER]: Wonderful, you're great. [SYSTEM]: Is there anything else I may help with? [USER]: nothin. Thanks. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-destination>.\n[USER]: I want to call a cab. [SYSTEM]: Where would you like to go and how many people are riding? [USER]: I want to go to 1850 El Camino Real. For 1 person. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "1850 el camino real"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-number_of_riders>.\n[USER]: I want to call a cab. [SYSTEM]: Where would you like to go and how many people are riding? [USER]: I want to go to 1850 El Camino Real. For 1 person. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "1"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-destination>.\n[USER]: I want to call a cab. [SYSTEM]: Where would you like to go and how many people are riding? [USER]: I want to go to 1850 El Camino Real. For 1 person. [SYSTEM]: Do you want to share a ride. [USER]: Two people are riding. Shared ride is okay. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "1850 el camino real"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-number_of_riders>.\n[USER]: I want to call a cab. [SYSTEM]: Where would you like to go and how many people are riding? [USER]: I want to go to 1850 El Camino Real. For 1 person. [SYSTEM]: Do you want to share a ride. [USER]: Two people are riding. Shared ride is okay. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "2"
+    },
+    {
+        "input": "Track the state of the slot <ridesharing_1-shared_ride> in the input dialogue.\n[USER]: I want to call a cab. [SYSTEM]: Where would you like to go and how many people are riding? [USER]: I want to go to 1850 El Camino Real. For 1 person. [SYSTEM]: Do you want to share a ride. [USER]: Two people are riding. Shared ride is okay. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Track the state of the slot <ridesharing_1-destination> in the input dialogue.\n[USER]: I want to call a cab. [SYSTEM]: Where would you like to go and how many people are riding? [USER]: I want to go to 1850 El Camino Real. For 1 person. [SYSTEM]: Do you want to share a ride. [USER]: Two people are riding. Shared ride is okay. [SYSTEM]: Please confirm: A shared ride for 2 people to 1850 El Camino Real. [USER]: Yes, that sounds good. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "1850 el camino real"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-number_of_riders>.\n[USER]: I want to call a cab. [SYSTEM]: Where would you like to go and how many people are riding? [USER]: I want to go to 1850 El Camino Real. For 1 person. [SYSTEM]: Do you want to share a ride. [USER]: Two people are riding. Shared ride is okay. [SYSTEM]: Please confirm: A shared ride for 2 people to 1850 El Camino Real. [USER]: Yes, that sounds good. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "2"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-shared_ride>.\n[USER]: I want to call a cab. [SYSTEM]: Where would you like to go and how many people are riding? [USER]: I want to go to 1850 El Camino Real. For 1 person. [SYSTEM]: Do you want to share a ride. [USER]: Two people are riding. Shared ride is okay. [SYSTEM]: Please confirm: A shared ride for 2 people to 1850 El Camino Real. [USER]: Yes, that sounds good. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-destination>.\n[USER]: I want to call a cab. [SYSTEM]: Where would you like to go and how many people are riding? [USER]: I want to go to 1850 El Camino Real. For 1 person. [SYSTEM]: Do you want to share a ride. [USER]: Two people are riding. Shared ride is okay. [SYSTEM]: Please confirm: A shared ride for 2 people to 1850 El Camino Real. [USER]: Yes, that sounds good. [SYSTEM]: Your ride has been booked. The cab is on the way. [USER]: Thank you, that's all. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "1850 el camino real"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-number_of_riders>.\n[USER]: I want to call a cab. [SYSTEM]: Where would you like to go and how many people are riding? [USER]: I want to go to 1850 El Camino Real. For 1 person. [SYSTEM]: Do you want to share a ride. [USER]: Two people are riding. Shared ride is okay. [SYSTEM]: Please confirm: A shared ride for 2 people to 1850 El Camino Real. [USER]: Yes, that sounds good. [SYSTEM]: Your ride has been booked. The cab is on the way. [USER]: Thank you, that's all. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "2"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: I want to call a cab. [SYSTEM]: Where would you like to go and how many people are riding? [USER]: I want to go to 1850 El Camino Real. For 1 person. [SYSTEM]: Do you want to share a ride. [USER]: Two people are riding. Shared ride is okay. [SYSTEM]: Please confirm: A shared ride for 2 people to 1850 El Camino Real. [USER]: Yes, that sounds good. [SYSTEM]: Your ride has been booked. The cab is on the way. [USER]: Thank you, that's all. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-destination>.\n[USER]: Hello! Can you help me get a cab? [SYSTEM]: I'd be happy to help. Where will you be going? [USER]: I'll be travelling to 1698 Bonanza Street and it's just for one. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "1698 bonanza street"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-number_of_riders>.\n[USER]: Hello! Can you help me get a cab? [SYSTEM]: I'd be happy to help. Where will you be going? [USER]: I'll be travelling to 1698 Bonanza Street and it's just for one. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "1"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-destination>.\n[USER]: Hello! Can you help me get a cab? [SYSTEM]: I'd be happy to help. Where will you be going? [USER]: I'll be travelling to 1698 Bonanza Street and it's just for one. [SYSTEM]: Would you like a shared ride? [USER]: That's fine with me. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "1698 bonanza street"
+    },
+    {
+        "input": "Track the state of the slot <ridesharing_1-number_of_riders> in the input dialogue.\n[USER]: Hello! Can you help me get a cab? [SYSTEM]: I'd be happy to help. Where will you be going? [USER]: I'll be travelling to 1698 Bonanza Street and it's just for one. [SYSTEM]: Would you like a shared ride? [USER]: That's fine with me. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "1"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-shared_ride>.\n[USER]: Hello! Can you help me get a cab? [SYSTEM]: I'd be happy to help. Where will you be going? [USER]: I'll be travelling to 1698 Bonanza Street and it's just for one. [SYSTEM]: Would you like a shared ride? [USER]: That's fine with me. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-destination>.\n[USER]: Hello! Can you help me get a cab? [SYSTEM]: I'd be happy to help. Where will you be going? [USER]: I'll be travelling to 1698 Bonanza Street and it's just for one. [SYSTEM]: Would you like a shared ride? [USER]: That's fine with me. [SYSTEM]: You'd like a shared ride for 1 to 1698 Bonanza Street. Is this correct? [USER]: I'm sorry, I've had a change of plans. I need to go to Vineyard Meadows Apartments. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "vineyard meadows apartments"
+    },
+    {
+        "input": "Track the state of the slot <ridesharing_1-number_of_riders> in the input dialogue.\n[USER]: Hello! Can you help me get a cab? [SYSTEM]: I'd be happy to help. Where will you be going? [USER]: I'll be travelling to 1698 Bonanza Street and it's just for one. [SYSTEM]: Would you like a shared ride? [USER]: That's fine with me. [SYSTEM]: You'd like a shared ride for 1 to 1698 Bonanza Street. Is this correct? [USER]: I'm sorry, I've had a change of plans. I need to go to Vineyard Meadows Apartments. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "1"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-shared_ride>.\n[USER]: Hello! Can you help me get a cab? [SYSTEM]: I'd be happy to help. Where will you be going? [USER]: I'll be travelling to 1698 Bonanza Street and it's just for one. [SYSTEM]: Would you like a shared ride? [USER]: That's fine with me. [SYSTEM]: You'd like a shared ride for 1 to 1698 Bonanza Street. Is this correct? [USER]: I'm sorry, I've had a change of plans. I need to go to Vineyard Meadows Apartments. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-destination>.\n[USER]: Hello! Can you help me get a cab? [SYSTEM]: I'd be happy to help. Where will you be going? [USER]: I'll be travelling to 1698 Bonanza Street and it's just for one. [SYSTEM]: Would you like a shared ride? [USER]: That's fine with me. [SYSTEM]: You'd like a shared ride for 1 to 1698 Bonanza Street. Is this correct? [USER]: I'm sorry, I've had a change of plans. I need to go to Vineyard Meadows Apartments. [SYSTEM]: Okay, you need a car for 1 person to Vineyard Meadows Apartments. Is this correct? [USER]: Yes, that is correct. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "vineyard meadows apartments"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-number_of_riders>.\n[USER]: Hello! Can you help me get a cab? [SYSTEM]: I'd be happy to help. Where will you be going? [USER]: I'll be travelling to 1698 Bonanza Street and it's just for one. [SYSTEM]: Would you like a shared ride? [USER]: That's fine with me. [SYSTEM]: You'd like a shared ride for 1 to 1698 Bonanza Street. Is this correct? [USER]: I'm sorry, I've had a change of plans. I need to go to Vineyard Meadows Apartments. [SYSTEM]: Okay, you need a car for 1 person to Vineyard Meadows Apartments. Is this correct? [USER]: Yes, that is correct. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "1"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-shared_ride>.\n[USER]: Hello! Can you help me get a cab? [SYSTEM]: I'd be happy to help. Where will you be going? [USER]: I'll be travelling to 1698 Bonanza Street and it's just for one. [SYSTEM]: Would you like a shared ride? [USER]: That's fine with me. [SYSTEM]: You'd like a shared ride for 1 to 1698 Bonanza Street. Is this correct? [USER]: I'm sorry, I've had a change of plans. I need to go to Vineyard Meadows Apartments. [SYSTEM]: Okay, you need a car for 1 person to Vineyard Meadows Apartments. Is this correct? [USER]: Yes, that is correct. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: Hello! Can you help me get a cab? [SYSTEM]: I'd be happy to help. Where will you be going? [USER]: I'll be travelling to 1698 Bonanza Street and it's just for one. [SYSTEM]: Would you like a shared ride? [USER]: That's fine with me. [SYSTEM]: You'd like a shared ride for 1 to 1698 Bonanza Street. Is this correct? [USER]: I'm sorry, I've had a change of plans. I need to go to Vineyard Meadows Apartments. [SYSTEM]: Okay, you need a car for 1 person to Vineyard Meadows Apartments. Is this correct? [USER]: Yes, that is correct. [SYSTEM]: Your cab is on it's way. [USER]: Thank you for your assistance. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "vineyard meadows apartments"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-number_of_riders>.\n[USER]: Hello! Can you help me get a cab? [SYSTEM]: I'd be happy to help. Where will you be going? [USER]: I'll be travelling to 1698 Bonanza Street and it's just for one. [SYSTEM]: Would you like a shared ride? [USER]: That's fine with me. [SYSTEM]: You'd like a shared ride for 1 to 1698 Bonanza Street. Is this correct? [USER]: I'm sorry, I've had a change of plans. I need to go to Vineyard Meadows Apartments. [SYSTEM]: Okay, you need a car for 1 person to Vineyard Meadows Apartments. Is this correct? [USER]: Yes, that is correct. [SYSTEM]: Your cab is on it's way. [USER]: Thank you for your assistance. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "1"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_1-shared_ride>.\n[USER]: Hello! Can you help me get a cab? [SYSTEM]: I'd be happy to help. Where will you be going? [USER]: I'll be travelling to 1698 Bonanza Street and it's just for one. [SYSTEM]: Would you like a shared ride? [USER]: That's fine with me. [SYSTEM]: You'd like a shared ride for 1 to 1698 Bonanza Street. Is this correct? [USER]: I'm sorry, I've had a change of plans. I need to go to Vineyard Meadows Apartments. [SYSTEM]: Okay, you need a car for 1 person to Vineyard Meadows Apartments. Is this correct? [USER]: Yes, that is correct. [SYSTEM]: Your cab is on it's way. [USER]: Thank you for your assistance. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-destination>.\n[USER]: Hello! Can you help me get a cab? [SYSTEM]: I'd be happy to help. Where will you be going? [USER]: I'll be travelling to 1698 Bonanza Street and it's just for one. [SYSTEM]: Would you like a shared ride? [USER]: That's fine with me. [SYSTEM]: You'd like a shared ride for 1 to 1698 Bonanza Street. Is this correct? [USER]: I'm sorry, I've had a change of plans. I need to go to Vineyard Meadows Apartments. [SYSTEM]: Okay, you need a car for 1 person to Vineyard Meadows Apartments. Is this correct? [USER]: Yes, that is correct. [SYSTEM]: Your cab is on it's way. [USER]: Thank you for your assistance. [SYSTEM]: Is there anything else I can help you with? [USER]: No, that will be everything. Thank you again. \n [slot] ridesharing_1-destination, it indicates Destination for taxi ride. So the value of slot <ridesharing_1-destination> is \n",
+        "output": "vineyard meadows apartments"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: Hello! Can you help me get a cab? [SYSTEM]: I'd be happy to help. Where will you be going? [USER]: I'll be travelling to 1698 Bonanza Street and it's just for one. [SYSTEM]: Would you like a shared ride? [USER]: That's fine with me. [SYSTEM]: You'd like a shared ride for 1 to 1698 Bonanza Street. Is this correct? [USER]: I'm sorry, I've had a change of plans. I need to go to Vineyard Meadows Apartments. [SYSTEM]: Okay, you need a car for 1 person to Vineyard Meadows Apartments. Is this correct? [USER]: Yes, that is correct. [SYSTEM]: Your cab is on it's way. [USER]: Thank you for your assistance. [SYSTEM]: Is there anything else I can help you with? [USER]: No, that will be everything. Thank you again. \n [slot] ridesharing_1-number_of_riders, it indicates Number of riders to call taxi for. So the value of slot <ridesharing_1-number_of_riders> is \n",
+        "output": "1"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <ridesharing_1-shared_ride>.\n[USER]: Hello! Can you help me get a cab? [SYSTEM]: I'd be happy to help. Where will you be going? [USER]: I'll be travelling to 1698 Bonanza Street and it's just for one. [SYSTEM]: Would you like a shared ride? [USER]: That's fine with me. [SYSTEM]: You'd like a shared ride for 1 to 1698 Bonanza Street. Is this correct? [USER]: I'm sorry, I've had a change of plans. I need to go to Vineyard Meadows Apartments. [SYSTEM]: Okay, you need a car for 1 person to Vineyard Meadows Apartments. Is this correct? [USER]: Yes, that is correct. [SYSTEM]: Your cab is on it's way. [USER]: Thank you for your assistance. [SYSTEM]: Is there anything else I can help you with? [USER]: No, that will be everything. Thank you again. \n [slot] ridesharing_1-shared_ride, it indicates Boolean flag whether ride is shared with other passengers. So the value of slot <ridesharing_1-shared_ride> is \n",
+        "output": "true"
+    }
+]

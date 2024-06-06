@@ -1,0 +1,154 @@
+[
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <music_3-album>.\n[USER]: Hey, I need some songs. I want some from the album This Is Acting, and I like songs by Sia, and also Popular genre songs. \n [slot] music_3-album, it indicates Collection of the song. So the value of slot <music_3-album> is \n",
+        "output": "this is acting"
+    },
+    {
+        "input": "Track the state of the slot <music_3-artist> in the input dialogue.\n[USER]: Hey, I need some songs. I want some from the album This Is Acting, and I like songs by Sia, and also Popular genre songs. \n [slot] music_3-artist, it indicates Performer's name. So the value of slot <music_3-artist> is \n",
+        "output": "sia"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <music_3-genre>.\n[USER]: Hey, I need some songs. I want some from the album This Is Acting, and I like songs by Sia, and also Popular genre songs. \n [slot] music_3-genre, it indicates Type of the music. So the value of slot <music_3-genre> is \n",
+        "output": "popular"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: Hey, I need some songs. I want some from the album This Is Acting, and I like songs by Sia, and also Popular genre songs. [SYSTEM]: There are 5 songs in this selection. I have found Alive by Sia from the album This Is Acting. [USER]: Which year was that released anyway? \n [slot] music_3-album, it indicates Collection of the song. So the value of slot <music_3-album> is \n",
+        "output": "this is acting"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <music_3-artist>.\n[USER]: Hey, I need some songs. I want some from the album This Is Acting, and I like songs by Sia, and also Popular genre songs. [SYSTEM]: There are 5 songs in this selection. I have found Alive by Sia from the album This Is Acting. [USER]: Which year was that released anyway? \n [slot] music_3-artist, it indicates Performer's name. So the value of slot <music_3-artist> is \n",
+        "output": "sia"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <music_3-genre>.\n[USER]: Hey, I need some songs. I want some from the album This Is Acting, and I like songs by Sia, and also Popular genre songs. [SYSTEM]: There are 5 songs in this selection. I have found Alive by Sia from the album This Is Acting. [USER]: Which year was that released anyway? \n [slot] music_3-genre, it indicates Type of the music. So the value of slot <music_3-genre> is \n",
+        "output": "popular"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: Hey, I need some songs. I want some from the album This Is Acting, and I like songs by Sia, and also Popular genre songs. [SYSTEM]: There are 5 songs in this selection. I have found Alive by Sia from the album This Is Acting. [USER]: Which year was that released anyway? [SYSTEM]: Its release date is from the year 2013. [USER]: Okay, give me that. I want it to play on the patio speaker. \n [slot] music_3-album, it indicates Collection of the song. So the value of slot <music_3-album> is \n",
+        "output": "this is acting"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <music_3-artist>.\n[USER]: Hey, I need some songs. I want some from the album This Is Acting, and I like songs by Sia, and also Popular genre songs. [SYSTEM]: There are 5 songs in this selection. I have found Alive by Sia from the album This Is Acting. [USER]: Which year was that released anyway? [SYSTEM]: Its release date is from the year 2013. [USER]: Okay, give me that. I want it to play on the patio speaker. \n [slot] music_3-artist, it indicates Performer's name. So the value of slot <music_3-artist> is \n",
+        "output": "sia"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <music_3-device>.\n[USER]: Hey, I need some songs. I want some from the album This Is Acting, and I like songs by Sia, and also Popular genre songs. [SYSTEM]: There are 5 songs in this selection. I have found Alive by Sia from the album This Is Acting. [USER]: Which year was that released anyway? [SYSTEM]: Its release date is from the year 2013. [USER]: Okay, give me that. I want it to play on the patio speaker. \n [slot] music_3-device, it indicates Place or name of the media player to play the song selected. So the value of slot <music_3-device> is \n",
+        "output": "patio"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <music_3-genre>.\n[USER]: Hey, I need some songs. I want some from the album This Is Acting, and I like songs by Sia, and also Popular genre songs. [SYSTEM]: There are 5 songs in this selection. I have found Alive by Sia from the album This Is Acting. [USER]: Which year was that released anyway? [SYSTEM]: Its release date is from the year 2013. [USER]: Okay, give me that. I want it to play on the patio speaker. \n [slot] music_3-genre, it indicates Type of the music. So the value of slot <music_3-genre> is \n",
+        "output": "popular"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <music_3-track>.\n[USER]: Hey, I need some songs. I want some from the album This Is Acting, and I like songs by Sia, and also Popular genre songs. [SYSTEM]: There are 5 songs in this selection. I have found Alive by Sia from the album This Is Acting. [USER]: Which year was that released anyway? [SYSTEM]: Its release date is from the year 2013. [USER]: Okay, give me that. I want it to play on the patio speaker. \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "alive"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <music_3-album>.\n[USER]: Hey, I need some songs. I want some from the album This Is Acting, and I like songs by Sia, and also Popular genre songs. [SYSTEM]: There are 5 songs in this selection. I have found Alive by Sia from the album This Is Acting. [USER]: Which year was that released anyway? [SYSTEM]: Its release date is from the year 2013. [USER]: Okay, give me that. I want it to play on the patio speaker. [SYSTEM]: Please confirm the following details: Play Alive in Patio via speaker. Correct? [USER]: Yes, that's it! \n [slot] music_3-album, it indicates Collection of the song. So the value of slot <music_3-album> is \n",
+        "output": "this is acting"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <music_3-artist>.\n[USER]: Hey, I need some songs. I want some from the album This Is Acting, and I like songs by Sia, and also Popular genre songs. [SYSTEM]: There are 5 songs in this selection. I have found Alive by Sia from the album This Is Acting. [USER]: Which year was that released anyway? [SYSTEM]: Its release date is from the year 2013. [USER]: Okay, give me that. I want it to play on the patio speaker. [SYSTEM]: Please confirm the following details: Play Alive in Patio via speaker. Correct? [USER]: Yes, that's it! \n [slot] music_3-artist, it indicates Performer's name. So the value of slot <music_3-artist> is \n",
+        "output": "sia"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <music_3-device>.\n[USER]: Hey, I need some songs. I want some from the album This Is Acting, and I like songs by Sia, and also Popular genre songs. [SYSTEM]: There are 5 songs in this selection. I have found Alive by Sia from the album This Is Acting. [USER]: Which year was that released anyway? [SYSTEM]: Its release date is from the year 2013. [USER]: Okay, give me that. I want it to play on the patio speaker. [SYSTEM]: Please confirm the following details: Play Alive in Patio via speaker. Correct? [USER]: Yes, that's it! \n [slot] music_3-device, it indicates Place or name of the media player to play the song selected. So the value of slot <music_3-device> is \n",
+        "output": "patio"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <music_3-genre>.\n[USER]: Hey, I need some songs. I want some from the album This Is Acting, and I like songs by Sia, and also Popular genre songs. [SYSTEM]: There are 5 songs in this selection. I have found Alive by Sia from the album This Is Acting. [USER]: Which year was that released anyway? [SYSTEM]: Its release date is from the year 2013. [USER]: Okay, give me that. I want it to play on the patio speaker. [SYSTEM]: Please confirm the following details: Play Alive in Patio via speaker. Correct? [USER]: Yes, that's it! \n [slot] music_3-genre, it indicates Type of the music. So the value of slot <music_3-genre> is \n",
+        "output": "popular"
+    },
+    {
+        "input": "Track the state of the slot <music_3-track> in the input dialogue.\n[USER]: Hey, I need some songs. I want some from the album This Is Acting, and I like songs by Sia, and also Popular genre songs. [SYSTEM]: There are 5 songs in this selection. I have found Alive by Sia from the album This Is Acting. [USER]: Which year was that released anyway? [SYSTEM]: Its release date is from the year 2013. [USER]: Okay, give me that. I want it to play on the patio speaker. [SYSTEM]: Please confirm the following details: Play Alive in Patio via speaker. Correct? [USER]: Yes, that's it! \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "alive"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <music_3-album>.\n[USER]: Hey, I need some songs. I want some from the album This Is Acting, and I like songs by Sia, and also Popular genre songs. [SYSTEM]: There are 5 songs in this selection. I have found Alive by Sia from the album This Is Acting. [USER]: Which year was that released anyway? [SYSTEM]: Its release date is from the year 2013. [USER]: Okay, give me that. I want it to play on the patio speaker. [SYSTEM]: Please confirm the following details: Play Alive in Patio via speaker. Correct? [USER]: Yes, that's it! [SYSTEM]: Enjoy your selection. [USER]: Thank you so much!! \n [slot] music_3-album, it indicates Collection of the song. So the value of slot <music_3-album> is \n",
+        "output": "this is acting"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <music_3-artist>.\n[USER]: Hey, I need some songs. I want some from the album This Is Acting, and I like songs by Sia, and also Popular genre songs. [SYSTEM]: There are 5 songs in this selection. I have found Alive by Sia from the album This Is Acting. [USER]: Which year was that released anyway? [SYSTEM]: Its release date is from the year 2013. [USER]: Okay, give me that. I want it to play on the patio speaker. [SYSTEM]: Please confirm the following details: Play Alive in Patio via speaker. Correct? [USER]: Yes, that's it! [SYSTEM]: Enjoy your selection. [USER]: Thank you so much!! \n [slot] music_3-artist, it indicates Performer's name. So the value of slot <music_3-artist> is \n",
+        "output": "sia"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <music_3-device>.\n[USER]: Hey, I need some songs. I want some from the album This Is Acting, and I like songs by Sia, and also Popular genre songs. [SYSTEM]: There are 5 songs in this selection. I have found Alive by Sia from the album This Is Acting. [USER]: Which year was that released anyway? [SYSTEM]: Its release date is from the year 2013. [USER]: Okay, give me that. I want it to play on the patio speaker. [SYSTEM]: Please confirm the following details: Play Alive in Patio via speaker. Correct? [USER]: Yes, that's it! [SYSTEM]: Enjoy your selection. [USER]: Thank you so much!! \n [slot] music_3-device, it indicates Place or name of the media player to play the song selected. So the value of slot <music_3-device> is \n",
+        "output": "patio"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <music_3-genre>.\n[USER]: Hey, I need some songs. I want some from the album This Is Acting, and I like songs by Sia, and also Popular genre songs. [SYSTEM]: There are 5 songs in this selection. I have found Alive by Sia from the album This Is Acting. [USER]: Which year was that released anyway? [SYSTEM]: Its release date is from the year 2013. [USER]: Okay, give me that. I want it to play on the patio speaker. [SYSTEM]: Please confirm the following details: Play Alive in Patio via speaker. Correct? [USER]: Yes, that's it! [SYSTEM]: Enjoy your selection. [USER]: Thank you so much!! \n [slot] music_3-genre, it indicates Type of the music. So the value of slot <music_3-genre> is \n",
+        "output": "popular"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <music_3-track>.\n[USER]: Hey, I need some songs. I want some from the album This Is Acting, and I like songs by Sia, and also Popular genre songs. [SYSTEM]: There are 5 songs in this selection. I have found Alive by Sia from the album This Is Acting. [USER]: Which year was that released anyway? [SYSTEM]: Its release date is from the year 2013. [USER]: Okay, give me that. I want it to play on the patio speaker. [SYSTEM]: Please confirm the following details: Play Alive in Patio via speaker. Correct? [USER]: Yes, that's it! [SYSTEM]: Enjoy your selection. [USER]: Thank you so much!! \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "alive"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <music_3-device>.\n[USER]: I would like to search for songs at this time. [SYSTEM]: What do you think about Where Have You Been by Rihanna from the Talk That Talk album? [USER]: What year did it come out? [SYSTEM]: It was from 2011. [USER]: Yes, that's the one I'd like to play songs so cast it on the speaker outside. \n [slot] music_3-device, it indicates Place or name of the media player to play the song selected. So the value of slot <music_3-device> is \n",
+        "output": "patio"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <music_3-track>.\n[USER]: I would like to search for songs at this time. [SYSTEM]: What do you think about Where Have You Been by Rihanna from the Talk That Talk album? [USER]: What year did it come out? [SYSTEM]: It was from 2011. [USER]: Yes, that's the one I'd like to play songs so cast it on the speaker outside. \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "where have you been"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <music_3-device>.\n[USER]: I would like to search for songs at this time. [SYSTEM]: What do you think about Where Have You Been by Rihanna from the Talk That Talk album? [USER]: What year did it come out? [SYSTEM]: It was from 2011. [USER]: Yes, that's the one I'd like to play songs so cast it on the speaker outside. [SYSTEM]: Please confirm playing the song Where Have You Been in Patio. [USER]: Yes, that is the one. \n [slot] music_3-device, it indicates Place or name of the media player to play the song selected. So the value of slot <music_3-device> is \n",
+        "output": "patio"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <music_3-track>.\n[USER]: I would like to search for songs at this time. [SYSTEM]: What do you think about Where Have You Been by Rihanna from the Talk That Talk album? [USER]: What year did it come out? [SYSTEM]: It was from 2011. [USER]: Yes, that's the one I'd like to play songs so cast it on the speaker outside. [SYSTEM]: Please confirm playing the song Where Have You Been in Patio. [USER]: Yes, that is the one. \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "where have you been"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <music_3-device>.\n[USER]: I would like to search for songs at this time. [SYSTEM]: What do you think about Where Have You Been by Rihanna from the Talk That Talk album? [USER]: What year did it come out? [SYSTEM]: It was from 2011. [USER]: Yes, that's the one I'd like to play songs so cast it on the speaker outside. [SYSTEM]: Please confirm playing the song Where Have You Been in Patio. [USER]: Yes, that is the one. [SYSTEM]: Enjoy the music. [USER]: Thanks so much. That is it. \n [slot] music_3-device, it indicates Place or name of the media player to play the song selected. So the value of slot <music_3-device> is \n",
+        "output": "patio"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: I would like to search for songs at this time. [SYSTEM]: What do you think about Where Have You Been by Rihanna from the Talk That Talk album? [USER]: What year did it come out? [SYSTEM]: It was from 2011. [USER]: Yes, that's the one I'd like to play songs so cast it on the speaker outside. [SYSTEM]: Please confirm playing the song Where Have You Been in Patio. [USER]: Yes, that is the one. [SYSTEM]: Enjoy the music. [USER]: Thanks so much. That is it. \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "where have you been"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <music_3-track>.\n[USER]: I would like to find some songs at this time. [SYSTEM]: The album King of Everything has a song named Pisces by Jinjer. What about it? [USER]: can you tell me some others? [SYSTEM]: What is your opinion about the song Final Masquerade from the album The Hunting Party and singer Linkin Park. [USER]: Can you tell me the music genre and if it was released in 2019? [SYSTEM]: The song is Metal and was released in 2014. [USER]: Okay, that's what I want. \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "final masquerade"
+    },
+    {
+        "input": "Track the state of the slot <music_3-device> in the input dialogue.\n[USER]: I would like to find some songs at this time. [SYSTEM]: The album King of Everything has a song named Pisces by Jinjer. What about it? [USER]: can you tell me some others? [SYSTEM]: What is your opinion about the song Final Masquerade from the album The Hunting Party and singer Linkin Park. [USER]: Can you tell me the music genre and if it was released in 2019? [SYSTEM]: The song is Metal and was released in 2014. [USER]: Okay, that's what I want. [SYSTEM]: Do you want me to play the song? [USER]: Please. Would you let it play on the kitchen device. \n [slot] music_3-device, it indicates Place or name of the media player to play the song selected. So the value of slot <music_3-device> is \n",
+        "output": "kitchen"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <music_3-track>.\n[USER]: I would like to find some songs at this time. [SYSTEM]: The album King of Everything has a song named Pisces by Jinjer. What about it? [USER]: can you tell me some others? [SYSTEM]: What is your opinion about the song Final Masquerade from the album The Hunting Party and singer Linkin Park. [USER]: Can you tell me the music genre and if it was released in 2019? [SYSTEM]: The song is Metal and was released in 2014. [USER]: Okay, that's what I want. [SYSTEM]: Do you want me to play the song? [USER]: Please. Would you let it play on the kitchen device. \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "final masquerade"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <music_3-device>.\n[USER]: I would like to find some songs at this time. [SYSTEM]: The album King of Everything has a song named Pisces by Jinjer. What about it? [USER]: can you tell me some others? [SYSTEM]: What is your opinion about the song Final Masquerade from the album The Hunting Party and singer Linkin Park. [USER]: Can you tell me the music genre and if it was released in 2019? [SYSTEM]: The song is Metal and was released in 2014. [USER]: Okay, that's what I want. [SYSTEM]: Do you want me to play the song? [USER]: Please. Would you let it play on the kitchen device. [SYSTEM]: Turn on the song Final Masquerade in the kitchen. Is that correct? [USER]: No, go ahead and play it on the patio speaker. \n [slot] music_3-device, it indicates Place or name of the media player to play the song selected. So the value of slot <music_3-device> is \n",
+        "output": "patio"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <music_3-track>.\n[USER]: I would like to find some songs at this time. [SYSTEM]: The album King of Everything has a song named Pisces by Jinjer. What about it? [USER]: can you tell me some others? [SYSTEM]: What is your opinion about the song Final Masquerade from the album The Hunting Party and singer Linkin Park. [USER]: Can you tell me the music genre and if it was released in 2019? [SYSTEM]: The song is Metal and was released in 2014. [USER]: Okay, that's what I want. [SYSTEM]: Do you want me to play the song? [USER]: Please. Would you let it play on the kitchen device. [SYSTEM]: Turn on the song Final Masquerade in the kitchen. Is that correct? [USER]: No, go ahead and play it on the patio speaker. \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "final masquerade"
+    },
+    {
+        "input": "Track the state of the slot <music_3-device> in the input dialogue.\n[USER]: I would like to find some songs at this time. [SYSTEM]: The album King of Everything has a song named Pisces by Jinjer. What about it? [USER]: can you tell me some others? [SYSTEM]: What is your opinion about the song Final Masquerade from the album The Hunting Party and singer Linkin Park. [USER]: Can you tell me the music genre and if it was released in 2019? [SYSTEM]: The song is Metal and was released in 2014. [USER]: Okay, that's what I want. [SYSTEM]: Do you want me to play the song? [USER]: Please. Would you let it play on the kitchen device. [SYSTEM]: Turn on the song Final Masquerade in the kitchen. Is that correct? [USER]: No, go ahead and play it on the patio speaker. [SYSTEM]: Turn the song Final Masquerade on in the patio. Is that right? [USER]: Yes, you got it. \n [slot] music_3-device, it indicates Place or name of the media player to play the song selected. So the value of slot <music_3-device> is \n",
+        "output": "patio"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <music_3-track>.\n[USER]: I would like to find some songs at this time. [SYSTEM]: The album King of Everything has a song named Pisces by Jinjer. What about it? [USER]: can you tell me some others? [SYSTEM]: What is your opinion about the song Final Masquerade from the album The Hunting Party and singer Linkin Park. [USER]: Can you tell me the music genre and if it was released in 2019? [SYSTEM]: The song is Metal and was released in 2014. [USER]: Okay, that's what I want. [SYSTEM]: Do you want me to play the song? [USER]: Please. Would you let it play on the kitchen device. [SYSTEM]: Turn on the song Final Masquerade in the kitchen. Is that correct? [USER]: No, go ahead and play it on the patio speaker. [SYSTEM]: Turn the song Final Masquerade on in the patio. Is that right? [USER]: Yes, you got it. \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "final masquerade"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <music_3-device>.\n[USER]: I would like to find some songs at this time. [SYSTEM]: The album King of Everything has a song named Pisces by Jinjer. What about it? [USER]: can you tell me some others? [SYSTEM]: What is your opinion about the song Final Masquerade from the album The Hunting Party and singer Linkin Park. [USER]: Can you tell me the music genre and if it was released in 2019? [SYSTEM]: The song is Metal and was released in 2014. [USER]: Okay, that's what I want. [SYSTEM]: Do you want me to play the song? [USER]: Please. Would you let it play on the kitchen device. [SYSTEM]: Turn on the song Final Masquerade in the kitchen. Is that correct? [USER]: No, go ahead and play it on the patio speaker. [SYSTEM]: Turn the song Final Masquerade on in the patio. Is that right? [USER]: Yes, you got it. [SYSTEM]: I hope you like your music. [USER]: Thanks, I hope so. \n [slot] music_3-device, it indicates Place or name of the media player to play the song selected. So the value of slot <music_3-device> is \n",
+        "output": "patio"
+    },
+    {
+        "input": "Track the state of the slot <music_3-track> in the input dialogue.\n[USER]: I would like to find some songs at this time. [SYSTEM]: The album King of Everything has a song named Pisces by Jinjer. What about it? [USER]: can you tell me some others? [SYSTEM]: What is your opinion about the song Final Masquerade from the album The Hunting Party and singer Linkin Park. [USER]: Can you tell me the music genre and if it was released in 2019? [SYSTEM]: The song is Metal and was released in 2014. [USER]: Okay, that's what I want. [SYSTEM]: Do you want me to play the song? [USER]: Please. Would you let it play on the kitchen device. [SYSTEM]: Turn on the song Final Masquerade in the kitchen. Is that correct? [USER]: No, go ahead and play it on the patio speaker. [SYSTEM]: Turn the song Final Masquerade on in the patio. Is that right? [USER]: Yes, you got it. [SYSTEM]: I hope you like your music. [USER]: Thanks, I hope so. \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "final masquerade"
+    },
+    {
+        "input": "Track the state of the slot <music_3-device> in the input dialogue.\n[USER]: I would like to find some songs at this time. [SYSTEM]: The album King of Everything has a song named Pisces by Jinjer. What about it? [USER]: can you tell me some others? [SYSTEM]: What is your opinion about the song Final Masquerade from the album The Hunting Party and singer Linkin Park. [USER]: Can you tell me the music genre and if it was released in 2019? [SYSTEM]: The song is Metal and was released in 2014. [USER]: Okay, that's what I want. [SYSTEM]: Do you want me to play the song? [USER]: Please. Would you let it play on the kitchen device. [SYSTEM]: Turn on the song Final Masquerade in the kitchen. Is that correct? [USER]: No, go ahead and play it on the patio speaker. [SYSTEM]: Turn the song Final Masquerade on in the patio. Is that right? [USER]: Yes, you got it. [SYSTEM]: I hope you like your music. [USER]: Thanks, I hope so. [SYSTEM]: Would you like my assistance with something else? [USER]: No, that's all and thanks. \n [slot] music_3-device, it indicates Place or name of the media player to play the song selected. So the value of slot <music_3-device> is \n",
+        "output": "patio"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <music_3-track>.\n[USER]: I would like to find some songs at this time. [SYSTEM]: The album King of Everything has a song named Pisces by Jinjer. What about it? [USER]: can you tell me some others? [SYSTEM]: What is your opinion about the song Final Masquerade from the album The Hunting Party and singer Linkin Park. [USER]: Can you tell me the music genre and if it was released in 2019? [SYSTEM]: The song is Metal and was released in 2014. [USER]: Okay, that's what I want. [SYSTEM]: Do you want me to play the song? [USER]: Please. Would you let it play on the kitchen device. [SYSTEM]: Turn on the song Final Masquerade in the kitchen. Is that correct? [USER]: No, go ahead and play it on the patio speaker. [SYSTEM]: Turn the song Final Masquerade on in the patio. Is that right? [USER]: Yes, you got it. [SYSTEM]: I hope you like your music. [USER]: Thanks, I hope so. [SYSTEM]: Would you like my assistance with something else? [USER]: No, that's all and thanks. \n [slot] music_3-track, it indicates Name of the song. So the value of slot <music_3-track> is \n",
+        "output": "final masquerade"
+    }
+]

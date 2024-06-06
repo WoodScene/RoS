@@ -1,0 +1,214 @@
+[
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <travel_1-category>.\n[USER]: Can you find me some places to visit in CDMX, I want to visit a museum in particular \n [slot] travel_1-category, it indicates Category to which the attraction belongs. So the value of slot <travel_1-category> is \n",
+        "output": "museum"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <travel_1-location>.\n[USER]: Can you find me some places to visit in CDMX, I want to visit a museum in particular \n [slot] travel_1-location, it indicates City or town where the attraction is located. So the value of slot <travel_1-location> is \n",
+        "output": "cdmx"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: Can you find me some places to visit in CDMX, I want to visit a museum in particular [SYSTEM]: There's a great museum called the Arte Carrillo Gil Museum that you might like? [USER]: OK, that sounds awesome, but that's it for now \n [slot] travel_1-category, it indicates Category to which the attraction belongs. So the value of slot <travel_1-category> is \n",
+        "output": "museum"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: Can you find me some places to visit in CDMX, I want to visit a museum in particular [SYSTEM]: There's a great museum called the Arte Carrillo Gil Museum that you might like? [USER]: OK, that sounds awesome, but that's it for now \n [slot] travel_1-location, it indicates City or town where the attraction is located. So the value of slot <travel_1-location> is \n",
+        "output": "cdmx"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <travel_1-category>.\n[USER]: I am looking for a Shopping Area that has attractions nearby to visit. Can you help me? \n [slot] travel_1-category, it indicates Category to which the attraction belongs. So the value of slot <travel_1-category> is \n",
+        "output": "shopping area"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: I am looking for a Shopping Area that has attractions nearby to visit. Can you help me? [SYSTEM]: In what area should I search for attractions? [USER]: I am looking for attractions in Paris, France with not entry fee. \n [slot] travel_1-category, it indicates Category to which the attraction belongs. So the value of slot <travel_1-category> is \n",
+        "output": "shopping area"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <travel_1-free_entry>.\n[USER]: I am looking for a Shopping Area that has attractions nearby to visit. Can you help me? [SYSTEM]: In what area should I search for attractions? [USER]: I am looking for attractions in Paris, France with not entry fee. \n [slot] travel_1-free_entry, it indicates Boolean flag indicating whether entrance to attraction is free. So the value of slot <travel_1-free_entry> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <travel_1-location>.\n[USER]: I am looking for a Shopping Area that has attractions nearby to visit. Can you help me? [SYSTEM]: In what area should I search for attractions? [USER]: I am looking for attractions in Paris, France with not entry fee. \n [slot] travel_1-location, it indicates City or town where the attraction is located. So the value of slot <travel_1-location> is \n",
+        "output": "paris, france"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <travel_1-category>.\n[USER]: I am looking for a Shopping Area that has attractions nearby to visit. Can you help me? [SYSTEM]: In what area should I search for attractions? [USER]: I am looking for attractions in Paris, France with not entry fee. [SYSTEM]: I have found 1 in a Shopping Area called Le Village Royal. [USER]: Sound great. I am all set for now. \n [slot] travel_1-category, it indicates Category to which the attraction belongs. So the value of slot <travel_1-category> is \n",
+        "output": "shopping area"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <travel_1-free_entry>.\n[USER]: I am looking for a Shopping Area that has attractions nearby to visit. Can you help me? [SYSTEM]: In what area should I search for attractions? [USER]: I am looking for attractions in Paris, France with not entry fee. [SYSTEM]: I have found 1 in a Shopping Area called Le Village Royal. [USER]: Sound great. I am all set for now. \n [slot] travel_1-free_entry, it indicates Boolean flag indicating whether entrance to attraction is free. So the value of slot <travel_1-free_entry> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Track the state of the slot <travel_1-location> in the input dialogue.\n[USER]: I am looking for a Shopping Area that has attractions nearby to visit. Can you help me? [SYSTEM]: In what area should I search for attractions? [USER]: I am looking for attractions in Paris, France with not entry fee. [SYSTEM]: I have found 1 in a Shopping Area called Le Village Royal. [USER]: Sound great. I am all set for now. \n [slot] travel_1-location, it indicates City or town where the attraction is located. So the value of slot <travel_1-location> is \n",
+        "output": "paris, france"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <travel_1-location>.\n[USER]: I am free for some days and wish to go outdoors. Are there any beautiful destinations to visit. [SYSTEM]: Which city you prefer? [USER]: Search in San Diego. \n [slot] travel_1-location, it indicates City or town where the attraction is located. So the value of slot <travel_1-location> is \n",
+        "output": "san diego"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <travel_1-location>.\n[USER]: I am free for some days and wish to go outdoors. Are there any beautiful destinations to visit. [SYSTEM]: Which city you prefer? [USER]: Search in San Diego. [SYSTEM]: There you can visit Balboa Park. [USER]: Free entrance there? Can you give the phone number. \n [slot] travel_1-location, it indicates City or town where the attraction is located. So the value of slot <travel_1-location> is \n",
+        "output": "san diego"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <travel_1-category>.\n[USER]: I am free for some days and wish to go outdoors. Are there any beautiful destinations to visit. [SYSTEM]: Which city you prefer? [USER]: Search in San Diego. [SYSTEM]: There you can visit Balboa Park. [USER]: Free entrance there? Can you give the phone number. [SYSTEM]: Entry is charged, you can contact them with 619-239-0512. [USER]: Is there any other park. \n [slot] travel_1-category, it indicates Category to which the attraction belongs. So the value of slot <travel_1-category> is \n",
+        "output": "park"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <travel_1-location>.\n[USER]: I am free for some days and wish to go outdoors. Are there any beautiful destinations to visit. [SYSTEM]: Which city you prefer? [USER]: Search in San Diego. [SYSTEM]: There you can visit Balboa Park. [USER]: Free entrance there? Can you give the phone number. [SYSTEM]: Entry is charged, you can contact them with 619-239-0512. [USER]: Is there any other park. \n [slot] travel_1-location, it indicates City or town where the attraction is located. So the value of slot <travel_1-location> is \n",
+        "output": "san diego"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <travel_1-category>.\n[USER]: I am free for some days and wish to go outdoors. Are there any beautiful destinations to visit. [SYSTEM]: Which city you prefer? [USER]: Search in San Diego. [SYSTEM]: There you can visit Balboa Park. [USER]: Free entrance there? Can you give the phone number. [SYSTEM]: Entry is charged, you can contact them with 619-239-0512. [USER]: Is there any other park. [SYSTEM]: 5 such places are there. What about Cabrillo National Monument, a park? [USER]: Great, that sounds good. \n [slot] travel_1-category, it indicates Category to which the attraction belongs. So the value of slot <travel_1-category> is \n",
+        "output": "park"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <travel_1-location>.\n[USER]: I am free for some days and wish to go outdoors. Are there any beautiful destinations to visit. [SYSTEM]: Which city you prefer? [USER]: Search in San Diego. [SYSTEM]: There you can visit Balboa Park. [USER]: Free entrance there? Can you give the phone number. [SYSTEM]: Entry is charged, you can contact them with 619-239-0512. [USER]: Is there any other park. [SYSTEM]: 5 such places are there. What about Cabrillo National Monument, a park? [USER]: Great, that sounds good. \n [slot] travel_1-location, it indicates City or town where the attraction is located. So the value of slot <travel_1-location> is \n",
+        "output": "san diego"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <travel_1-category>.\n[USER]: I am free for some days and wish to go outdoors. Are there any beautiful destinations to visit. [SYSTEM]: Which city you prefer? [USER]: Search in San Diego. [SYSTEM]: There you can visit Balboa Park. [USER]: Free entrance there? Can you give the phone number. [SYSTEM]: Entry is charged, you can contact them with 619-239-0512. [USER]: Is there any other park. [SYSTEM]: 5 such places are there. What about Cabrillo National Monument, a park? [USER]: Great, that sounds good. [SYSTEM]: Any other help you need? [USER]: No, that's all. thank you. \n [slot] travel_1-category, it indicates Category to which the attraction belongs. So the value of slot <travel_1-category> is \n",
+        "output": "park"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <travel_1-location>.\n[USER]: I am free for some days and wish to go outdoors. Are there any beautiful destinations to visit. [SYSTEM]: Which city you prefer? [USER]: Search in San Diego. [SYSTEM]: There you can visit Balboa Park. [USER]: Free entrance there? Can you give the phone number. [SYSTEM]: Entry is charged, you can contact them with 619-239-0512. [USER]: Is there any other park. [SYSTEM]: 5 such places are there. What about Cabrillo National Monument, a park? [USER]: Great, that sounds good. [SYSTEM]: Any other help you need? [USER]: No, that's all. thank you. \n [slot] travel_1-location, it indicates City or town where the attraction is located. So the value of slot <travel_1-location> is \n",
+        "output": "san diego"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <travel_1-category>.\n[USER]: Can you find me a museum to visit in London, UK? \n [slot] travel_1-category, it indicates Category to which the attraction belongs. So the value of slot <travel_1-category> is \n",
+        "output": "museum"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <travel_1-location>.\n[USER]: Can you find me a museum to visit in London, UK? \n [slot] travel_1-location, it indicates City or town where the attraction is located. So the value of slot <travel_1-location> is \n",
+        "output": "london, uk"
+    },
+    {
+        "input": "Track the state of the slot <travel_1-category> in the input dialogue.\n[USER]: Can you find me a museum to visit in London, UK? [SYSTEM]: I've found a museum for you. It's Apsley House. [USER]: Is this a child-friendly museum? What's their number? \n [slot] travel_1-category, it indicates Category to which the attraction belongs. So the value of slot <travel_1-category> is \n",
+        "output": "museum"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <travel_1-location>.\n[USER]: Can you find me a museum to visit in London, UK? [SYSTEM]: I've found a museum for you. It's Apsley House. [USER]: Is this a child-friendly museum? What's their number? \n [slot] travel_1-location, it indicates City or town where the attraction is located. So the value of slot <travel_1-location> is \n",
+        "output": "london, uk"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <travel_1-category>.\n[USER]: Can you find me a museum to visit in London, UK? [SYSTEM]: I've found a museum for you. It's Apsley House. [USER]: Is this a child-friendly museum? What's their number? [SYSTEM]: Reviewers have reported that this is a nice play to take children. Their number is 1793 414926. [USER]: That's great, thanks. \n [slot] travel_1-category, it indicates Category to which the attraction belongs. So the value of slot <travel_1-category> is \n",
+        "output": "museum"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <travel_1-location>.\n[USER]: Can you find me a museum to visit in London, UK? [SYSTEM]: I've found a museum for you. It's Apsley House. [USER]: Is this a child-friendly museum? What's their number? [SYSTEM]: Reviewers have reported that this is a nice play to take children. Their number is 1793 414926. [USER]: That's great, thanks. \n [slot] travel_1-location, it indicates City or town where the attraction is located. So the value of slot <travel_1-location> is \n",
+        "output": "london, uk"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <travel_1-free_entry>.\n[USER]: Can you find me some free events or attractions to go to? \n [slot] travel_1-free_entry, it indicates Boolean flag indicating whether entrance to attraction is free. So the value of slot <travel_1-free_entry> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <travel_1-free_entry>.\n[USER]: Can you find me some free events or attractions to go to? [SYSTEM]: Of course, where should I look? [USER]: I'm looking for stuff to do in SD. \n [slot] travel_1-free_entry, it indicates Boolean flag indicating whether entrance to attraction is free. So the value of slot <travel_1-free_entry> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <travel_1-location>.\n[USER]: Can you find me some free events or attractions to go to? [SYSTEM]: Of course, where should I look? [USER]: I'm looking for stuff to do in SD. \n [slot] travel_1-location, it indicates City or town where the attraction is located. So the value of slot <travel_1-location> is \n",
+        "output": "sd"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <travel_1-category>.\n[USER]: Can you find me some free events or attractions to go to? [SYSTEM]: Of course, where should I look? [USER]: I'm looking for stuff to do in SD. [SYSTEM]: I've got 10 possible options for you: The Balboa Theatre is a Performing Arts Venue in SD. [USER]: Maybe. How about a Museum? \n [slot] travel_1-category, it indicates Category to which the attraction belongs. So the value of slot <travel_1-category> is \n",
+        "output": "museum"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <travel_1-free_entry>.\n[USER]: Can you find me some free events or attractions to go to? [SYSTEM]: Of course, where should I look? [USER]: I'm looking for stuff to do in SD. [SYSTEM]: I've got 10 possible options for you: The Balboa Theatre is a Performing Arts Venue in SD. [USER]: Maybe. How about a Museum? \n [slot] travel_1-free_entry, it indicates Boolean flag indicating whether entrance to attraction is free. So the value of slot <travel_1-free_entry> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <travel_1-location>.\n[USER]: Can you find me some free events or attractions to go to? [SYSTEM]: Of course, where should I look? [USER]: I'm looking for stuff to do in SD. [SYSTEM]: I've got 10 possible options for you: The Balboa Theatre is a Performing Arts Venue in SD. [USER]: Maybe. How about a Museum? \n [slot] travel_1-location, it indicates City or town where the attraction is located. So the value of slot <travel_1-location> is \n",
+        "output": "sd"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <travel_1-category>.\n[USER]: Can you find me some free events or attractions to go to? [SYSTEM]: Of course, where should I look? [USER]: I'm looking for stuff to do in SD. [SYSTEM]: I've got 10 possible options for you: The Balboa Theatre is a Performing Arts Venue in SD. [USER]: Maybe. How about a Museum? [SYSTEM]: The Fleet Science Center is a Museum in San Diego. [USER]: I'm not sure. I'm going to Sydney, Australia soon, too - can you find me some attractions there? Something good for kids. \n [slot] travel_1-category, it indicates Category to which the attraction belongs. So the value of slot <travel_1-category> is \n",
+        "output": "museum"
+    },
+    {
+        "input": "Track the state of the slot <travel_1-free_entry> in the input dialogue.\n[USER]: Can you find me some free events or attractions to go to? [SYSTEM]: Of course, where should I look? [USER]: I'm looking for stuff to do in SD. [SYSTEM]: I've got 10 possible options for you: The Balboa Theatre is a Performing Arts Venue in SD. [USER]: Maybe. How about a Museum? [SYSTEM]: The Fleet Science Center is a Museum in San Diego. [USER]: I'm not sure. I'm going to Sydney, Australia soon, too - can you find me some attractions there? Something good for kids. \n [slot] travel_1-free_entry, it indicates Boolean flag indicating whether entrance to attraction is free. So the value of slot <travel_1-free_entry> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: Can you find me some free events or attractions to go to? [SYSTEM]: Of course, where should I look? [USER]: I'm looking for stuff to do in SD. [SYSTEM]: I've got 10 possible options for you: The Balboa Theatre is a Performing Arts Venue in SD. [USER]: Maybe. How about a Museum? [SYSTEM]: The Fleet Science Center is a Museum in San Diego. [USER]: I'm not sure. I'm going to Sydney, Australia soon, too - can you find me some attractions there? Something good for kids. \n [slot] travel_1-good_for_kids, it indicates Boolean flag indicating whether attraction is good for to take kids to. So the value of slot <travel_1-good_for_kids> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <travel_1-location>.\n[USER]: Can you find me some free events or attractions to go to? [SYSTEM]: Of course, where should I look? [USER]: I'm looking for stuff to do in SD. [SYSTEM]: I've got 10 possible options for you: The Balboa Theatre is a Performing Arts Venue in SD. [USER]: Maybe. How about a Museum? [SYSTEM]: The Fleet Science Center is a Museum in San Diego. [USER]: I'm not sure. I'm going to Sydney, Australia soon, too - can you find me some attractions there? Something good for kids. \n [slot] travel_1-location, it indicates City or town where the attraction is located. So the value of slot <travel_1-location> is \n",
+        "output": "sydney, australia"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <travel_1-category>.\n[USER]: Can you find me some free events or attractions to go to? [SYSTEM]: Of course, where should I look? [USER]: I'm looking for stuff to do in SD. [SYSTEM]: I've got 10 possible options for you: The Balboa Theatre is a Performing Arts Venue in SD. [USER]: Maybe. How about a Museum? [SYSTEM]: The Fleet Science Center is a Museum in San Diego. [USER]: I'm not sure. I'm going to Sydney, Australia soon, too - can you find me some attractions there? Something good for kids. [SYSTEM]: I've got 4 options in Sydney: How about another Museum? The Art Gallery of New South Wales is popular. [USER]: Yeah, you know, I'll think about it. Thanks, that's it for now. \n [slot] travel_1-category, it indicates Category to which the attraction belongs. So the value of slot <travel_1-category> is \n",
+        "output": "museum"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <travel_1-free_entry>.\n[USER]: Can you find me some free events or attractions to go to? [SYSTEM]: Of course, where should I look? [USER]: I'm looking for stuff to do in SD. [SYSTEM]: I've got 10 possible options for you: The Balboa Theatre is a Performing Arts Venue in SD. [USER]: Maybe. How about a Museum? [SYSTEM]: The Fleet Science Center is a Museum in San Diego. [USER]: I'm not sure. I'm going to Sydney, Australia soon, too - can you find me some attractions there? Something good for kids. [SYSTEM]: I've got 4 options in Sydney: How about another Museum? The Art Gallery of New South Wales is popular. [USER]: Yeah, you know, I'll think about it. Thanks, that's it for now. \n [slot] travel_1-free_entry, it indicates Boolean flag indicating whether entrance to attraction is free. So the value of slot <travel_1-free_entry> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Track the state of the slot <travel_1-good_for_kids> in the input dialogue.\n[USER]: Can you find me some free events or attractions to go to? [SYSTEM]: Of course, where should I look? [USER]: I'm looking for stuff to do in SD. [SYSTEM]: I've got 10 possible options for you: The Balboa Theatre is a Performing Arts Venue in SD. [USER]: Maybe. How about a Museum? [SYSTEM]: The Fleet Science Center is a Museum in San Diego. [USER]: I'm not sure. I'm going to Sydney, Australia soon, too - can you find me some attractions there? Something good for kids. [SYSTEM]: I've got 4 options in Sydney: How about another Museum? The Art Gallery of New South Wales is popular. [USER]: Yeah, you know, I'll think about it. Thanks, that's it for now. \n [slot] travel_1-good_for_kids, it indicates Boolean flag indicating whether attraction is good for to take kids to. So the value of slot <travel_1-good_for_kids> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Track the state of the slot <travel_1-location> in the input dialogue.\n[USER]: Can you find me some free events or attractions to go to? [SYSTEM]: Of course, where should I look? [USER]: I'm looking for stuff to do in SD. [SYSTEM]: I've got 10 possible options for you: The Balboa Theatre is a Performing Arts Venue in SD. [USER]: Maybe. How about a Museum? [SYSTEM]: The Fleet Science Center is a Museum in San Diego. [USER]: I'm not sure. I'm going to Sydney, Australia soon, too - can you find me some attractions there? Something good for kids. [SYSTEM]: I've got 4 options in Sydney: How about another Museum? The Art Gallery of New South Wales is popular. [USER]: Yeah, you know, I'll think about it. Thanks, that's it for now. \n [slot] travel_1-location, it indicates City or town where the attraction is located. So the value of slot <travel_1-location> is \n",
+        "output": "sydney, australia"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: Hey! We have moved to Australia very recently. Wish to see the places near by. Do you have any attractions to visit like a Museum, Art Gallery etc? \n [slot] travel_1-category, it indicates Category to which the attraction belongs. So the value of slot <travel_1-category> is \n",
+        "output": "museum"
+    },
+    {
+        "input": "Track the state of the slot <travel_1-category> in the input dialogue.\n[USER]: Hey! We have moved to Australia very recently. Wish to see the places near by. Do you have any attractions to visit like a Museum, Art Gallery etc? [SYSTEM]: Yup! You do have a lot of places that attracts everyone... Exactly, in which location you want me to find some attractions for you? [USER]: Please can you find attractions in Sydney, Australia and if it's child-friendly it would be good since my children will love to spend their day with a greatest enjoyment. \n [slot] travel_1-category, it indicates Category to which the attraction belongs. So the value of slot <travel_1-category> is \n",
+        "output": "museum"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <travel_1-good_for_kids>.\n[USER]: Hey! We have moved to Australia very recently. Wish to see the places near by. Do you have any attractions to visit like a Museum, Art Gallery etc? [SYSTEM]: Yup! You do have a lot of places that attracts everyone... Exactly, in which location you want me to find some attractions for you? [USER]: Please can you find attractions in Sydney, Australia and if it's child-friendly it would be good since my children will love to spend their day with a greatest enjoyment. \n [slot] travel_1-good_for_kids, it indicates Boolean flag indicating whether attraction is good for to take kids to. So the value of slot <travel_1-good_for_kids> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <travel_1-location>.\n[USER]: Hey! We have moved to Australia very recently. Wish to see the places near by. Do you have any attractions to visit like a Museum, Art Gallery etc? [SYSTEM]: Yup! You do have a lot of places that attracts everyone... Exactly, in which location you want me to find some attractions for you? [USER]: Please can you find attractions in Sydney, Australia and if it's child-friendly it would be good since my children will love to spend their day with a greatest enjoyment. \n [slot] travel_1-location, it indicates City or town where the attraction is located. So the value of slot <travel_1-location> is \n",
+        "output": "sydney, australia"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: Hey! We have moved to Australia very recently. Wish to see the places near by. Do you have any attractions to visit like a Museum, Art Gallery etc? [SYSTEM]: Yup! You do have a lot of places that attracts everyone... Exactly, in which location you want me to find some attractions for you? [USER]: Please can you find attractions in Sydney, Australia and if it's child-friendly it would be good since my children will love to spend their day with a greatest enjoyment. [SYSTEM]: Okay! There is a public Museum, Art Gallery of New South Wales in The Domain in Sydney, New South Wales, Australia, which is one of the largest one in Australia. You can have a splendid time there with your children. [USER]: Awesome!!! \n [slot] travel_1-category, it indicates Category to which the attraction belongs. So the value of slot <travel_1-category> is \n",
+        "output": "museum"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <travel_1-good_for_kids>.\n[USER]: Hey! We have moved to Australia very recently. Wish to see the places near by. Do you have any attractions to visit like a Museum, Art Gallery etc? [SYSTEM]: Yup! You do have a lot of places that attracts everyone... Exactly, in which location you want me to find some attractions for you? [USER]: Please can you find attractions in Sydney, Australia and if it's child-friendly it would be good since my children will love to spend their day with a greatest enjoyment. [SYSTEM]: Okay! There is a public Museum, Art Gallery of New South Wales in The Domain in Sydney, New South Wales, Australia, which is one of the largest one in Australia. You can have a splendid time there with your children. [USER]: Awesome!!! \n [slot] travel_1-good_for_kids, it indicates Boolean flag indicating whether attraction is good for to take kids to. So the value of slot <travel_1-good_for_kids> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Track the state of the slot <travel_1-location> in the input dialogue.\n[USER]: Hey! We have moved to Australia very recently. Wish to see the places near by. Do you have any attractions to visit like a Museum, Art Gallery etc? [SYSTEM]: Yup! You do have a lot of places that attracts everyone... Exactly, in which location you want me to find some attractions for you? [USER]: Please can you find attractions in Sydney, Australia and if it's child-friendly it would be good since my children will love to spend their day with a greatest enjoyment. [SYSTEM]: Okay! There is a public Museum, Art Gallery of New South Wales in The Domain in Sydney, New South Wales, Australia, which is one of the largest one in Australia. You can have a splendid time there with your children. [USER]: Awesome!!! \n [slot] travel_1-location, it indicates City or town where the attraction is located. So the value of slot <travel_1-location> is \n",
+        "output": "sydney, australia"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <travel_1-category>.\n[USER]: Hey! We have moved to Australia very recently. Wish to see the places near by. Do you have any attractions to visit like a Museum, Art Gallery etc? [SYSTEM]: Yup! You do have a lot of places that attracts everyone... Exactly, in which location you want me to find some attractions for you? [USER]: Please can you find attractions in Sydney, Australia and if it's child-friendly it would be good since my children will love to spend their day with a greatest enjoyment. [SYSTEM]: Okay! There is a public Museum, Art Gallery of New South Wales in The Domain in Sydney, New South Wales, Australia, which is one of the largest one in Australia. You can have a splendid time there with your children. [USER]: Awesome!!! [SYSTEM]: Do you wish to know information about any other tourist attractions? [USER]: Nope, this is enough for time being. Thanks. \n [slot] travel_1-category, it indicates Category to which the attraction belongs. So the value of slot <travel_1-category> is \n",
+        "output": "museum"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <travel_1-good_for_kids>.\n[USER]: Hey! We have moved to Australia very recently. Wish to see the places near by. Do you have any attractions to visit like a Museum, Art Gallery etc? [SYSTEM]: Yup! You do have a lot of places that attracts everyone... Exactly, in which location you want me to find some attractions for you? [USER]: Please can you find attractions in Sydney, Australia and if it's child-friendly it would be good since my children will love to spend their day with a greatest enjoyment. [SYSTEM]: Okay! There is a public Museum, Art Gallery of New South Wales in The Domain in Sydney, New South Wales, Australia, which is one of the largest one in Australia. You can have a splendid time there with your children. [USER]: Awesome!!! [SYSTEM]: Do you wish to know information about any other tourist attractions? [USER]: Nope, this is enough for time being. Thanks. \n [slot] travel_1-good_for_kids, it indicates Boolean flag indicating whether attraction is good for to take kids to. So the value of slot <travel_1-good_for_kids> is \n",
+        "output": "true"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <travel_1-location>.\n[USER]: Hey! We have moved to Australia very recently. Wish to see the places near by. Do you have any attractions to visit like a Museum, Art Gallery etc? [SYSTEM]: Yup! You do have a lot of places that attracts everyone... Exactly, in which location you want me to find some attractions for you? [USER]: Please can you find attractions in Sydney, Australia and if it's child-friendly it would be good since my children will love to spend their day with a greatest enjoyment. [SYSTEM]: Okay! There is a public Museum, Art Gallery of New South Wales in The Domain in Sydney, New South Wales, Australia, which is one of the largest one in Australia. You can have a splendid time there with your children. [USER]: Awesome!!! [SYSTEM]: Do you wish to know information about any other tourist attractions? [USER]: Nope, this is enough for time being. Thanks. \n [slot] travel_1-location, it indicates City or town where the attraction is located. So the value of slot <travel_1-location> is \n",
+        "output": "sydney, australia"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <travel_1-location>.\n[USER]: I am looking for some attractions to visit [SYSTEM]: what's your preferred City [USER]: I prefer attractions in London \n [slot] travel_1-location, it indicates City or town where the attraction is located. So the value of slot <travel_1-location> is \n",
+        "output": "london"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <travel_1-location>.\n[USER]: I am looking for some attractions to visit [SYSTEM]: what's your preferred City [USER]: I prefer attractions in London [SYSTEM]: please visit 30 st Mary axe (the gherkin) which is a a historical landmark [USER]: is the entrance free and is it a child friendly location \n [slot] travel_1-location, it indicates City or town where the attraction is located. So the value of slot <travel_1-location> is \n",
+        "output": "london"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <travel_1-location>.\n[USER]: I am looking for some attractions to visit [SYSTEM]: what's your preferred City [USER]: I prefer attractions in London [SYSTEM]: please visit 30 st Mary axe (the gherkin) which is a a historical landmark [USER]: is the entrance free and is it a child friendly location [SYSTEM]: no entry to the place is is not free of cost and it is a nice place to take kids [USER]: OK great \n [slot] travel_1-location, it indicates City or town where the attraction is located. So the value of slot <travel_1-location> is \n",
+        "output": "london"
+    },
+    {
+        "input": "Track the state of the slot <travel_1-location> in the input dialogue.\n[USER]: I am looking for some attractions to visit [SYSTEM]: what's your preferred City [USER]: I prefer attractions in London [SYSTEM]: please visit 30 st Mary axe (the gherkin) which is a a historical landmark [USER]: is the entrance free and is it a child friendly location [SYSTEM]: no entry to the place is is not free of cost and it is a nice place to take kids [USER]: OK great [SYSTEM]: can I assist you with anything more [USER]: that was so kind and helpful thanks a lot \n [slot] travel_1-location, it indicates City or town where the attraction is located. So the value of slot <travel_1-location> is \n",
+        "output": "london"
+    }
+]

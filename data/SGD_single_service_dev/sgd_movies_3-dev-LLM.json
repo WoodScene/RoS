@@ -1,0 +1,122 @@
+[
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <movies_3-directed_by>.",
+        "input": "[USER]: Can you find me a nice movie directed by James Gray to watch? \n [slot] movies_3-directed_by, it indicates Director of the movie. So the value of slot <movies_3-directed_by> is \n",
+        "output": "james gray"
+    },
+    {
+        "instruction": "Track the state of the slot <movies_3-directed_by> in the input dialogue.",
+        "input": "[USER]: Can you find me a nice movie directed by James Gray to watch? [SYSTEM]: There is 1 movie called Ad Astra with an average rating of 84 percent. [USER]: Who is the actor in the movie? \n [slot] movies_3-directed_by, it indicates Director of the movie. So the value of slot <movies_3-directed_by> is \n",
+        "output": "james gray"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <movies_3-directed_by>.",
+        "input": "[USER]: Can you find me a nice movie directed by James Gray to watch? [SYSTEM]: There is 1 movie called Ad Astra with an average rating of 84 percent. [USER]: Who is the actor in the movie? [SYSTEM]: The actor of this movie is Jamie Kennedy. [USER]: That sounds great. That is all I need for now. \n [slot] movies_3-directed_by, it indicates Director of the movie. So the value of slot <movies_3-directed_by> is \n",
+        "output": "james gray"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <movies_3-directed_by>.",
+        "input": "[USER]: I'd like to watch a movie directed by Alex Kendrick. \n [slot] movies_3-directed_by, it indicates Director of the movie. So the value of slot <movies_3-directed_by> is \n",
+        "output": "alex kendrick"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <movies_3-directed_by>.",
+        "input": "[USER]: I'd like to watch a movie directed by Alex Kendrick. [SYSTEM]: Overcomer is directed by Alex Kendrick and it has a rating of 46 percent. [USER]: Can you tell me which genre this movie is in and who stars in it? \n [slot] movies_3-directed_by, it indicates Director of the movie. So the value of slot <movies_3-directed_by> is \n",
+        "output": "alex kendrick"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <movies_3-directed_by>.",
+        "input": "[USER]: I'd like to watch a movie directed by Alex Kendrick. [SYSTEM]: Overcomer is directed by Alex Kendrick and it has a rating of 46 percent. [USER]: Can you tell me which genre this movie is in and who stars in it? [SYSTEM]: Of course! This drama movie stars Jack Sterner. [USER]: Perfect! Thank you for your help. \n [slot] movies_3-directed_by, it indicates Director of the movie. So the value of slot <movies_3-directed_by> is \n",
+        "output": "alex kendrick"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <movies_3-cast>.",
+        "input": "[USER]: I would like to choose a movie to watch. Can you help me find a movie in the Comic genre with James Corden in it? \n [slot] movies_3-cast, it indicates Actors in the movie. So the value of slot <movies_3-cast> is \n",
+        "output": "james corden"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <movies_3-genre>.",
+        "input": "[USER]: I would like to choose a movie to watch. Can you help me find a movie in the Comic genre with James Corden in it? \n [slot] movies_3-genre, it indicates Type of the movie. So the value of slot <movies_3-genre> is \n",
+        "output": "comic"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <movies_3-cast>.",
+        "input": "[USER]: I would like to choose a movie to watch. Can you help me find a movie in the Comic genre with James Corden in it? [SYSTEM]: I found 1 movie like that. The film Yesterday has an average rating of 63 percent. [USER]: Who directed the movie? \n [slot] movies_3-cast, it indicates Actors in the movie. So the value of slot <movies_3-cast> is \n",
+        "output": "james corden"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <movies_3-genre>.",
+        "input": "[USER]: I would like to choose a movie to watch. Can you help me find a movie in the Comic genre with James Corden in it? [SYSTEM]: I found 1 movie like that. The film Yesterday has an average rating of 63 percent. [USER]: Who directed the movie? \n [slot] movies_3-genre, it indicates Type of the movie. So the value of slot <movies_3-genre> is \n",
+        "output": "comic"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <movies_3-cast>.",
+        "input": "[USER]: I would like to choose a movie to watch. Can you help me find a movie in the Comic genre with James Corden in it? [SYSTEM]: I found 1 movie like that. The film Yesterday has an average rating of 63 percent. [USER]: Who directed the movie? [SYSTEM]: The director is Danny Boyle. [USER]: OK, sounds great, thanks, that is all. \n [slot] movies_3-cast, it indicates Actors in the movie. So the value of slot <movies_3-cast> is \n",
+        "output": "james corden"
+    },
+    {
+        "instruction": "Track the state of the slot <movies_3-genre> in the input dialogue.",
+        "input": "[USER]: I would like to choose a movie to watch. Can you help me find a movie in the Comic genre with James Corden in it? [SYSTEM]: I found 1 movie like that. The film Yesterday has an average rating of 63 percent. [USER]: Who directed the movie? [SYSTEM]: The director is Danny Boyle. [USER]: OK, sounds great, thanks, that is all. \n [slot] movies_3-genre, it indicates Type of the movie. So the value of slot <movies_3-genre> is \n",
+        "output": "comic"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: Can you find me a thriller movie directed by Alexander Mackendrick? \n [slot] movies_3-directed_by, it indicates Director of the movie. So the value of slot <movies_3-directed_by> is \n",
+        "output": "alexander mackendrick"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <movies_3-genre>.",
+        "input": "[USER]: Can you find me a thriller movie directed by Alexander Mackendrick? \n [slot] movies_3-genre, it indicates Type of the movie. So the value of slot <movies_3-genre> is \n",
+        "output": "thriller"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <movies_3-directed_by>.",
+        "input": "[USER]: Can you find me a thriller movie directed by Alexander Mackendrick? [SYSTEM]: There's the Ladykillers, which has an average rating of 100 percent. [USER]: Who's in it? \n [slot] movies_3-directed_by, it indicates Director of the movie. So the value of slot <movies_3-directed_by> is \n",
+        "output": "alexander mackendrick"
+    },
+    {
+        "instruction": "Track the state of the slot <movies_3-genre> in the input dialogue.",
+        "input": "[USER]: Can you find me a thriller movie directed by Alexander Mackendrick? [SYSTEM]: There's the Ladykillers, which has an average rating of 100 percent. [USER]: Who's in it? \n [slot] movies_3-genre, it indicates Type of the movie. So the value of slot <movies_3-genre> is \n",
+        "output": "thriller"
+    },
+    {
+        "instruction": "Track the state of the slot <movies_3-directed_by> in the input dialogue.",
+        "input": "[USER]: Can you find me a thriller movie directed by Alexander Mackendrick? [SYSTEM]: There's the Ladykillers, which has an average rating of 100 percent. [USER]: Who's in it? [SYSTEM]: Leonard Sharp is the actor. [USER]: That one sounds great. \n [slot] movies_3-directed_by, it indicates Director of the movie. So the value of slot <movies_3-directed_by> is \n",
+        "output": "alexander mackendrick"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <movies_3-genre>.",
+        "input": "[USER]: Can you find me a thriller movie directed by Alexander Mackendrick? [SYSTEM]: There's the Ladykillers, which has an average rating of 100 percent. [USER]: Who's in it? [SYSTEM]: Leonard Sharp is the actor. [USER]: That one sounds great. \n [slot] movies_3-genre, it indicates Type of the movie. So the value of slot <movies_3-genre> is \n",
+        "output": "thriller"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <movies_3-directed_by>.",
+        "input": "[USER]: Can you find me a thriller movie directed by Alexander Mackendrick? [SYSTEM]: There's the Ladykillers, which has an average rating of 100 percent. [USER]: Who's in it? [SYSTEM]: Leonard Sharp is the actor. [USER]: That one sounds great. [SYSTEM]: Need anything else at the moment? [USER]: Nope, thanks again. \n [slot] movies_3-directed_by, it indicates Director of the movie. So the value of slot <movies_3-directed_by> is \n",
+        "output": "alexander mackendrick"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <movies_3-genre>.",
+        "input": "[USER]: Can you find me a thriller movie directed by Alexander Mackendrick? [SYSTEM]: There's the Ladykillers, which has an average rating of 100 percent. [USER]: Who's in it? [SYSTEM]: Leonard Sharp is the actor. [USER]: That one sounds great. [SYSTEM]: Need anything else at the moment? [USER]: Nope, thanks again. \n [slot] movies_3-genre, it indicates Type of the movie. So the value of slot <movies_3-genre> is \n",
+        "output": "thriller"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <movies_3-cast>.",
+        "input": "[USER]: I want to find a new movie to see. [SYSTEM]: What about The Load? It has an average rating of 100 percent. There are 10 other movies you might be interested in. [USER]: Are there any movies with actor Josh Gad in them? \n [slot] movies_3-cast, it indicates Actors in the movie. So the value of slot <movies_3-cast> is \n",
+        "output": "josh gad"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <movies_3-cast>.",
+        "input": "[USER]: I want to find a new movie to see. [SYSTEM]: What about The Load? It has an average rating of 100 percent. There are 10 other movies you might be interested in. [USER]: Are there any movies with actor Josh Gad in them? [SYSTEM]: Josh Gad is the voice for one of the characters in The Angry Birds Movie 2. It has an average rating of 72 percent. [USER]: Who directed Angry Birds 2? Is that a comedy or what? \n [slot] movies_3-cast, it indicates Actors in the movie. So the value of slot <movies_3-cast> is \n",
+        "output": "josh gad"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <movies_3-cast>.",
+        "input": "[USER]: I want to find a new movie to see. [SYSTEM]: What about The Load? It has an average rating of 100 percent. There are 10 other movies you might be interested in. [USER]: Are there any movies with actor Josh Gad in them? [SYSTEM]: Josh Gad is the voice for one of the characters in The Angry Birds Movie 2. It has an average rating of 72 percent. [USER]: Who directed Angry Birds 2? Is that a comedy or what? [SYSTEM]: Angry Birds 2 is an animation movie directed by Thurop Van Orman. [USER]: That sounds like something I'd like. \n [slot] movies_3-cast, it indicates Actors in the movie. So the value of slot <movies_3-cast> is \n",
+        "output": "josh gad"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <movies_3-cast>.",
+        "input": "[USER]: I want to find a new movie to see. [SYSTEM]: What about The Load? It has an average rating of 100 percent. There are 10 other movies you might be interested in. [USER]: Are there any movies with actor Josh Gad in them? [SYSTEM]: Josh Gad is the voice for one of the characters in The Angry Birds Movie 2. It has an average rating of 72 percent. [USER]: Who directed Angry Birds 2? Is that a comedy or what? [SYSTEM]: Angry Birds 2 is an animation movie directed by Thurop Van Orman. [USER]: That sounds like something I'd like. [SYSTEM]: Is there anything else you need assistance with? [USER]: No, I think that's all I need. Thanks for your help. \n [slot] movies_3-cast, it indicates Actors in the movie. So the value of slot <movies_3-cast> is \n",
+        "output": "josh gad"
+    }
+]

@@ -1,0 +1,607 @@
+[
+    {
+        "instruction": "Track the state of the slot <ridesharing_2-destination> in the input dialogue.",
+        "input": "[USER]: I want a cab [SYSTEM]: How many seats are you in need of and where do you wanna go? You can have the Regular or Pool or anything [USER]: I am in the group 1 and I want a ride to 1331 Medical Center Drive and I want a Pool ride \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "1331 medical center drive"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: I want a cab [SYSTEM]: How many seats are you in need of and where do you wanna go? You can have the Regular or Pool or anything [USER]: I am in the group 1 and I want a ride to 1331 Medical Center Drive and I want a Pool ride \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "1"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-ride_type>.",
+        "input": "[USER]: I want a cab [SYSTEM]: How many seats are you in need of and where do you wanna go? You can have the Regular or Pool or anything [USER]: I am in the group 1 and I want a ride to 1331 Medical Center Drive and I want a Pool ride \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "pool"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I want a cab [SYSTEM]: How many seats are you in need of and where do you wanna go? You can have the Regular or Pool or anything [USER]: I am in the group 1 and I want a ride to 1331 Medical Center Drive and I want a Pool ride [SYSTEM]: Confirm you want a ride to 1331 Medical Center Drive. You need 1 seat and I prefer a Pool ride. [USER]: I prefer a regular ride. \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "1331 medical center drive"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I want a cab [SYSTEM]: How many seats are you in need of and where do you wanna go? You can have the Regular or Pool or anything [USER]: I am in the group 1 and I want a ride to 1331 Medical Center Drive and I want a Pool ride [SYSTEM]: Confirm you want a ride to 1331 Medical Center Drive. You need 1 seat and I prefer a Pool ride. [USER]: I prefer a regular ride. \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "1"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-ride_type>.",
+        "input": "[USER]: I want a cab [SYSTEM]: How many seats are you in need of and where do you wanna go? You can have the Regular or Pool or anything [USER]: I am in the group 1 and I want a ride to 1331 Medical Center Drive and I want a Pool ride [SYSTEM]: Confirm you want a ride to 1331 Medical Center Drive. You need 1 seat and I prefer a Pool ride. [USER]: I prefer a regular ride. \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "regular"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-destination>.",
+        "input": "[USER]: I want a cab [SYSTEM]: How many seats are you in need of and where do you wanna go? You can have the Regular or Pool or anything [USER]: I am in the group 1 and I want a ride to 1331 Medical Center Drive and I want a Pool ride [SYSTEM]: Confirm you want a ride to 1331 Medical Center Drive. You need 1 seat and I prefer a Pool ride. [USER]: I prefer a regular ride. [SYSTEM]: Confirm a ride to 1331 Medical Center Drive and a Regular one. [USER]: I want a ride to Takumi Sushi Bar & Grill. \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "takumi sushi bar & grill"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: I want a cab [SYSTEM]: How many seats are you in need of and where do you wanna go? You can have the Regular or Pool or anything [USER]: I am in the group 1 and I want a ride to 1331 Medical Center Drive and I want a Pool ride [SYSTEM]: Confirm you want a ride to 1331 Medical Center Drive. You need 1 seat and I prefer a Pool ride. [USER]: I prefer a regular ride. [SYSTEM]: Confirm a ride to 1331 Medical Center Drive and a Regular one. [USER]: I want a ride to Takumi Sushi Bar & Grill. \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "1"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-ride_type>.",
+        "input": "[USER]: I want a cab [SYSTEM]: How many seats are you in need of and where do you wanna go? You can have the Regular or Pool or anything [USER]: I am in the group 1 and I want a ride to 1331 Medical Center Drive and I want a Pool ride [SYSTEM]: Confirm you want a ride to 1331 Medical Center Drive. You need 1 seat and I prefer a Pool ride. [USER]: I prefer a regular ride. [SYSTEM]: Confirm a ride to 1331 Medical Center Drive and a Regular one. [USER]: I want a ride to Takumi Sushi Bar & Grill. \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "regular"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-destination>.",
+        "input": "[USER]: I want a cab [SYSTEM]: How many seats are you in need of and where do you wanna go? You can have the Regular or Pool or anything [USER]: I am in the group 1 and I want a ride to 1331 Medical Center Drive and I want a Pool ride [SYSTEM]: Confirm you want a ride to 1331 Medical Center Drive. You need 1 seat and I prefer a Pool ride. [USER]: I prefer a regular ride. [SYSTEM]: Confirm a ride to 1331 Medical Center Drive and a Regular one. [USER]: I want a ride to Takumi Sushi Bar & Grill. [SYSTEM]: Confirm you wanna get a ride to Takumi Sushi Bar & Grill. You really prefer a Regular ride. [USER]: Yes that is fine \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "takumi sushi bar & grill"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: I want a cab [SYSTEM]: How many seats are you in need of and where do you wanna go? You can have the Regular or Pool or anything [USER]: I am in the group 1 and I want a ride to 1331 Medical Center Drive and I want a Pool ride [SYSTEM]: Confirm you want a ride to 1331 Medical Center Drive. You need 1 seat and I prefer a Pool ride. [USER]: I prefer a regular ride. [SYSTEM]: Confirm a ride to 1331 Medical Center Drive and a Regular one. [USER]: I want a ride to Takumi Sushi Bar & Grill. [SYSTEM]: Confirm you wanna get a ride to Takumi Sushi Bar & Grill. You really prefer a Regular ride. [USER]: Yes that is fine \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "1"
+    },
+    {
+        "instruction": "Track the state of the slot <ridesharing_2-ride_type> in the input dialogue.",
+        "input": "[USER]: I want a cab [SYSTEM]: How many seats are you in need of and where do you wanna go? You can have the Regular or Pool or anything [USER]: I am in the group 1 and I want a ride to 1331 Medical Center Drive and I want a Pool ride [SYSTEM]: Confirm you want a ride to 1331 Medical Center Drive. You need 1 seat and I prefer a Pool ride. [USER]: I prefer a regular ride. [SYSTEM]: Confirm a ride to 1331 Medical Center Drive and a Regular one. [USER]: I want a ride to Takumi Sushi Bar & Grill. [SYSTEM]: Confirm you wanna get a ride to Takumi Sushi Bar & Grill. You really prefer a Regular ride. [USER]: Yes that is fine \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "regular"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-destination>.",
+        "input": "[USER]: I want a cab [SYSTEM]: How many seats are you in need of and where do you wanna go? You can have the Regular or Pool or anything [USER]: I am in the group 1 and I want a ride to 1331 Medical Center Drive and I want a Pool ride [SYSTEM]: Confirm you want a ride to 1331 Medical Center Drive. You need 1 seat and I prefer a Pool ride. [USER]: I prefer a regular ride. [SYSTEM]: Confirm a ride to 1331 Medical Center Drive and a Regular one. [USER]: I want a ride to Takumi Sushi Bar & Grill. [SYSTEM]: Confirm you wanna get a ride to Takumi Sushi Bar & Grill. You really prefer a Regular ride. [USER]: Yes that is fine [SYSTEM]: I booked the ride and the cab is on the way [USER]: How long before the cab gets here and how much does it cost? \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "takumi sushi bar & grill"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: I want a cab [SYSTEM]: How many seats are you in need of and where do you wanna go? You can have the Regular or Pool or anything [USER]: I am in the group 1 and I want a ride to 1331 Medical Center Drive and I want a Pool ride [SYSTEM]: Confirm you want a ride to 1331 Medical Center Drive. You need 1 seat and I prefer a Pool ride. [USER]: I prefer a regular ride. [SYSTEM]: Confirm a ride to 1331 Medical Center Drive and a Regular one. [USER]: I want a ride to Takumi Sushi Bar & Grill. [SYSTEM]: Confirm you wanna get a ride to Takumi Sushi Bar & Grill. You really prefer a Regular ride. [USER]: Yes that is fine [SYSTEM]: I booked the ride and the cab is on the way [USER]: How long before the cab gets here and how much does it cost? \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "1"
+    },
+    {
+        "instruction": "Track the state of the slot <ridesharing_2-ride_type> in the input dialogue.",
+        "input": "[USER]: I want a cab [SYSTEM]: How many seats are you in need of and where do you wanna go? You can have the Regular or Pool or anything [USER]: I am in the group 1 and I want a ride to 1331 Medical Center Drive and I want a Pool ride [SYSTEM]: Confirm you want a ride to 1331 Medical Center Drive. You need 1 seat and I prefer a Pool ride. [USER]: I prefer a regular ride. [SYSTEM]: Confirm a ride to 1331 Medical Center Drive and a Regular one. [USER]: I want a ride to Takumi Sushi Bar & Grill. [SYSTEM]: Confirm you wanna get a ride to Takumi Sushi Bar & Grill. You really prefer a Regular ride. [USER]: Yes that is fine [SYSTEM]: I booked the ride and the cab is on the way [USER]: How long before the cab gets here and how much does it cost? \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "regular"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-destination>.",
+        "input": "[USER]: I want a cab [SYSTEM]: How many seats are you in need of and where do you wanna go? You can have the Regular or Pool or anything [USER]: I am in the group 1 and I want a ride to 1331 Medical Center Drive and I want a Pool ride [SYSTEM]: Confirm you want a ride to 1331 Medical Center Drive. You need 1 seat and I prefer a Pool ride. [USER]: I prefer a regular ride. [SYSTEM]: Confirm a ride to 1331 Medical Center Drive and a Regular one. [USER]: I want a ride to Takumi Sushi Bar & Grill. [SYSTEM]: Confirm you wanna get a ride to Takumi Sushi Bar & Grill. You really prefer a Regular ride. [USER]: Yes that is fine [SYSTEM]: I booked the ride and the cab is on the way [USER]: How long before the cab gets here and how much does it cost? [SYSTEM]: The cab will be here in 6 minutes and the ride is $24.97 [USER]: Thanks that is all \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "takumi sushi bar & grill"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: I want a cab [SYSTEM]: How many seats are you in need of and where do you wanna go? You can have the Regular or Pool or anything [USER]: I am in the group 1 and I want a ride to 1331 Medical Center Drive and I want a Pool ride [SYSTEM]: Confirm you want a ride to 1331 Medical Center Drive. You need 1 seat and I prefer a Pool ride. [USER]: I prefer a regular ride. [SYSTEM]: Confirm a ride to 1331 Medical Center Drive and a Regular one. [USER]: I want a ride to Takumi Sushi Bar & Grill. [SYSTEM]: Confirm you wanna get a ride to Takumi Sushi Bar & Grill. You really prefer a Regular ride. [USER]: Yes that is fine [SYSTEM]: I booked the ride and the cab is on the way [USER]: How long before the cab gets here and how much does it cost? [SYSTEM]: The cab will be here in 6 minutes and the ride is $24.97 [USER]: Thanks that is all \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "1"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-ride_type>.",
+        "input": "[USER]: I want a cab [SYSTEM]: How many seats are you in need of and where do you wanna go? You can have the Regular or Pool or anything [USER]: I am in the group 1 and I want a ride to 1331 Medical Center Drive and I want a Pool ride [SYSTEM]: Confirm you want a ride to 1331 Medical Center Drive. You need 1 seat and I prefer a Pool ride. [USER]: I prefer a regular ride. [SYSTEM]: Confirm a ride to 1331 Medical Center Drive and a Regular one. [USER]: I want a ride to Takumi Sushi Bar & Grill. [SYSTEM]: Confirm you wanna get a ride to Takumi Sushi Bar & Grill. You really prefer a Regular ride. [USER]: Yes that is fine [SYSTEM]: I booked the ride and the cab is on the way [USER]: How long before the cab gets here and how much does it cost? [SYSTEM]: The cab will be here in 6 minutes and the ride is $24.97 [USER]: Thanks that is all \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "regular"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-destination>.",
+        "input": "[USER]: I need a cab. [SYSTEM]: Where do you want to go and for how many people. [USER]: three people and I want to ride Go Vegan. \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "go vegan"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: I need a cab. [SYSTEM]: Where do you want to go and for how many people. [USER]: three people and I want to ride Go Vegan. \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "3"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-destination>.",
+        "input": "[USER]: I need a cab. [SYSTEM]: Where do you want to go and for how many people. [USER]: three people and I want to ride Go Vegan. [SYSTEM]: What type of ride do you prefer? [USER]: A Pool ride for 2 people \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "go vegan"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: I need a cab. [SYSTEM]: Where do you want to go and for how many people. [USER]: three people and I want to ride Go Vegan. [SYSTEM]: What type of ride do you prefer? [USER]: A Pool ride for 2 people \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "2"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-ride_type>.",
+        "input": "[USER]: I need a cab. [SYSTEM]: Where do you want to go and for how many people. [USER]: three people and I want to ride Go Vegan. [SYSTEM]: What type of ride do you prefer? [USER]: A Pool ride for 2 people \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "pool"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-destination>.",
+        "input": "[USER]: I need a cab. [SYSTEM]: Where do you want to go and for how many people. [USER]: three people and I want to ride Go Vegan. [SYSTEM]: What type of ride do you prefer? [USER]: A Pool ride for 2 people [SYSTEM]: You want a Pool ride with Go Vegan for 2 people. Is that correct? [USER]: Yep that is fine. \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "go vegan"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: I need a cab. [SYSTEM]: Where do you want to go and for how many people. [USER]: three people and I want to ride Go Vegan. [SYSTEM]: What type of ride do you prefer? [USER]: A Pool ride for 2 people [SYSTEM]: You want a Pool ride with Go Vegan for 2 people. Is that correct? [USER]: Yep that is fine. \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "2"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-ride_type>.",
+        "input": "[USER]: I need a cab. [SYSTEM]: Where do you want to go and for how many people. [USER]: three people and I want to ride Go Vegan. [SYSTEM]: What type of ride do you prefer? [USER]: A Pool ride for 2 people [SYSTEM]: You want a Pool ride with Go Vegan for 2 people. Is that correct? [USER]: Yep that is fine. \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "pool"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-destination>.",
+        "input": "[USER]: I need a cab. [SYSTEM]: Where do you want to go and for how many people. [USER]: three people and I want to ride Go Vegan. [SYSTEM]: What type of ride do you prefer? [USER]: A Pool ride for 2 people [SYSTEM]: You want a Pool ride with Go Vegan for 2 people. Is that correct? [USER]: Yep that is fine. [SYSTEM]: The cab is on its way. [USER]: Thanks for your help. \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "go vegan"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: I need a cab. [SYSTEM]: Where do you want to go and for how many people. [USER]: three people and I want to ride Go Vegan. [SYSTEM]: What type of ride do you prefer? [USER]: A Pool ride for 2 people [SYSTEM]: You want a Pool ride with Go Vegan for 2 people. Is that correct? [USER]: Yep that is fine. [SYSTEM]: The cab is on its way. [USER]: Thanks for your help. \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "2"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-ride_type>.",
+        "input": "[USER]: I need a cab. [SYSTEM]: Where do you want to go and for how many people. [USER]: three people and I want to ride Go Vegan. [SYSTEM]: What type of ride do you prefer? [USER]: A Pool ride for 2 people [SYSTEM]: You want a Pool ride with Go Vegan for 2 people. Is that correct? [USER]: Yep that is fine. [SYSTEM]: The cab is on its way. [USER]: Thanks for your help. \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "pool"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I need a cab. [SYSTEM]: Where do you want to go and for how many people. [USER]: three people and I want to ride Go Vegan. [SYSTEM]: What type of ride do you prefer? [USER]: A Pool ride for 2 people [SYSTEM]: You want a Pool ride with Go Vegan for 2 people. Is that correct? [USER]: Yep that is fine. [SYSTEM]: The cab is on its way. [USER]: Thanks for your help. [SYSTEM]: Is there something else. [USER]: No that will be all. \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "go vegan"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: I need a cab. [SYSTEM]: Where do you want to go and for how many people. [USER]: three people and I want to ride Go Vegan. [SYSTEM]: What type of ride do you prefer? [USER]: A Pool ride for 2 people [SYSTEM]: You want a Pool ride with Go Vegan for 2 people. Is that correct? [USER]: Yep that is fine. [SYSTEM]: The cab is on its way. [USER]: Thanks for your help. [SYSTEM]: Is there something else. [USER]: No that will be all. \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "2"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-ride_type>.",
+        "input": "[USER]: I need a cab. [SYSTEM]: Where do you want to go and for how many people. [USER]: three people and I want to ride Go Vegan. [SYSTEM]: What type of ride do you prefer? [USER]: A Pool ride for 2 people [SYSTEM]: You want a Pool ride with Go Vegan for 2 people. Is that correct? [USER]: Yep that is fine. [SYSTEM]: The cab is on its way. [USER]: Thanks for your help. [SYSTEM]: Is there something else. [USER]: No that will be all. \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "pool"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: I want a cab and am a group of one \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "1"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-destination>.",
+        "input": "[USER]: I want a cab and am a group of one [SYSTEM]: You can have a Regular or Luxury or anything else? [USER]: I want Val's and a Luxury ride. \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "val's"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: I want a cab and am a group of one [SYSTEM]: You can have a Regular or Luxury or anything else? [USER]: I want Val's and a Luxury ride. \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "1"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-ride_type>.",
+        "input": "[USER]: I want a cab and am a group of one [SYSTEM]: You can have a Regular or Luxury or anything else? [USER]: I want Val's and a Luxury ride. \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "luxury"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-destination>.",
+        "input": "[USER]: I want a cab and am a group of one [SYSTEM]: You can have a Regular or Luxury or anything else? [USER]: I want Val's and a Luxury ride. [SYSTEM]: Confirm Val's with 1 seat and a luxury ride. [USER]: Yes that is good \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "val's"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: I want a cab and am a group of one [SYSTEM]: You can have a Regular or Luxury or anything else? [USER]: I want Val's and a Luxury ride. [SYSTEM]: Confirm Val's with 1 seat and a luxury ride. [USER]: Yes that is good \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "1"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-ride_type>.",
+        "input": "[USER]: I want a cab and am a group of one [SYSTEM]: You can have a Regular or Luxury or anything else? [USER]: I want Val's and a Luxury ride. [SYSTEM]: Confirm Val's with 1 seat and a luxury ride. [USER]: Yes that is good \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "luxury"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-destination>.",
+        "input": "[USER]: I want a cab and am a group of one [SYSTEM]: You can have a Regular or Luxury or anything else? [USER]: I want Val's and a Luxury ride. [SYSTEM]: Confirm Val's with 1 seat and a luxury ride. [USER]: Yes that is good [SYSTEM]: I got the ride and the cab is coming [USER]: How long before the cab arrives and how much? \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "val's"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: I want a cab and am a group of one [SYSTEM]: You can have a Regular or Luxury or anything else? [USER]: I want Val's and a Luxury ride. [SYSTEM]: Confirm Val's with 1 seat and a luxury ride. [USER]: Yes that is good [SYSTEM]: I got the ride and the cab is coming [USER]: How long before the cab arrives and how much? \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "1"
+    },
+    {
+        "instruction": "Track the state of the slot <ridesharing_2-ride_type> in the input dialogue.",
+        "input": "[USER]: I want a cab and am a group of one [SYSTEM]: You can have a Regular or Luxury or anything else? [USER]: I want Val's and a Luxury ride. [SYSTEM]: Confirm Val's with 1 seat and a luxury ride. [USER]: Yes that is good [SYSTEM]: I got the ride and the cab is coming [USER]: How long before the cab arrives and how much? \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "luxury"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-destination>.",
+        "input": "[USER]: I want a cab and am a group of one [SYSTEM]: You can have a Regular or Luxury or anything else? [USER]: I want Val's and a Luxury ride. [SYSTEM]: Confirm Val's with 1 seat and a luxury ride. [USER]: Yes that is good [SYSTEM]: I got the ride and the cab is coming [USER]: How long before the cab arrives and how much? [SYSTEM]: The cab will be here in 10 and it costs $20.06 [USER]: Thank you very much \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "val's"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: I want a cab and am a group of one [SYSTEM]: You can have a Regular or Luxury or anything else? [USER]: I want Val's and a Luxury ride. [SYSTEM]: Confirm Val's with 1 seat and a luxury ride. [USER]: Yes that is good [SYSTEM]: I got the ride and the cab is coming [USER]: How long before the cab arrives and how much? [SYSTEM]: The cab will be here in 10 and it costs $20.06 [USER]: Thank you very much \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "1"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I want a cab and am a group of one [SYSTEM]: You can have a Regular or Luxury or anything else? [USER]: I want Val's and a Luxury ride. [SYSTEM]: Confirm Val's with 1 seat and a luxury ride. [USER]: Yes that is good [SYSTEM]: I got the ride and the cab is coming [USER]: How long before the cab arrives and how much? [SYSTEM]: The cab will be here in 10 and it costs $20.06 [USER]: Thank you very much \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "luxury"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-destination>.",
+        "input": "[USER]: I want a cab and am a group of one [SYSTEM]: You can have a Regular or Luxury or anything else? [USER]: I want Val's and a Luxury ride. [SYSTEM]: Confirm Val's with 1 seat and a luxury ride. [USER]: Yes that is good [SYSTEM]: I got the ride and the cab is coming [USER]: How long before the cab arrives and how much? [SYSTEM]: The cab will be here in 10 and it costs $20.06 [USER]: Thank you very much [SYSTEM]: Can I assist with anything else? [USER]: No thank you \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "val's"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: I want a cab and am a group of one [SYSTEM]: You can have a Regular or Luxury or anything else? [USER]: I want Val's and a Luxury ride. [SYSTEM]: Confirm Val's with 1 seat and a luxury ride. [USER]: Yes that is good [SYSTEM]: I got the ride and the cab is coming [USER]: How long before the cab arrives and how much? [SYSTEM]: The cab will be here in 10 and it costs $20.06 [USER]: Thank you very much [SYSTEM]: Can I assist with anything else? [USER]: No thank you \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "1"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-ride_type>.",
+        "input": "[USER]: I want a cab and am a group of one [SYSTEM]: You can have a Regular or Luxury or anything else? [USER]: I want Val's and a Luxury ride. [SYSTEM]: Confirm Val's with 1 seat and a luxury ride. [USER]: Yes that is good [SYSTEM]: I got the ride and the cab is coming [USER]: How long before the cab arrives and how much? [SYSTEM]: The cab will be here in 10 and it costs $20.06 [USER]: Thank you very much [SYSTEM]: Can I assist with anything else? [USER]: No thank you \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "luxury"
+    },
+    {
+        "instruction": "Track the state of the slot <ridesharing_2-ride_type> in the input dialogue.",
+        "input": "[USER]: Hi, I need to get a cab for my friend and myself. A normal ride is fine. \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "regular"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-destination>.",
+        "input": "[USER]: Hi, I need to get a cab for my friend and myself. A normal ride is fine. [SYSTEM]: I can help you with that. Is the ride just going to be for you and your friend and where are you going to? [USER]: Yes, it is just the 2 of us. We need a ride to 2550 El Camino Real. \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "2550 el camino real"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: Hi, I need to get a cab for my friend and myself. A normal ride is fine. [SYSTEM]: I can help you with that. Is the ride just going to be for you and your friend and where are you going to? [USER]: Yes, it is just the 2 of us. We need a ride to 2550 El Camino Real. \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "2"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-ride_type>.",
+        "input": "[USER]: Hi, I need to get a cab for my friend and myself. A normal ride is fine. [SYSTEM]: I can help you with that. Is the ride just going to be for you and your friend and where are you going to? [USER]: Yes, it is just the 2 of us. We need a ride to 2550 El Camino Real. \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "regular"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: Hi, I need to get a cab for my friend and myself. A normal ride is fine. [SYSTEM]: I can help you with that. Is the ride just going to be for you and your friend and where are you going to? [USER]: Yes, it is just the 2 of us. We need a ride to 2550 El Camino Real. [SYSTEM]: Alright, can you please confirm that you would like to book a regular cab for 2 to 2550 El Camino Real. [USER]: Yes, that is correct. \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "2550 el camino real"
+    },
+    {
+        "instruction": "Track the state of the slot <ridesharing_2-number_of_seats> in the input dialogue.",
+        "input": "[USER]: Hi, I need to get a cab for my friend and myself. A normal ride is fine. [SYSTEM]: I can help you with that. Is the ride just going to be for you and your friend and where are you going to? [USER]: Yes, it is just the 2 of us. We need a ride to 2550 El Camino Real. [SYSTEM]: Alright, can you please confirm that you would like to book a regular cab for 2 to 2550 El Camino Real. [USER]: Yes, that is correct. \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "2"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-ride_type>.",
+        "input": "[USER]: Hi, I need to get a cab for my friend and myself. A normal ride is fine. [SYSTEM]: I can help you with that. Is the ride just going to be for you and your friend and where are you going to? [USER]: Yes, it is just the 2 of us. We need a ride to 2550 El Camino Real. [SYSTEM]: Alright, can you please confirm that you would like to book a regular cab for 2 to 2550 El Camino Real. [USER]: Yes, that is correct. \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "regular"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-destination>.",
+        "input": "[USER]: Hi, I need to get a cab for my friend and myself. A normal ride is fine. [SYSTEM]: I can help you with that. Is the ride just going to be for you and your friend and where are you going to? [USER]: Yes, it is just the 2 of us. We need a ride to 2550 El Camino Real. [SYSTEM]: Alright, can you please confirm that you would like to book a regular cab for 2 to 2550 El Camino Real. [USER]: Yes, that is correct. [SYSTEM]: OK, the ride is booked and the cab is on its way to you. [USER]: Thanks so much for helping. That's all I needed today! \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "2550 el camino real"
+    },
+    {
+        "instruction": "Track the state of the slot <ridesharing_2-number_of_seats> in the input dialogue.",
+        "input": "[USER]: Hi, I need to get a cab for my friend and myself. A normal ride is fine. [SYSTEM]: I can help you with that. Is the ride just going to be for you and your friend and where are you going to? [USER]: Yes, it is just the 2 of us. We need a ride to 2550 El Camino Real. [SYSTEM]: Alright, can you please confirm that you would like to book a regular cab for 2 to 2550 El Camino Real. [USER]: Yes, that is correct. [SYSTEM]: OK, the ride is booked and the cab is on its way to you. [USER]: Thanks so much for helping. That's all I needed today! \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "2"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: Hi, I need to get a cab for my friend and myself. A normal ride is fine. [SYSTEM]: I can help you with that. Is the ride just going to be for you and your friend and where are you going to? [USER]: Yes, it is just the 2 of us. We need a ride to 2550 El Camino Real. [SYSTEM]: Alright, can you please confirm that you would like to book a regular cab for 2 to 2550 El Camino Real. [USER]: Yes, that is correct. [SYSTEM]: OK, the ride is booked and the cab is on its way to you. [USER]: Thanks so much for helping. That's all I needed today! \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "regular"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-destination>.",
+        "input": "[USER]: Would you kindly get me a cab? [SYSTEM]: What is your seat requirement and to where you want to go? [USER]: I like to go to 1771 Inner Circle Drive and in a group of two. \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "1771 inner circle drive"
+    },
+    {
+        "instruction": "Track the state of the slot <ridesharing_2-number_of_seats> in the input dialogue.",
+        "input": "[USER]: Would you kindly get me a cab? [SYSTEM]: What is your seat requirement and to where you want to go? [USER]: I like to go to 1771 Inner Circle Drive and in a group of two. \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "2"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-destination>.",
+        "input": "[USER]: Would you kindly get me a cab? [SYSTEM]: What is your seat requirement and to where you want to go? [USER]: I like to go to 1771 Inner Circle Drive and in a group of two. [SYSTEM]: What kind of ride you prefer? [USER]: Expensive ride is perfect. \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "1771 inner circle drive"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: Would you kindly get me a cab? [SYSTEM]: What is your seat requirement and to where you want to go? [USER]: I like to go to 1771 Inner Circle Drive and in a group of two. [SYSTEM]: What kind of ride you prefer? [USER]: Expensive ride is perfect. \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "2"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-ride_type>.",
+        "input": "[USER]: Would you kindly get me a cab? [SYSTEM]: What is your seat requirement and to where you want to go? [USER]: I like to go to 1771 Inner Circle Drive and in a group of two. [SYSTEM]: What kind of ride you prefer? [USER]: Expensive ride is perfect. \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "luxury"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-destination>.",
+        "input": "[USER]: Would you kindly get me a cab? [SYSTEM]: What is your seat requirement and to where you want to go? [USER]: I like to go to 1771 Inner Circle Drive and in a group of two. [SYSTEM]: What kind of ride you prefer? [USER]: Expensive ride is perfect. [SYSTEM]: please give confirmation details: your luxury ride to 1771 Inner Circle Drive with 2 seats. [USER]: No, I want cheapest ride to John's of Willow Glen. \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "john's of willow glen"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: Would you kindly get me a cab? [SYSTEM]: What is your seat requirement and to where you want to go? [USER]: I like to go to 1771 Inner Circle Drive and in a group of two. [SYSTEM]: What kind of ride you prefer? [USER]: Expensive ride is perfect. [SYSTEM]: please give confirmation details: your luxury ride to 1771 Inner Circle Drive with 2 seats. [USER]: No, I want cheapest ride to John's of Willow Glen. \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "2"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-ride_type>.",
+        "input": "[USER]: Would you kindly get me a cab? [SYSTEM]: What is your seat requirement and to where you want to go? [USER]: I like to go to 1771 Inner Circle Drive and in a group of two. [SYSTEM]: What kind of ride you prefer? [USER]: Expensive ride is perfect. [SYSTEM]: please give confirmation details: your luxury ride to 1771 Inner Circle Drive with 2 seats. [USER]: No, I want cheapest ride to John's of Willow Glen. \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "pool"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-destination>.",
+        "input": "[USER]: Would you kindly get me a cab? [SYSTEM]: What is your seat requirement and to where you want to go? [USER]: I like to go to 1771 Inner Circle Drive and in a group of two. [SYSTEM]: What kind of ride you prefer? [USER]: Expensive ride is perfect. [SYSTEM]: please give confirmation details: your luxury ride to 1771 Inner Circle Drive with 2 seats. [USER]: No, I want cheapest ride to John's of Willow Glen. [SYSTEM]: please give confirmation details: your pool ride to John's of Willow Glen. [USER]: Yes..this is okay for me. Can i know the cost? At what time the cab reaches here? \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "john's of willow glen"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: Would you kindly get me a cab? [SYSTEM]: What is your seat requirement and to where you want to go? [USER]: I like to go to 1771 Inner Circle Drive and in a group of two. [SYSTEM]: What kind of ride you prefer? [USER]: Expensive ride is perfect. [SYSTEM]: please give confirmation details: your luxury ride to 1771 Inner Circle Drive with 2 seats. [USER]: No, I want cheapest ride to John's of Willow Glen. [SYSTEM]: please give confirmation details: your pool ride to John's of Willow Glen. [USER]: Yes..this is okay for me. Can i know the cost? At what time the cab reaches here? \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "2"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: Would you kindly get me a cab? [SYSTEM]: What is your seat requirement and to where you want to go? [USER]: I like to go to 1771 Inner Circle Drive and in a group of two. [SYSTEM]: What kind of ride you prefer? [USER]: Expensive ride is perfect. [SYSTEM]: please give confirmation details: your luxury ride to 1771 Inner Circle Drive with 2 seats. [USER]: No, I want cheapest ride to John's of Willow Glen. [SYSTEM]: please give confirmation details: your pool ride to John's of Willow Glen. [USER]: Yes..this is okay for me. Can i know the cost? At what time the cab reaches here? \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "pool"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-destination>.",
+        "input": "[USER]: Would you kindly get me a cab? [SYSTEM]: What is your seat requirement and to where you want to go? [USER]: I like to go to 1771 Inner Circle Drive and in a group of two. [SYSTEM]: What kind of ride you prefer? [USER]: Expensive ride is perfect. [SYSTEM]: please give confirmation details: your luxury ride to 1771 Inner Circle Drive with 2 seats. [USER]: No, I want cheapest ride to John's of Willow Glen. [SYSTEM]: please give confirmation details: your pool ride to John's of Willow Glen. [USER]: Yes..this is okay for me. Can i know the cost? At what time the cab reaches here? [SYSTEM]: Your ride is confirmed and the cab will reach in 5 minutes.. The ride cost is $19.45. [USER]: Thank you for your great help. \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "john's of willow glen"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: Would you kindly get me a cab? [SYSTEM]: What is your seat requirement and to where you want to go? [USER]: I like to go to 1771 Inner Circle Drive and in a group of two. [SYSTEM]: What kind of ride you prefer? [USER]: Expensive ride is perfect. [SYSTEM]: please give confirmation details: your luxury ride to 1771 Inner Circle Drive with 2 seats. [USER]: No, I want cheapest ride to John's of Willow Glen. [SYSTEM]: please give confirmation details: your pool ride to John's of Willow Glen. [USER]: Yes..this is okay for me. Can i know the cost? At what time the cab reaches here? [SYSTEM]: Your ride is confirmed and the cab will reach in 5 minutes.. The ride cost is $19.45. [USER]: Thank you for your great help. \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "2"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-ride_type>.",
+        "input": "[USER]: Would you kindly get me a cab? [SYSTEM]: What is your seat requirement and to where you want to go? [USER]: I like to go to 1771 Inner Circle Drive and in a group of two. [SYSTEM]: What kind of ride you prefer? [USER]: Expensive ride is perfect. [SYSTEM]: please give confirmation details: your luxury ride to 1771 Inner Circle Drive with 2 seats. [USER]: No, I want cheapest ride to John's of Willow Glen. [SYSTEM]: please give confirmation details: your pool ride to John's of Willow Glen. [USER]: Yes..this is okay for me. Can i know the cost? At what time the cab reaches here? [SYSTEM]: Your ride is confirmed and the cab will reach in 5 minutes.. The ride cost is $19.45. [USER]: Thank you for your great help. \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "pool"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-destination>.",
+        "input": "[USER]: Can you order me a luxurious cab to 1270 Linford Lane? \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "1270 linford lane"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-ride_type>.",
+        "input": "[USER]: Can you order me a luxurious cab to 1270 Linford Lane? \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "luxury"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-destination>.",
+        "input": "[USER]: Can you order me a luxurious cab to 1270 Linford Lane? [SYSTEM]: How many seats will you be needing? [USER]: It's for a small group of two. \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "1270 linford lane"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: Can you order me a luxurious cab to 1270 Linford Lane? [SYSTEM]: How many seats will you be needing? [USER]: It's for a small group of two. \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "2"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: Can you order me a luxurious cab to 1270 Linford Lane? [SYSTEM]: How many seats will you be needing? [USER]: It's for a small group of two. \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "luxury"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-destination>.",
+        "input": "[USER]: Can you order me a luxurious cab to 1270 Linford Lane? [SYSTEM]: How many seats will you be needing? [USER]: It's for a small group of two. [SYSTEM]: Please confirm: a 2 seater Luxury cab to 1270 Linford Lane. [USER]: Yes, that's perfect. When will the cab arrive and how much does it cost? \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "1270 linford lane"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: Can you order me a luxurious cab to 1270 Linford Lane? [SYSTEM]: How many seats will you be needing? [USER]: It's for a small group of two. [SYSTEM]: Please confirm: a 2 seater Luxury cab to 1270 Linford Lane. [USER]: Yes, that's perfect. When will the cab arrive and how much does it cost? \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "2"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-ride_type>.",
+        "input": "[USER]: Can you order me a luxurious cab to 1270 Linford Lane? [SYSTEM]: How many seats will you be needing? [USER]: It's for a small group of two. [SYSTEM]: Please confirm: a 2 seater Luxury cab to 1270 Linford Lane. [USER]: Yes, that's perfect. When will the cab arrive and how much does it cost? \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "luxury"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-destination>.",
+        "input": "[USER]: Can you order me a luxurious cab to 1270 Linford Lane? [SYSTEM]: How many seats will you be needing? [USER]: It's for a small group of two. [SYSTEM]: Please confirm: a 2 seater Luxury cab to 1270 Linford Lane. [USER]: Yes, that's perfect. When will the cab arrive and how much does it cost? [SYSTEM]: The cost of the ride will be $42.40, and it will be there in 8 minutes. It's on it's way! [USER]: Thanks for the help! That'll be everything. \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "1270 linford lane"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: Can you order me a luxurious cab to 1270 Linford Lane? [SYSTEM]: How many seats will you be needing? [USER]: It's for a small group of two. [SYSTEM]: Please confirm: a 2 seater Luxury cab to 1270 Linford Lane. [USER]: Yes, that's perfect. When will the cab arrive and how much does it cost? [SYSTEM]: The cost of the ride will be $42.40, and it will be there in 8 minutes. It's on it's way! [USER]: Thanks for the help! That'll be everything. \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "2"
+    },
+    {
+        "instruction": "Track the state of the slot <ridesharing_2-ride_type> in the input dialogue.",
+        "input": "[USER]: Can you order me a luxurious cab to 1270 Linford Lane? [SYSTEM]: How many seats will you be needing? [USER]: It's for a small group of two. [SYSTEM]: Please confirm: a 2 seater Luxury cab to 1270 Linford Lane. [USER]: Yes, that's perfect. When will the cab arrive and how much does it cost? [SYSTEM]: The cost of the ride will be $42.40, and it will be there in 8 minutes. It's on it's way! [USER]: Thanks for the help! That'll be everything. \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "luxury"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-destination>.",
+        "input": "[USER]: I need to get a cab. [SYSTEM]: where would you like to go? [USER]: I need a ride to 2020 Forest Ave # 8. I am the only one riding. \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "2020 forest ave # 8"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: I need to get a cab. [SYSTEM]: where would you like to go? [USER]: I need a ride to 2020 Forest Ave # 8. I am the only one riding. \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "1"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-destination>.",
+        "input": "[USER]: I need to get a cab. [SYSTEM]: where would you like to go? [USER]: I need a ride to 2020 Forest Ave # 8. I am the only one riding. [SYSTEM]: Would you prefer to take a pool or regular or something else. [USER]: I need to go to 426 Brannan Street. I'll take a Regular ride. \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "426 brannan street"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: I need to get a cab. [SYSTEM]: where would you like to go? [USER]: I need a ride to 2020 Forest Ave # 8. I am the only one riding. [SYSTEM]: Would you prefer to take a pool or regular or something else. [USER]: I need to go to 426 Brannan Street. I'll take a Regular ride. \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "1"
+    },
+    {
+        "instruction": "Track the state of the slot <ridesharing_2-ride_type> in the input dialogue.",
+        "input": "[USER]: I need to get a cab. [SYSTEM]: where would you like to go? [USER]: I need a ride to 2020 Forest Ave # 8. I am the only one riding. [SYSTEM]: Would you prefer to take a pool or regular or something else. [USER]: I need to go to 426 Brannan Street. I'll take a Regular ride. \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "regular"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I need to get a cab. [SYSTEM]: where would you like to go? [USER]: I need a ride to 2020 Forest Ave # 8. I am the only one riding. [SYSTEM]: Would you prefer to take a pool or regular or something else. [USER]: I need to go to 426 Brannan Street. I'll take a Regular ride. [SYSTEM]: Please confirm the following\" You are going to 426 Brannan Street. You need 1 seat and you prefer a regular ride. [USER]: Yes. The is great. \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "426 brannan street"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: I need to get a cab. [SYSTEM]: where would you like to go? [USER]: I need a ride to 2020 Forest Ave # 8. I am the only one riding. [SYSTEM]: Would you prefer to take a pool or regular or something else. [USER]: I need to go to 426 Brannan Street. I'll take a Regular ride. [SYSTEM]: Please confirm the following\" You are going to 426 Brannan Street. You need 1 seat and you prefer a regular ride. [USER]: Yes. The is great. \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "1"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-ride_type>.",
+        "input": "[USER]: I need to get a cab. [SYSTEM]: where would you like to go? [USER]: I need a ride to 2020 Forest Ave # 8. I am the only one riding. [SYSTEM]: Would you prefer to take a pool or regular or something else. [USER]: I need to go to 426 Brannan Street. I'll take a Regular ride. [SYSTEM]: Please confirm the following\" You are going to 426 Brannan Street. You need 1 seat and you prefer a regular ride. [USER]: Yes. The is great. \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "regular"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-destination>.",
+        "input": "[USER]: I need to get a cab. [SYSTEM]: where would you like to go? [USER]: I need a ride to 2020 Forest Ave # 8. I am the only one riding. [SYSTEM]: Would you prefer to take a pool or regular or something else. [USER]: I need to go to 426 Brannan Street. I'll take a Regular ride. [SYSTEM]: Please confirm the following\" You are going to 426 Brannan Street. You need 1 seat and you prefer a regular ride. [USER]: Yes. The is great. [SYSTEM]: You cab is booked and on the way. [USER]: How much does it cost? \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "426 brannan street"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: I need to get a cab. [SYSTEM]: where would you like to go? [USER]: I need a ride to 2020 Forest Ave # 8. I am the only one riding. [SYSTEM]: Would you prefer to take a pool or regular or something else. [USER]: I need to go to 426 Brannan Street. I'll take a Regular ride. [SYSTEM]: Please confirm the following\" You are going to 426 Brannan Street. You need 1 seat and you prefer a regular ride. [USER]: Yes. The is great. [SYSTEM]: You cab is booked and on the way. [USER]: How much does it cost? \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "1"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-ride_type>.",
+        "input": "[USER]: I need to get a cab. [SYSTEM]: where would you like to go? [USER]: I need a ride to 2020 Forest Ave # 8. I am the only one riding. [SYSTEM]: Would you prefer to take a pool or regular or something else. [USER]: I need to go to 426 Brannan Street. I'll take a Regular ride. [SYSTEM]: Please confirm the following\" You are going to 426 Brannan Street. You need 1 seat and you prefer a regular ride. [USER]: Yes. The is great. [SYSTEM]: You cab is booked and on the way. [USER]: How much does it cost? \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "regular"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-destination>.",
+        "input": "[USER]: I need to get a cab. [SYSTEM]: where would you like to go? [USER]: I need a ride to 2020 Forest Ave # 8. I am the only one riding. [SYSTEM]: Would you prefer to take a pool or regular or something else. [USER]: I need to go to 426 Brannan Street. I'll take a Regular ride. [SYSTEM]: Please confirm the following\" You are going to 426 Brannan Street. You need 1 seat and you prefer a regular ride. [USER]: Yes. The is great. [SYSTEM]: You cab is booked and on the way. [USER]: How much does it cost? [SYSTEM]: The ride costs $19.64. [USER]: Thanks a lot! That's all I need today. \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "426 brannan street"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: I need to get a cab. [SYSTEM]: where would you like to go? [USER]: I need a ride to 2020 Forest Ave # 8. I am the only one riding. [SYSTEM]: Would you prefer to take a pool or regular or something else. [USER]: I need to go to 426 Brannan Street. I'll take a Regular ride. [SYSTEM]: Please confirm the following\" You are going to 426 Brannan Street. You need 1 seat and you prefer a regular ride. [USER]: Yes. The is great. [SYSTEM]: You cab is booked and on the way. [USER]: How much does it cost? [SYSTEM]: The ride costs $19.64. [USER]: Thanks a lot! That's all I need today. \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "1"
+    },
+    {
+        "instruction": "Track the state of the slot <ridesharing_2-ride_type> in the input dialogue.",
+        "input": "[USER]: I need to get a cab. [SYSTEM]: where would you like to go? [USER]: I need a ride to 2020 Forest Ave # 8. I am the only one riding. [SYSTEM]: Would you prefer to take a pool or regular or something else. [USER]: I need to go to 426 Brannan Street. I'll take a Regular ride. [SYSTEM]: Please confirm the following\" You are going to 426 Brannan Street. You need 1 seat and you prefer a regular ride. [USER]: Yes. The is great. [SYSTEM]: You cab is booked and on the way. [USER]: How much does it cost? [SYSTEM]: The ride costs $19.64. [USER]: Thanks a lot! That's all I need today. \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "regular"
+    },
+    {
+        "instruction": "Track the state of the slot <ridesharing_2-destination> in the input dialogue.",
+        "input": "[USER]: I wish to book a cab. [SYSTEM]: Which is your most wanted type of ride? how many seats and where do you go? [USER]: I need Luxurious ride to The Villa for 3 persons. \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "the villa"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: I wish to book a cab. [SYSTEM]: Which is your most wanted type of ride? how many seats and where do you go? [USER]: I need Luxurious ride to The Villa for 3 persons. \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "3"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-ride_type>.",
+        "input": "[USER]: I wish to book a cab. [SYSTEM]: Which is your most wanted type of ride? how many seats and where do you go? [USER]: I need Luxurious ride to The Villa for 3 persons. \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "luxury"
+    },
+    {
+        "instruction": "Track the state of the slot <ridesharing_2-destination> in the input dialogue.",
+        "input": "[USER]: I wish to book a cab. [SYSTEM]: Which is your most wanted type of ride? how many seats and where do you go? [USER]: I need Luxurious ride to The Villa for 3 persons. [SYSTEM]: Kindly ensure that, you wish to go to The Villa. The Luxury ride has been booked for 3 persons. [USER]: Yes. It is good me. \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "the villa"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: I wish to book a cab. [SYSTEM]: Which is your most wanted type of ride? how many seats and where do you go? [USER]: I need Luxurious ride to The Villa for 3 persons. [SYSTEM]: Kindly ensure that, you wish to go to The Villa. The Luxury ride has been booked for 3 persons. [USER]: Yes. It is good me. \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "3"
+    },
+    {
+        "instruction": "Track the state of the slot in the input dialogue.",
+        "input": "[USER]: I wish to book a cab. [SYSTEM]: Which is your most wanted type of ride? how many seats and where do you go? [USER]: I need Luxurious ride to The Villa for 3 persons. [SYSTEM]: Kindly ensure that, you wish to go to The Villa. The Luxury ride has been booked for 3 persons. [USER]: Yes. It is good me. \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "luxury"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-destination>.",
+        "input": "[USER]: I wish to book a cab. [SYSTEM]: Which is your most wanted type of ride? how many seats and where do you go? [USER]: I need Luxurious ride to The Villa for 3 persons. [SYSTEM]: Kindly ensure that, you wish to go to The Villa. The Luxury ride has been booked for 3 persons. [USER]: Yes. It is good me. [SYSTEM]: Your ride has been reserved and it is on its way. [USER]: Thank you so much for your help. \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "the villa"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: I wish to book a cab. [SYSTEM]: Which is your most wanted type of ride? how many seats and where do you go? [USER]: I need Luxurious ride to The Villa for 3 persons. [SYSTEM]: Kindly ensure that, you wish to go to The Villa. The Luxury ride has been booked for 3 persons. [USER]: Yes. It is good me. [SYSTEM]: Your ride has been reserved and it is on its way. [USER]: Thank you so much for your help. \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "3"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-ride_type>.",
+        "input": "[USER]: I wish to book a cab. [SYSTEM]: Which is your most wanted type of ride? how many seats and where do you go? [USER]: I need Luxurious ride to The Villa for 3 persons. [SYSTEM]: Kindly ensure that, you wish to go to The Villa. The Luxury ride has been booked for 3 persons. [USER]: Yes. It is good me. [SYSTEM]: Your ride has been reserved and it is on its way. [USER]: Thank you so much for your help. \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "luxury"
+    },
+    {
+        "instruction": "Track the state of the slot <ridesharing_2-destination> in the input dialogue.",
+        "input": "[USER]: I wish to book a cab. [SYSTEM]: Which is your most wanted type of ride? how many seats and where do you go? [USER]: I need Luxurious ride to The Villa for 3 persons. [SYSTEM]: Kindly ensure that, you wish to go to The Villa. The Luxury ride has been booked for 3 persons. [USER]: Yes. It is good me. [SYSTEM]: Your ride has been reserved and it is on its way. [USER]: Thank you so much for your help. [SYSTEM]: Do you need any other help? [USER]: No, Thank you so much for your help. \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "the villa"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: I wish to book a cab. [SYSTEM]: Which is your most wanted type of ride? how many seats and where do you go? [USER]: I need Luxurious ride to The Villa for 3 persons. [SYSTEM]: Kindly ensure that, you wish to go to The Villa. The Luxury ride has been booked for 3 persons. [USER]: Yes. It is good me. [SYSTEM]: Your ride has been reserved and it is on its way. [USER]: Thank you so much for your help. [SYSTEM]: Do you need any other help? [USER]: No, Thank you so much for your help. \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "3"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-ride_type>.",
+        "input": "[USER]: I wish to book a cab. [SYSTEM]: Which is your most wanted type of ride? how many seats and where do you go? [USER]: I need Luxurious ride to The Villa for 3 persons. [SYSTEM]: Kindly ensure that, you wish to go to The Villa. The Luxury ride has been booked for 3 persons. [USER]: Yes. It is good me. [SYSTEM]: Your ride has been reserved and it is on its way. [USER]: Thank you so much for your help. [SYSTEM]: Do you need any other help? [USER]: No, Thank you so much for your help. \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "luxury"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-destination>.",
+        "input": "[USER]: Can you help me get a cab to 512 Sacramento Street? \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "512 sacramento street"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-destination>.",
+        "input": "[USER]: Can you help me get a cab to 512 Sacramento Street? [SYSTEM]: Sure. Do you prefer Luxury, Pool or anything else? [USER]: I'd like to get a Regular. \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "512 sacramento street"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-ride_type>.",
+        "input": "[USER]: Can you help me get a cab to 512 Sacramento Street? [SYSTEM]: Sure. Do you prefer Luxury, Pool or anything else? [USER]: I'd like to get a Regular. \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "regular"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-destination>.",
+        "input": "[USER]: Can you help me get a cab to 512 Sacramento Street? [SYSTEM]: Sure. Do you prefer Luxury, Pool or anything else? [USER]: I'd like to get a Regular. [SYSTEM]: OK. How may people will be riding? [USER]: Just one! Me. \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "512 sacramento street"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: Can you help me get a cab to 512 Sacramento Street? [SYSTEM]: Sure. Do you prefer Luxury, Pool or anything else? [USER]: I'd like to get a Regular. [SYSTEM]: OK. How may people will be riding? [USER]: Just one! Me. \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "1"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-ride_type>.",
+        "input": "[USER]: Can you help me get a cab to 512 Sacramento Street? [SYSTEM]: Sure. Do you prefer Luxury, Pool or anything else? [USER]: I'd like to get a Regular. [SYSTEM]: OK. How may people will be riding? [USER]: Just one! Me. \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "regular"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-destination>.",
+        "input": "[USER]: Can you help me get a cab to 512 Sacramento Street? [SYSTEM]: Sure. Do you prefer Luxury, Pool or anything else? [USER]: I'd like to get a Regular. [SYSTEM]: OK. How may people will be riding? [USER]: Just one! Me. [SYSTEM]: Please confirm you want a Regular ride to 512 Sacramento Street for 1 person. [USER]: Yes, that's perfect. Do you know how long until the cab arrives? \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "512 sacramento street"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: Can you help me get a cab to 512 Sacramento Street? [SYSTEM]: Sure. Do you prefer Luxury, Pool or anything else? [USER]: I'd like to get a Regular. [SYSTEM]: OK. How may people will be riding? [USER]: Just one! Me. [SYSTEM]: Please confirm you want a Regular ride to 512 Sacramento Street for 1 person. [USER]: Yes, that's perfect. Do you know how long until the cab arrives? \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "1"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-ride_type>.",
+        "input": "[USER]: Can you help me get a cab to 512 Sacramento Street? [SYSTEM]: Sure. Do you prefer Luxury, Pool or anything else? [USER]: I'd like to get a Regular. [SYSTEM]: OK. How may people will be riding? [USER]: Just one! Me. [SYSTEM]: Please confirm you want a Regular ride to 512 Sacramento Street for 1 person. [USER]: Yes, that's perfect. Do you know how long until the cab arrives? \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "regular"
+    },
+    {
+        "instruction": "Given the following dialogue, please predict the value for the slot <ridesharing_2-destination>.",
+        "input": "[USER]: Can you help me get a cab to 512 Sacramento Street? [SYSTEM]: Sure. Do you prefer Luxury, Pool or anything else? [USER]: I'd like to get a Regular. [SYSTEM]: OK. How may people will be riding? [USER]: Just one! Me. [SYSTEM]: Please confirm you want a Regular ride to 512 Sacramento Street for 1 person. [USER]: Yes, that's perfect. Do you know how long until the cab arrives? [SYSTEM]: Your cab is booked and on its way, arriving in 2 minutes. [USER]: Thanks a lot for everything. That will be all for now! \n [slot] ridesharing_2-destination, it indicates Destination address or location for cab. So the value of slot <ridesharing_2-destination> is \n",
+        "output": "512 sacramento street"
+    },
+    {
+        "instruction": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <ridesharing_2-number_of_seats>.",
+        "input": "[USER]: Can you help me get a cab to 512 Sacramento Street? [SYSTEM]: Sure. Do you prefer Luxury, Pool or anything else? [USER]: I'd like to get a Regular. [SYSTEM]: OK. How may people will be riding? [USER]: Just one! Me. [SYSTEM]: Please confirm you want a Regular ride to 512 Sacramento Street for 1 person. [USER]: Yes, that's perfect. Do you know how long until the cab arrives? [SYSTEM]: Your cab is booked and on its way, arriving in 2 minutes. [USER]: Thanks a lot for everything. That will be all for now! \n [slot] ridesharing_2-number_of_seats, it indicates Number of seats to reserve in the cab. So the value of slot <ridesharing_2-number_of_seats> is \n",
+        "output": "1"
+    },
+    {
+        "instruction": "Track the state of the slot <ridesharing_2-ride_type> in the input dialogue.",
+        "input": "[USER]: Can you help me get a cab to 512 Sacramento Street? [SYSTEM]: Sure. Do you prefer Luxury, Pool or anything else? [USER]: I'd like to get a Regular. [SYSTEM]: OK. How may people will be riding? [USER]: Just one! Me. [SYSTEM]: Please confirm you want a Regular ride to 512 Sacramento Street for 1 person. [USER]: Yes, that's perfect. Do you know how long until the cab arrives? [SYSTEM]: Your cab is booked and on its way, arriving in 2 minutes. [USER]: Thanks a lot for everything. That will be all for now! \n [slot] ridesharing_2-ride_type, it indicates Type of cab ride. So the value of slot <ridesharing_2-ride_type> is \n",
+        "output": "regular"
+    }
+]

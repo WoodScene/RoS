@@ -1,0 +1,74 @@
+[
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <movies_2-director>.\n[USER]: Me and my friend need a movie to watch later [SYSTEM]: I can help with that! I've got 10 movies here - how do you feel about Red Joan? I've had a look at it has an average rating of 6.2 [USER]: Not sure.. is there anything else? [SYSTEM]: What about Ramen Shop? It's got a rating of 6.8 [USER]: No, don't really fancy that one either. Can you see if there's anything else? We quite like fantasy films, especially stuff directed by Neil Marshall. \n [slot] movies_2-director, it indicates Name of director of the movie. So the value of slot <movies_2-director> is \n",
+        "output": "neil marshall"
+    },
+    {
+        "input": "Track the state of the slot <movies_2-genre> in the input dialogue.\n[USER]: Me and my friend need a movie to watch later [SYSTEM]: I can help with that! I've got 10 movies here - how do you feel about Red Joan? I've had a look at it has an average rating of 6.2 [USER]: Not sure.. is there anything else? [SYSTEM]: What about Ramen Shop? It's got a rating of 6.8 [USER]: No, don't really fancy that one either. Can you see if there's anything else? We quite like fantasy films, especially stuff directed by Neil Marshall. \n [slot] movies_2-genre, it indicates Genre of the movie. So the value of slot <movies_2-genre> is \n",
+        "output": "fantasy"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <movies_2-director>.\n[USER]: Me and my friend need a movie to watch later [SYSTEM]: I can help with that! I've got 10 movies here - how do you feel about Red Joan? I've had a look at it has an average rating of 6.2 [USER]: Not sure.. is there anything else? [SYSTEM]: What about Ramen Shop? It's got a rating of 6.8 [USER]: No, don't really fancy that one either. Can you see if there's anything else? We quite like fantasy films, especially stuff directed by Neil Marshall. [SYSTEM]: Here's 1 for you: how about Hellboy? That's got a rating of 5.4 [USER]: Yeah that one sounds better \n [slot] movies_2-director, it indicates Name of director of the movie. So the value of slot <movies_2-director> is \n",
+        "output": "neil marshall"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <movies_2-genre>.\n[USER]: Me and my friend need a movie to watch later [SYSTEM]: I can help with that! I've got 10 movies here - how do you feel about Red Joan? I've had a look at it has an average rating of 6.2 [USER]: Not sure.. is there anything else? [SYSTEM]: What about Ramen Shop? It's got a rating of 6.8 [USER]: No, don't really fancy that one either. Can you see if there's anything else? We quite like fantasy films, especially stuff directed by Neil Marshall. [SYSTEM]: Here's 1 for you: how about Hellboy? That's got a rating of 5.4 [USER]: Yeah that one sounds better \n [slot] movies_2-genre, it indicates Genre of the movie. So the value of slot <movies_2-genre> is \n",
+        "output": "fantasy"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <movies_2-director>.\n[USER]: Me and my friend need a movie to watch later [SYSTEM]: I can help with that! I've got 10 movies here - how do you feel about Red Joan? I've had a look at it has an average rating of 6.2 [USER]: Not sure.. is there anything else? [SYSTEM]: What about Ramen Shop? It's got a rating of 6.8 [USER]: No, don't really fancy that one either. Can you see if there's anything else? We quite like fantasy films, especially stuff directed by Neil Marshall. [SYSTEM]: Here's 1 for you: how about Hellboy? That's got a rating of 5.4 [USER]: Yeah that one sounds better [SYSTEM]: Do you want me to help with anything else? [USER]: No thanks, that was all! \n [slot] movies_2-director, it indicates Name of director of the movie. So the value of slot <movies_2-director> is \n",
+        "output": "neil marshall"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <movies_2-genre>.\n[USER]: Me and my friend need a movie to watch later [SYSTEM]: I can help with that! I've got 10 movies here - how do you feel about Red Joan? I've had a look at it has an average rating of 6.2 [USER]: Not sure.. is there anything else? [SYSTEM]: What about Ramen Shop? It's got a rating of 6.8 [USER]: No, don't really fancy that one either. Can you see if there's anything else? We quite like fantasy films, especially stuff directed by Neil Marshall. [SYSTEM]: Here's 1 for you: how about Hellboy? That's got a rating of 5.4 [USER]: Yeah that one sounds better [SYSTEM]: Do you want me to help with anything else? [USER]: No thanks, that was all! \n [slot] movies_2-genre, it indicates Genre of the movie. So the value of slot <movies_2-genre> is \n",
+        "output": "fantasy"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <movies_2-starring>.\n[USER]: Can you find a movie for me with Shayn Solberg? \n [slot] movies_2-starring, it indicates Name of actor starring in movie. So the value of slot <movies_2-starring> is \n",
+        "output": "shayn solberg"
+    },
+    {
+        "input": "Track the state of the slot <movies_2-starring> in the input dialogue.\n[USER]: Can you find a movie for me with Shayn Solberg? [SYSTEM]: There's Josie and the Pussycats, rated 5.4 [USER]: Sure. \n [slot] movies_2-starring, it indicates Name of actor starring in movie. So the value of slot <movies_2-starring> is \n",
+        "output": "shayn solberg"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <movies_2-starring>.\n[USER]: Can you find a movie for me with Shayn Solberg? [SYSTEM]: There's Josie and the Pussycats, rated 5.4 [USER]: Sure. [SYSTEM]: Can I help with anything else? [USER]: No, thank you. \n [slot] movies_2-starring, it indicates Name of actor starring in movie. So the value of slot <movies_2-starring> is \n",
+        "output": "shayn solberg"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <movies_2-starring>.\n[USER]: Hi i need a help, me and my friends are looking for movie to watch, we all are interested to watch patric knowles movies, could you find me his movies? \n [slot] movies_2-starring, it indicates Name of actor starring in movie. So the value of slot <movies_2-starring> is \n",
+        "output": "patric knowles"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <movies_2-starring>.\n[USER]: Hi i need a help, me and my friends are looking for movie to watch, we all are interested to watch patric knowles movies, could you find me his movies? [SYSTEM]: Sure, I will help you, i found 1 movie for you, do you like Auntie Mame movie, it has an average rating of 8.0 [USER]: Ok, What genre is this movie? \n [slot] movies_2-starring, it indicates Name of actor starring in movie. So the value of slot <movies_2-starring> is \n",
+        "output": "patric knowles"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <movies_2-starring>.\n[USER]: Hi i need a help, me and my friends are looking for movie to watch, we all are interested to watch patric knowles movies, could you find me his movies? [SYSTEM]: Sure, I will help you, i found 1 movie for you, do you like Auntie Mame movie, it has an average rating of 8.0 [USER]: Ok, What genre is this movie? [SYSTEM]: It is a comedy movie. [USER]: can you tell me, Who is the director of that movie? \n [slot] movies_2-starring, it indicates Name of actor starring in movie. So the value of slot <movies_2-starring> is \n",
+        "output": "patric knowles"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <movies_2-starring>.\n[USER]: Hi i need a help, me and my friends are looking for movie to watch, we all are interested to watch patric knowles movies, could you find me his movies? [SYSTEM]: Sure, I will help you, i found 1 movie for you, do you like Auntie Mame movie, it has an average rating of 8.0 [USER]: Ok, What genre is this movie? [SYSTEM]: It is a comedy movie. [USER]: can you tell me, Who is the director of that movie? [SYSTEM]: Morton DaCosta Directed this movie [USER]: Ok \n [slot] movies_2-starring, it indicates Name of actor starring in movie. So the value of slot <movies_2-starring> is \n",
+        "output": "patric knowles"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <movies_2-starring>.\n[USER]: Hi i need a help, me and my friends are looking for movie to watch, we all are interested to watch patric knowles movies, could you find me his movies? [SYSTEM]: Sure, I will help you, i found 1 movie for you, do you like Auntie Mame movie, it has an average rating of 8.0 [USER]: Ok, What genre is this movie? [SYSTEM]: It is a comedy movie. [USER]: can you tell me, Who is the director of that movie? [SYSTEM]: Morton DaCosta Directed this movie [USER]: Ok [SYSTEM]: Shall i help you with anything more? [USER]: No, thank you very much for your help, That's all i need. bye \n [slot] movies_2-starring, it indicates Name of actor starring in movie. So the value of slot <movies_2-starring> is \n",
+        "output": "patric knowles"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <movies_2-genre>.\n[USER]: I'd like to see a movie, any genre is fine \n [slot] movies_2-genre, it indicates Genre of the movie. So the value of slot <movies_2-genre> is \n",
+        "output": "dontcare"
+    },
+    {
+        "input": "Track the state of the slot <movies_2-genre> in the input dialogue.\n[USER]: I'd like to see a movie, any genre is fine [SYSTEM]: I propose you Transit, that has an average rating of 7.0 [USER]: Who are the actors of this movie, and who directed it? \n [slot] movies_2-genre, it indicates Genre of the movie. So the value of slot <movies_2-genre> is \n",
+        "output": "dontcare"
+    },
+    {
+        "input": "Track the state of the slot <movies_2-genre> in the input dialogue.\n[USER]: I'd like to see a movie, any genre is fine [SYSTEM]: I propose you Transit, that has an average rating of 7.0 [USER]: Who are the actors of this movie, and who directed it? [SYSTEM]: The leading actor is Justus von Dohnanyi and the director is Christian Petzold [USER]: OK it's good \n [slot] movies_2-genre, it indicates Genre of the movie. So the value of slot <movies_2-genre> is \n",
+        "output": "dontcare"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <movies_2-genre>.\n[USER]: I'd like to see a movie, any genre is fine [SYSTEM]: I propose you Transit, that has an average rating of 7.0 [USER]: Who are the actors of this movie, and who directed it? [SYSTEM]: The leading actor is Justus von Dohnanyi and the director is Christian Petzold [USER]: OK it's good [SYSTEM]: You need anything else? [USER]: No, It's all, thanks \n [slot] movies_2-genre, it indicates Genre of the movie. So the value of slot <movies_2-genre> is \n",
+        "output": "dontcare"
+    }
+]

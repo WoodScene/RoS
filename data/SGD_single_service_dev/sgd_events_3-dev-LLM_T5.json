@@ -1,0 +1,490 @@
+[
+    {
+        "input": "Track the state of the slot <events_3-city> in the input dialogue.\n[USER]: Can you help me in finding interesting things I can do? I would like to find something on March 6th. I love Musical shows and I would like to find something around Livermore. \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "livermore"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-date>.\n[USER]: Can you help me in finding interesting things I can do? I would like to find something on March 6th. I love Musical shows and I would like to find something around Livermore. \n [slot] events_3-date, it indicates Date of event. So the value of slot <events_3-date> is \n",
+        "output": "march 6th"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-event_type>.\n[USER]: Can you help me in finding interesting things I can do? I would like to find something on March 6th. I love Musical shows and I would like to find something around Livermore. \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "music"
+    },
+    {
+        "input": "Track the state of the slot <events_3-city> in the input dialogue.\n[USER]: Can you help me in finding interesting things I can do? I would like to find something on March 6th. I love Musical shows and I would like to find something around Livermore. [SYSTEM]: REO Speedwagon has a lot of popularity. It takes place at Concerts at Wente Vineyards on March 6th at 4:30 pm. [USER]: That sounds very good. I would like to reserve tickets to a concert. \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "livermore"
+    },
+    {
+        "input": "Track the state of the slot <events_3-date> in the input dialogue.\n[USER]: Can you help me in finding interesting things I can do? I would like to find something on March 6th. I love Musical shows and I would like to find something around Livermore. [SYSTEM]: REO Speedwagon has a lot of popularity. It takes place at Concerts at Wente Vineyards on March 6th at 4:30 pm. [USER]: That sounds very good. I would like to reserve tickets to a concert. \n [slot] events_3-date, it indicates Date of event. So the value of slot <events_3-date> is \n",
+        "output": "march 6th"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-event_name>.\n[USER]: Can you help me in finding interesting things I can do? I would like to find something on March 6th. I love Musical shows and I would like to find something around Livermore. [SYSTEM]: REO Speedwagon has a lot of popularity. It takes place at Concerts at Wente Vineyards on March 6th at 4:30 pm. [USER]: That sounds very good. I would like to reserve tickets to a concert. \n [slot] events_3-event_name, it indicates Name of artist or play. So the value of slot <events_3-event_name> is \n",
+        "output": "reo speedwagon"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-event_type>.\n[USER]: Can you help me in finding interesting things I can do? I would like to find something on March 6th. I love Musical shows and I would like to find something around Livermore. [SYSTEM]: REO Speedwagon has a lot of popularity. It takes place at Concerts at Wente Vineyards on March 6th at 4:30 pm. [USER]: That sounds very good. I would like to reserve tickets to a concert. \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "music"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-city>.\n[USER]: Can you help me in finding interesting things I can do? I would like to find something on March 6th. I love Musical shows and I would like to find something around Livermore. [SYSTEM]: REO Speedwagon has a lot of popularity. It takes place at Concerts at Wente Vineyards on March 6th at 4:30 pm. [USER]: That sounds very good. I would like to reserve tickets to a concert. [SYSTEM]: What number of tickets do you want? [USER]: I would like to get 1 ticket. \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "livermore"
+    },
+    {
+        "input": "Track the state of the slot <events_3-date> in the input dialogue.\n[USER]: Can you help me in finding interesting things I can do? I would like to find something on March 6th. I love Musical shows and I would like to find something around Livermore. [SYSTEM]: REO Speedwagon has a lot of popularity. It takes place at Concerts at Wente Vineyards on March 6th at 4:30 pm. [USER]: That sounds very good. I would like to reserve tickets to a concert. [SYSTEM]: What number of tickets do you want? [USER]: I would like to get 1 ticket. \n [slot] events_3-date, it indicates Date of event. So the value of slot <events_3-date> is \n",
+        "output": "march 6th"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: Can you help me in finding interesting things I can do? I would like to find something on March 6th. I love Musical shows and I would like to find something around Livermore. [SYSTEM]: REO Speedwagon has a lot of popularity. It takes place at Concerts at Wente Vineyards on March 6th at 4:30 pm. [USER]: That sounds very good. I would like to reserve tickets to a concert. [SYSTEM]: What number of tickets do you want? [USER]: I would like to get 1 ticket. \n [slot] events_3-event_name, it indicates Name of artist or play. So the value of slot <events_3-event_name> is \n",
+        "output": "reo speedwagon"
+    },
+    {
+        "input": "Track the state of the slot <events_3-event_type> in the input dialogue.\n[USER]: Can you help me in finding interesting things I can do? I would like to find something on March 6th. I love Musical shows and I would like to find something around Livermore. [SYSTEM]: REO Speedwagon has a lot of popularity. It takes place at Concerts at Wente Vineyards on March 6th at 4:30 pm. [USER]: That sounds very good. I would like to reserve tickets to a concert. [SYSTEM]: What number of tickets do you want? [USER]: I would like to get 1 ticket. \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "music"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-number_of_tickets>.\n[USER]: Can you help me in finding interesting things I can do? I would like to find something on March 6th. I love Musical shows and I would like to find something around Livermore. [SYSTEM]: REO Speedwagon has a lot of popularity. It takes place at Concerts at Wente Vineyards on March 6th at 4:30 pm. [USER]: That sounds very good. I would like to reserve tickets to a concert. [SYSTEM]: What number of tickets do you want? [USER]: I would like to get 1 ticket. \n [slot] events_3-number_of_tickets, it indicates Number of tickets to reserve for the event. So the value of slot <events_3-number_of_tickets> is \n",
+        "output": "1"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-city>.\n[USER]: Can you help me in finding interesting things I can do? I would like to find something on March 6th. I love Musical shows and I would like to find something around Livermore. [SYSTEM]: REO Speedwagon has a lot of popularity. It takes place at Concerts at Wente Vineyards on March 6th at 4:30 pm. [USER]: That sounds very good. I would like to reserve tickets to a concert. [SYSTEM]: What number of tickets do you want? [USER]: I would like to get 1 ticket. [SYSTEM]: Please confirm these details: Booking tickets to see Reo Speedwagon. This reservation is for 1 ticket on March 6th in Livermore. [USER]: Yes that is good for me. What is the cost of one ticket? \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "livermore"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-date>.\n[USER]: Can you help me in finding interesting things I can do? I would like to find something on March 6th. I love Musical shows and I would like to find something around Livermore. [SYSTEM]: REO Speedwagon has a lot of popularity. It takes place at Concerts at Wente Vineyards on March 6th at 4:30 pm. [USER]: That sounds very good. I would like to reserve tickets to a concert. [SYSTEM]: What number of tickets do you want? [USER]: I would like to get 1 ticket. [SYSTEM]: Please confirm these details: Booking tickets to see Reo Speedwagon. This reservation is for 1 ticket on March 6th in Livermore. [USER]: Yes that is good for me. What is the cost of one ticket? \n [slot] events_3-date, it indicates Date of event. So the value of slot <events_3-date> is \n",
+        "output": "march 6th"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-event_name>.\n[USER]: Can you help me in finding interesting things I can do? I would like to find something on March 6th. I love Musical shows and I would like to find something around Livermore. [SYSTEM]: REO Speedwagon has a lot of popularity. It takes place at Concerts at Wente Vineyards on March 6th at 4:30 pm. [USER]: That sounds very good. I would like to reserve tickets to a concert. [SYSTEM]: What number of tickets do you want? [USER]: I would like to get 1 ticket. [SYSTEM]: Please confirm these details: Booking tickets to see Reo Speedwagon. This reservation is for 1 ticket on March 6th in Livermore. [USER]: Yes that is good for me. What is the cost of one ticket? \n [slot] events_3-event_name, it indicates Name of artist or play. So the value of slot <events_3-event_name> is \n",
+        "output": "reo speedwagon"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-event_type>.\n[USER]: Can you help me in finding interesting things I can do? I would like to find something on March 6th. I love Musical shows and I would like to find something around Livermore. [SYSTEM]: REO Speedwagon has a lot of popularity. It takes place at Concerts at Wente Vineyards on March 6th at 4:30 pm. [USER]: That sounds very good. I would like to reserve tickets to a concert. [SYSTEM]: What number of tickets do you want? [USER]: I would like to get 1 ticket. [SYSTEM]: Please confirm these details: Booking tickets to see Reo Speedwagon. This reservation is for 1 ticket on March 6th in Livermore. [USER]: Yes that is good for me. What is the cost of one ticket? \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "music"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-number_of_tickets>.\n[USER]: Can you help me in finding interesting things I can do? I would like to find something on March 6th. I love Musical shows and I would like to find something around Livermore. [SYSTEM]: REO Speedwagon has a lot of popularity. It takes place at Concerts at Wente Vineyards on March 6th at 4:30 pm. [USER]: That sounds very good. I would like to reserve tickets to a concert. [SYSTEM]: What number of tickets do you want? [USER]: I would like to get 1 ticket. [SYSTEM]: Please confirm these details: Booking tickets to see Reo Speedwagon. This reservation is for 1 ticket on March 6th in Livermore. [USER]: Yes that is good for me. What is the cost of one ticket? \n [slot] events_3-number_of_tickets, it indicates Number of tickets to reserve for the event. So the value of slot <events_3-number_of_tickets> is \n",
+        "output": "1"
+    },
+    {
+        "input": "Track the state of the slot <events_3-city> in the input dialogue.\n[USER]: Can you help me in finding interesting things I can do? I would like to find something on March 6th. I love Musical shows and I would like to find something around Livermore. [SYSTEM]: REO Speedwagon has a lot of popularity. It takes place at Concerts at Wente Vineyards on March 6th at 4:30 pm. [USER]: That sounds very good. I would like to reserve tickets to a concert. [SYSTEM]: What number of tickets do you want? [USER]: I would like to get 1 ticket. [SYSTEM]: Please confirm these details: Booking tickets to see Reo Speedwagon. This reservation is for 1 ticket on March 6th in Livermore. [USER]: Yes that is good for me. What is the cost of one ticket? [SYSTEM]: Your reservation is made and the cost is $50. Have a wonderful time there! [USER]: Thank you very much for helping me. That was all I was wanting help with. \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "livermore"
+    },
+    {
+        "input": "Track the state of the slot <events_3-date> in the input dialogue.\n[USER]: Can you help me in finding interesting things I can do? I would like to find something on March 6th. I love Musical shows and I would like to find something around Livermore. [SYSTEM]: REO Speedwagon has a lot of popularity. It takes place at Concerts at Wente Vineyards on March 6th at 4:30 pm. [USER]: That sounds very good. I would like to reserve tickets to a concert. [SYSTEM]: What number of tickets do you want? [USER]: I would like to get 1 ticket. [SYSTEM]: Please confirm these details: Booking tickets to see Reo Speedwagon. This reservation is for 1 ticket on March 6th in Livermore. [USER]: Yes that is good for me. What is the cost of one ticket? [SYSTEM]: Your reservation is made and the cost is $50. Have a wonderful time there! [USER]: Thank you very much for helping me. That was all I was wanting help with. \n [slot] events_3-date, it indicates Date of event. So the value of slot <events_3-date> is \n",
+        "output": "march 6th"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-event_name>.\n[USER]: Can you help me in finding interesting things I can do? I would like to find something on March 6th. I love Musical shows and I would like to find something around Livermore. [SYSTEM]: REO Speedwagon has a lot of popularity. It takes place at Concerts at Wente Vineyards on March 6th at 4:30 pm. [USER]: That sounds very good. I would like to reserve tickets to a concert. [SYSTEM]: What number of tickets do you want? [USER]: I would like to get 1 ticket. [SYSTEM]: Please confirm these details: Booking tickets to see Reo Speedwagon. This reservation is for 1 ticket on March 6th in Livermore. [USER]: Yes that is good for me. What is the cost of one ticket? [SYSTEM]: Your reservation is made and the cost is $50. Have a wonderful time there! [USER]: Thank you very much for helping me. That was all I was wanting help with. \n [slot] events_3-event_name, it indicates Name of artist or play. So the value of slot <events_3-event_name> is \n",
+        "output": "reo speedwagon"
+    },
+    {
+        "input": "Track the state of the slot <events_3-event_type> in the input dialogue.\n[USER]: Can you help me in finding interesting things I can do? I would like to find something on March 6th. I love Musical shows and I would like to find something around Livermore. [SYSTEM]: REO Speedwagon has a lot of popularity. It takes place at Concerts at Wente Vineyards on March 6th at 4:30 pm. [USER]: That sounds very good. I would like to reserve tickets to a concert. [SYSTEM]: What number of tickets do you want? [USER]: I would like to get 1 ticket. [SYSTEM]: Please confirm these details: Booking tickets to see Reo Speedwagon. This reservation is for 1 ticket on March 6th in Livermore. [USER]: Yes that is good for me. What is the cost of one ticket? [SYSTEM]: Your reservation is made and the cost is $50. Have a wonderful time there! [USER]: Thank you very much for helping me. That was all I was wanting help with. \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "music"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-number_of_tickets>.\n[USER]: Can you help me in finding interesting things I can do? I would like to find something on March 6th. I love Musical shows and I would like to find something around Livermore. [SYSTEM]: REO Speedwagon has a lot of popularity. It takes place at Concerts at Wente Vineyards on March 6th at 4:30 pm. [USER]: That sounds very good. I would like to reserve tickets to a concert. [SYSTEM]: What number of tickets do you want? [USER]: I would like to get 1 ticket. [SYSTEM]: Please confirm these details: Booking tickets to see Reo Speedwagon. This reservation is for 1 ticket on March 6th in Livermore. [USER]: Yes that is good for me. What is the cost of one ticket? [SYSTEM]: Your reservation is made and the cost is $50. Have a wonderful time there! [USER]: Thank you very much for helping me. That was all I was wanting help with. \n [slot] events_3-number_of_tickets, it indicates Number of tickets to reserve for the event. So the value of slot <events_3-number_of_tickets> is \n",
+        "output": "1"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-city>.\n[USER]: Would you kindly help me to search something interesting to do? [SYSTEM]: Is there any particular city of your choice? [USER]: I am searching around Los Angeles. \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "los angeles"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-city>.\n[USER]: Would you kindly help me to search something interesting to do? [SYSTEM]: Is there any particular city of your choice? [USER]: I am searching around Los Angeles. [SYSTEM]: Is there any preference for the type of event? [USER]: Actually i like stage show. \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "los angeles"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-event_type>.\n[USER]: Would you kindly help me to search something interesting to do? [SYSTEM]: Is there any particular city of your choice? [USER]: I am searching around Los Angeles. [SYSTEM]: Is there any preference for the type of event? [USER]: Actually i like stage show. \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "theater"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-city>.\n[USER]: Would you kindly help me to search something interesting to do? [SYSTEM]: Is there any particular city of your choice? [USER]: I am searching around Los Angeles. [SYSTEM]: Is there any preference for the type of event? [USER]: Actually i like stage show. [SYSTEM]: I have short listed 10 events of your choice and A year In Dragonfly is one among them which is taking place at Studio C Artists on march 1st at 7:30 pm. [USER]: Can you tell me the cost of one ticket? \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "los angeles"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-event_type>.\n[USER]: Would you kindly help me to search something interesting to do? [SYSTEM]: Is there any particular city of your choice? [USER]: I am searching around Los Angeles. [SYSTEM]: Is there any preference for the type of event? [USER]: Actually i like stage show. [SYSTEM]: I have short listed 10 events of your choice and A year In Dragonfly is one among them which is taking place at Studio C Artists on march 1st at 7:30 pm. [USER]: Can you tell me the cost of one ticket? \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "theater"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-city>.\n[USER]: Would you kindly help me to search something interesting to do? [SYSTEM]: Is there any particular city of your choice? [USER]: I am searching around Los Angeles. [SYSTEM]: Is there any preference for the type of event? [USER]: Actually i like stage show. [SYSTEM]: I have short listed 10 events of your choice and A year In Dragonfly is one among them which is taking place at Studio C Artists on march 1st at 7:30 pm. [USER]: Can you tell me the cost of one ticket? [SYSTEM]: $55 is the ticket cost. [USER]: Can you tell me the event location? \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "los angeles"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-event_type>.\n[USER]: Would you kindly help me to search something interesting to do? [SYSTEM]: Is there any particular city of your choice? [USER]: I am searching around Los Angeles. [SYSTEM]: Is there any preference for the type of event? [USER]: Actually i like stage show. [SYSTEM]: I have short listed 10 events of your choice and A year In Dragonfly is one among them which is taking place at Studio C Artists on march 1st at 7:30 pm. [USER]: Can you tell me the cost of one ticket? [SYSTEM]: $55 is the ticket cost. [USER]: Can you tell me the event location? \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "theater"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-city>.\n[USER]: Would you kindly help me to search something interesting to do? [SYSTEM]: Is there any particular city of your choice? [USER]: I am searching around Los Angeles. [SYSTEM]: Is there any preference for the type of event? [USER]: Actually i like stage show. [SYSTEM]: I have short listed 10 events of your choice and A year In Dragonfly is one among them which is taking place at Studio C Artists on march 1st at 7:30 pm. [USER]: Can you tell me the cost of one ticket? [SYSTEM]: $55 is the ticket cost. [USER]: Can you tell me the event location? [SYSTEM]: The location is 6448 California 2. [USER]: This is cool. \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "los angeles"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-date>.\n[USER]: Would you kindly help me to search something interesting to do? [SYSTEM]: Is there any particular city of your choice? [USER]: I am searching around Los Angeles. [SYSTEM]: Is there any preference for the type of event? [USER]: Actually i like stage show. [SYSTEM]: I have short listed 10 events of your choice and A year In Dragonfly is one among them which is taking place at Studio C Artists on march 1st at 7:30 pm. [USER]: Can you tell me the cost of one ticket? [SYSTEM]: $55 is the ticket cost. [USER]: Can you tell me the event location? [SYSTEM]: The location is 6448 California 2. [USER]: This is cool. \n [slot] events_3-date, it indicates Date of event. So the value of slot <events_3-date> is \n",
+        "output": "march 1st"
+    },
+    {
+        "input": "Track the state of the slot <events_3-event_name> in the input dialogue.\n[USER]: Would you kindly help me to search something interesting to do? [SYSTEM]: Is there any particular city of your choice? [USER]: I am searching around Los Angeles. [SYSTEM]: Is there any preference for the type of event? [USER]: Actually i like stage show. [SYSTEM]: I have short listed 10 events of your choice and A year In Dragonfly is one among them which is taking place at Studio C Artists on march 1st at 7:30 pm. [USER]: Can you tell me the cost of one ticket? [SYSTEM]: $55 is the ticket cost. [USER]: Can you tell me the event location? [SYSTEM]: The location is 6448 California 2. [USER]: This is cool. \n [slot] events_3-event_name, it indicates Name of artist or play. So the value of slot <events_3-event_name> is \n",
+        "output": "a year in dragonfly"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-event_type>.\n[USER]: Would you kindly help me to search something interesting to do? [SYSTEM]: Is there any particular city of your choice? [USER]: I am searching around Los Angeles. [SYSTEM]: Is there any preference for the type of event? [USER]: Actually i like stage show. [SYSTEM]: I have short listed 10 events of your choice and A year In Dragonfly is one among them which is taking place at Studio C Artists on march 1st at 7:30 pm. [USER]: Can you tell me the cost of one ticket? [SYSTEM]: $55 is the ticket cost. [USER]: Can you tell me the event location? [SYSTEM]: The location is 6448 California 2. [USER]: This is cool. \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "theater"
+    },
+    {
+        "input": "Track the state of the slot <events_3-city> in the input dialogue.\n[USER]: Would you kindly help me to search something interesting to do? [SYSTEM]: Is there any particular city of your choice? [USER]: I am searching around Los Angeles. [SYSTEM]: Is there any preference for the type of event? [USER]: Actually i like stage show. [SYSTEM]: I have short listed 10 events of your choice and A year In Dragonfly is one among them which is taking place at Studio C Artists on march 1st at 7:30 pm. [USER]: Can you tell me the cost of one ticket? [SYSTEM]: $55 is the ticket cost. [USER]: Can you tell me the event location? [SYSTEM]: The location is 6448 California 2. [USER]: This is cool. [SYSTEM]: Can i buy ticket for this event? [USER]: No, not now..thank you \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "los angeles"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: Would you kindly help me to search something interesting to do? [SYSTEM]: Is there any particular city of your choice? [USER]: I am searching around Los Angeles. [SYSTEM]: Is there any preference for the type of event? [USER]: Actually i like stage show. [SYSTEM]: I have short listed 10 events of your choice and A year In Dragonfly is one among them which is taking place at Studio C Artists on march 1st at 7:30 pm. [USER]: Can you tell me the cost of one ticket? [SYSTEM]: $55 is the ticket cost. [USER]: Can you tell me the event location? [SYSTEM]: The location is 6448 California 2. [USER]: This is cool. [SYSTEM]: Can i buy ticket for this event? [USER]: No, not now..thank you \n [slot] events_3-date, it indicates Date of event. So the value of slot <events_3-date> is \n",
+        "output": "march 1st"
+    },
+    {
+        "input": "Track the state of the slot <events_3-event_name> in the input dialogue.\n[USER]: Would you kindly help me to search something interesting to do? [SYSTEM]: Is there any particular city of your choice? [USER]: I am searching around Los Angeles. [SYSTEM]: Is there any preference for the type of event? [USER]: Actually i like stage show. [SYSTEM]: I have short listed 10 events of your choice and A year In Dragonfly is one among them which is taking place at Studio C Artists on march 1st at 7:30 pm. [USER]: Can you tell me the cost of one ticket? [SYSTEM]: $55 is the ticket cost. [USER]: Can you tell me the event location? [SYSTEM]: The location is 6448 California 2. [USER]: This is cool. [SYSTEM]: Can i buy ticket for this event? [USER]: No, not now..thank you \n [slot] events_3-event_name, it indicates Name of artist or play. So the value of slot <events_3-event_name> is \n",
+        "output": "a year in dragonfly"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-event_type>.\n[USER]: Would you kindly help me to search something interesting to do? [SYSTEM]: Is there any particular city of your choice? [USER]: I am searching around Los Angeles. [SYSTEM]: Is there any preference for the type of event? [USER]: Actually i like stage show. [SYSTEM]: I have short listed 10 events of your choice and A year In Dragonfly is one among them which is taking place at Studio C Artists on march 1st at 7:30 pm. [USER]: Can you tell me the cost of one ticket? [SYSTEM]: $55 is the ticket cost. [USER]: Can you tell me the event location? [SYSTEM]: The location is 6448 California 2. [USER]: This is cool. [SYSTEM]: Can i buy ticket for this event? [USER]: No, not now..thank you \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "theater"
+    },
+    {
+        "input": "Track the state of the slot <events_3-event_type> in the input dialogue.\n[USER]: I want to do something cool. [SYSTEM]: What type of things are you interested in? Music? Theater? [USER]: I love Broadway. \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "theater"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-city>.\n[USER]: I want to do something cool. [SYSTEM]: What type of things are you interested in? Music? Theater? [USER]: I love Broadway. [SYSTEM]: In what city? [USER]: In Vancouver, BC. \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "vancouver, bc"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-event_type>.\n[USER]: I want to do something cool. [SYSTEM]: What type of things are you interested in? Music? Theater? [USER]: I love Broadway. [SYSTEM]: In what city? [USER]: In Vancouver, BC. \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "theater"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-city>.\n[USER]: I want to do something cool. [SYSTEM]: What type of things are you interested in? Music? Theater? [USER]: I love Broadway. [SYSTEM]: In what city? [USER]: In Vancouver, BC. [SYSTEM]: I found 10 events including one at the Wise entitled Alice in Glitterland on March 13th at 4 pm. [USER]: That is perfect. That is all. \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "vancouver, bc"
+    },
+    {
+        "input": "Track the state of the slot <events_3-date> in the input dialogue.\n[USER]: I want to do something cool. [SYSTEM]: What type of things are you interested in? Music? Theater? [USER]: I love Broadway. [SYSTEM]: In what city? [USER]: In Vancouver, BC. [SYSTEM]: I found 10 events including one at the Wise entitled Alice in Glitterland on March 13th at 4 pm. [USER]: That is perfect. That is all. \n [slot] events_3-date, it indicates Date of event. So the value of slot <events_3-date> is \n",
+        "output": "march 13th"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-event_name>.\n[USER]: I want to do something cool. [SYSTEM]: What type of things are you interested in? Music? Theater? [USER]: I love Broadway. [SYSTEM]: In what city? [USER]: In Vancouver, BC. [SYSTEM]: I found 10 events including one at the Wise entitled Alice in Glitterland on March 13th at 4 pm. [USER]: That is perfect. That is all. \n [slot] events_3-event_name, it indicates Name of artist or play. So the value of slot <events_3-event_name> is \n",
+        "output": "alice in glitterland"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-event_type>.\n[USER]: I want to do something cool. [SYSTEM]: What type of things are you interested in? Music? Theater? [USER]: I love Broadway. [SYSTEM]: In what city? [USER]: In Vancouver, BC. [SYSTEM]: I found 10 events including one at the Wise entitled Alice in Glitterland on March 13th at 4 pm. [USER]: That is perfect. That is all. \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "theater"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-city>.\n[USER]: I'll be in London, UK and I'm trying to find something interesting to do while I'm there. \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "london, uk"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-city>.\n[USER]: I'll be in London, UK and I'm trying to find something interesting to do while I'm there. [SYSTEM]: What types of things would you be interested in? You can say Movie or Music or Theater or Sports or anything like that. [USER]: How about a play or Stage show? \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "london, uk"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-event_type>.\n[USER]: I'll be in London, UK and I'm trying to find something interesting to do while I'm there. [SYSTEM]: What types of things would you be interested in? You can say Movie or Music or Theater or Sports or anything like that. [USER]: How about a play or Stage show? \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "theater"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-city>.\n[USER]: I'll be in London, UK and I'm trying to find something interesting to do while I'm there. [SYSTEM]: What types of things would you be interested in? You can say Movie or Music or Theater or Sports or anything like that. [USER]: How about a play or Stage show? [SYSTEM]: There are 10 events that might interest you. On March 14th at 7 pm, A Right Royale Tea is playing at Amba Hotel Charing Cross. [USER]: That sounds interesting. \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "london, uk"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-date>.\n[USER]: I'll be in London, UK and I'm trying to find something interesting to do while I'm there. [SYSTEM]: What types of things would you be interested in? You can say Movie or Music or Theater or Sports or anything like that. [USER]: How about a play or Stage show? [SYSTEM]: There are 10 events that might interest you. On March 14th at 7 pm, A Right Royale Tea is playing at Amba Hotel Charing Cross. [USER]: That sounds interesting. \n [slot] events_3-date, it indicates Date of event. So the value of slot <events_3-date> is \n",
+        "output": "march 14th"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-event_name>.\n[USER]: I'll be in London, UK and I'm trying to find something interesting to do while I'm there. [SYSTEM]: What types of things would you be interested in? You can say Movie or Music or Theater or Sports or anything like that. [USER]: How about a play or Stage show? [SYSTEM]: There are 10 events that might interest you. On March 14th at 7 pm, A Right Royale Tea is playing at Amba Hotel Charing Cross. [USER]: That sounds interesting. \n [slot] events_3-event_name, it indicates Name of artist or play. So the value of slot <events_3-event_name> is \n",
+        "output": "a right royale tea"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-event_type>.\n[USER]: I'll be in London, UK and I'm trying to find something interesting to do while I'm there. [SYSTEM]: What types of things would you be interested in? You can say Movie or Music or Theater or Sports or anything like that. [USER]: How about a play or Stage show? [SYSTEM]: There are 10 events that might interest you. On March 14th at 7 pm, A Right Royale Tea is playing at Amba Hotel Charing Cross. [USER]: That sounds interesting. \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "theater"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-city>.\n[USER]: I'll be in London, UK and I'm trying to find something interesting to do while I'm there. [SYSTEM]: What types of things would you be interested in? You can say Movie or Music or Theater or Sports or anything like that. [USER]: How about a play or Stage show? [SYSTEM]: There are 10 events that might interest you. On March 14th at 7 pm, A Right Royale Tea is playing at Amba Hotel Charing Cross. [USER]: That sounds interesting. [SYSTEM]: Would you like me to book tickets for you for A Right Royale Tea? [USER]: No. I need to think about it first. \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "london, uk"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-date>.\n[USER]: I'll be in London, UK and I'm trying to find something interesting to do while I'm there. [SYSTEM]: What types of things would you be interested in? You can say Movie or Music or Theater or Sports or anything like that. [USER]: How about a play or Stage show? [SYSTEM]: There are 10 events that might interest you. On March 14th at 7 pm, A Right Royale Tea is playing at Amba Hotel Charing Cross. [USER]: That sounds interesting. [SYSTEM]: Would you like me to book tickets for you for A Right Royale Tea? [USER]: No. I need to think about it first. \n [slot] events_3-date, it indicates Date of event. So the value of slot <events_3-date> is \n",
+        "output": "march 14th"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: I'll be in London, UK and I'm trying to find something interesting to do while I'm there. [SYSTEM]: What types of things would you be interested in? You can say Movie or Music or Theater or Sports or anything like that. [USER]: How about a play or Stage show? [SYSTEM]: There are 10 events that might interest you. On March 14th at 7 pm, A Right Royale Tea is playing at Amba Hotel Charing Cross. [USER]: That sounds interesting. [SYSTEM]: Would you like me to book tickets for you for A Right Royale Tea? [USER]: No. I need to think about it first. \n [slot] events_3-event_name, it indicates Name of artist or play. So the value of slot <events_3-event_name> is \n",
+        "output": "a right royale tea"
+    },
+    {
+        "input": "Track the state of the slot <events_3-event_type> in the input dialogue.\n[USER]: I'll be in London, UK and I'm trying to find something interesting to do while I'm there. [SYSTEM]: What types of things would you be interested in? You can say Movie or Music or Theater or Sports or anything like that. [USER]: How about a play or Stage show? [SYSTEM]: There are 10 events that might interest you. On March 14th at 7 pm, A Right Royale Tea is playing at Amba Hotel Charing Cross. [USER]: That sounds interesting. [SYSTEM]: Would you like me to book tickets for you for A Right Royale Tea? [USER]: No. I need to think about it first. \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "theater"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-city>.\n[USER]: I'll be in London, UK and I'm trying to find something interesting to do while I'm there. [SYSTEM]: What types of things would you be interested in? You can say Movie or Music or Theater or Sports or anything like that. [USER]: How about a play or Stage show? [SYSTEM]: There are 10 events that might interest you. On March 14th at 7 pm, A Right Royale Tea is playing at Amba Hotel Charing Cross. [USER]: That sounds interesting. [SYSTEM]: Would you like me to book tickets for you for A Right Royale Tea? [USER]: No. I need to think about it first. [SYSTEM]: Is there anything else I could help you with? [USER]: No. That's all I need for right now. Thanks. \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "london, uk"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-date>.\n[USER]: I'll be in London, UK and I'm trying to find something interesting to do while I'm there. [SYSTEM]: What types of things would you be interested in? You can say Movie or Music or Theater or Sports or anything like that. [USER]: How about a play or Stage show? [SYSTEM]: There are 10 events that might interest you. On March 14th at 7 pm, A Right Royale Tea is playing at Amba Hotel Charing Cross. [USER]: That sounds interesting. [SYSTEM]: Would you like me to book tickets for you for A Right Royale Tea? [USER]: No. I need to think about it first. [SYSTEM]: Is there anything else I could help you with? [USER]: No. That's all I need for right now. Thanks. \n [slot] events_3-date, it indicates Date of event. So the value of slot <events_3-date> is \n",
+        "output": "march 14th"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-event_name>.\n[USER]: I'll be in London, UK and I'm trying to find something interesting to do while I'm there. [SYSTEM]: What types of things would you be interested in? You can say Movie or Music or Theater or Sports or anything like that. [USER]: How about a play or Stage show? [SYSTEM]: There are 10 events that might interest you. On March 14th at 7 pm, A Right Royale Tea is playing at Amba Hotel Charing Cross. [USER]: That sounds interesting. [SYSTEM]: Would you like me to book tickets for you for A Right Royale Tea? [USER]: No. I need to think about it first. [SYSTEM]: Is there anything else I could help you with? [USER]: No. That's all I need for right now. Thanks. \n [slot] events_3-event_name, it indicates Name of artist or play. So the value of slot <events_3-event_name> is \n",
+        "output": "a right royale tea"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-event_type>.\n[USER]: I'll be in London, UK and I'm trying to find something interesting to do while I'm there. [SYSTEM]: What types of things would you be interested in? You can say Movie or Music or Theater or Sports or anything like that. [USER]: How about a play or Stage show? [SYSTEM]: There are 10 events that might interest you. On March 14th at 7 pm, A Right Royale Tea is playing at Amba Hotel Charing Cross. [USER]: That sounds interesting. [SYSTEM]: Would you like me to book tickets for you for A Right Royale Tea? [USER]: No. I need to think about it first. [SYSTEM]: Is there anything else I could help you with? [USER]: No. That's all I need for right now. Thanks. \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "theater"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-event_type>.\n[USER]: Is there something interesting I can do, hopefully music related? \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "music"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: Is there something interesting I can do, hopefully music related? [SYSTEM]: Which city should I look for music events? [USER]: Can you try looking for music events in Atlanta, GA? \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "atlanta, ga"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-event_type>.\n[USER]: Is there something interesting I can do, hopefully music related? [SYSTEM]: Which city should I look for music events? [USER]: Can you try looking for music events in Atlanta, GA? \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "music"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-city>.\n[USER]: Is there something interesting I can do, hopefully music related? [SYSTEM]: Which city should I look for music events? [USER]: Can you try looking for music events in Atlanta, GA? [SYSTEM]: For that city I found an upcoming event on March 11th at 5 pm, would you be interested in seeing Adam Ant at the Atlanta Symphony Orchestra. [USER]: Sounds great, thanks for finding this event. \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "atlanta, ga"
+    },
+    {
+        "input": "Track the state of the slot <events_3-date> in the input dialogue.\n[USER]: Is there something interesting I can do, hopefully music related? [SYSTEM]: Which city should I look for music events? [USER]: Can you try looking for music events in Atlanta, GA? [SYSTEM]: For that city I found an upcoming event on March 11th at 5 pm, would you be interested in seeing Adam Ant at the Atlanta Symphony Orchestra. [USER]: Sounds great, thanks for finding this event. \n [slot] events_3-date, it indicates Date of event. So the value of slot <events_3-date> is \n",
+        "output": "march 11th"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-event_name>.\n[USER]: Is there something interesting I can do, hopefully music related? [SYSTEM]: Which city should I look for music events? [USER]: Can you try looking for music events in Atlanta, GA? [SYSTEM]: For that city I found an upcoming event on March 11th at 5 pm, would you be interested in seeing Adam Ant at the Atlanta Symphony Orchestra. [USER]: Sounds great, thanks for finding this event. \n [slot] events_3-event_name, it indicates Name of artist or play. So the value of slot <events_3-event_name> is \n",
+        "output": "adam ant"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-event_type>.\n[USER]: Is there something interesting I can do, hopefully music related? [SYSTEM]: Which city should I look for music events? [USER]: Can you try looking for music events in Atlanta, GA? [SYSTEM]: For that city I found an upcoming event on March 11th at 5 pm, would you be interested in seeing Adam Ant at the Atlanta Symphony Orchestra. [USER]: Sounds great, thanks for finding this event. \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "music"
+    },
+    {
+        "input": "Track the state of the slot <events_3-city> in the input dialogue.\n[USER]: Is there something interesting I can do, hopefully music related? [SYSTEM]: Which city should I look for music events? [USER]: Can you try looking for music events in Atlanta, GA? [SYSTEM]: For that city I found an upcoming event on March 11th at 5 pm, would you be interested in seeing Adam Ant at the Atlanta Symphony Orchestra. [USER]: Sounds great, thanks for finding this event. [SYSTEM]: Would you like to purchase tickets to this event? [USER]: Sure, buy me tickets for the event. \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "atlanta, ga"
+    },
+    {
+        "input": "Track the state of the slot <events_3-date> in the input dialogue.\n[USER]: Is there something interesting I can do, hopefully music related? [SYSTEM]: Which city should I look for music events? [USER]: Can you try looking for music events in Atlanta, GA? [SYSTEM]: For that city I found an upcoming event on March 11th at 5 pm, would you be interested in seeing Adam Ant at the Atlanta Symphony Orchestra. [USER]: Sounds great, thanks for finding this event. [SYSTEM]: Would you like to purchase tickets to this event? [USER]: Sure, buy me tickets for the event. \n [slot] events_3-date, it indicates Date of event. So the value of slot <events_3-date> is \n",
+        "output": "march 11th"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: Is there something interesting I can do, hopefully music related? [SYSTEM]: Which city should I look for music events? [USER]: Can you try looking for music events in Atlanta, GA? [SYSTEM]: For that city I found an upcoming event on March 11th at 5 pm, would you be interested in seeing Adam Ant at the Atlanta Symphony Orchestra. [USER]: Sounds great, thanks for finding this event. [SYSTEM]: Would you like to purchase tickets to this event? [USER]: Sure, buy me tickets for the event. \n [slot] events_3-event_name, it indicates Name of artist or play. So the value of slot <events_3-event_name> is \n",
+        "output": "adam ant"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-event_type>.\n[USER]: Is there something interesting I can do, hopefully music related? [SYSTEM]: Which city should I look for music events? [USER]: Can you try looking for music events in Atlanta, GA? [SYSTEM]: For that city I found an upcoming event on March 11th at 5 pm, would you be interested in seeing Adam Ant at the Atlanta Symphony Orchestra. [USER]: Sounds great, thanks for finding this event. [SYSTEM]: Would you like to purchase tickets to this event? [USER]: Sure, buy me tickets for the event. \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "music"
+    },
+    {
+        "input": "Track the state of the slot <events_3-city> in the input dialogue.\n[USER]: Is there something interesting I can do, hopefully music related? [SYSTEM]: Which city should I look for music events? [USER]: Can you try looking for music events in Atlanta, GA? [SYSTEM]: For that city I found an upcoming event on March 11th at 5 pm, would you be interested in seeing Adam Ant at the Atlanta Symphony Orchestra. [USER]: Sounds great, thanks for finding this event. [SYSTEM]: Would you like to purchase tickets to this event? [USER]: Sure, buy me tickets for the event. [SYSTEM]: What amount would you like to purchase at the moment? [USER]: I only want to buy one ticket at the moment. \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "atlanta, ga"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-date>.\n[USER]: Is there something interesting I can do, hopefully music related? [SYSTEM]: Which city should I look for music events? [USER]: Can you try looking for music events in Atlanta, GA? [SYSTEM]: For that city I found an upcoming event on March 11th at 5 pm, would you be interested in seeing Adam Ant at the Atlanta Symphony Orchestra. [USER]: Sounds great, thanks for finding this event. [SYSTEM]: Would you like to purchase tickets to this event? [USER]: Sure, buy me tickets for the event. [SYSTEM]: What amount would you like to purchase at the moment? [USER]: I only want to buy one ticket at the moment. \n [slot] events_3-date, it indicates Date of event. So the value of slot <events_3-date> is \n",
+        "output": "march 11th"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-event_name>.\n[USER]: Is there something interesting I can do, hopefully music related? [SYSTEM]: Which city should I look for music events? [USER]: Can you try looking for music events in Atlanta, GA? [SYSTEM]: For that city I found an upcoming event on March 11th at 5 pm, would you be interested in seeing Adam Ant at the Atlanta Symphony Orchestra. [USER]: Sounds great, thanks for finding this event. [SYSTEM]: Would you like to purchase tickets to this event? [USER]: Sure, buy me tickets for the event. [SYSTEM]: What amount would you like to purchase at the moment? [USER]: I only want to buy one ticket at the moment. \n [slot] events_3-event_name, it indicates Name of artist or play. So the value of slot <events_3-event_name> is \n",
+        "output": "adam ant"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: Is there something interesting I can do, hopefully music related? [SYSTEM]: Which city should I look for music events? [USER]: Can you try looking for music events in Atlanta, GA? [SYSTEM]: For that city I found an upcoming event on March 11th at 5 pm, would you be interested in seeing Adam Ant at the Atlanta Symphony Orchestra. [USER]: Sounds great, thanks for finding this event. [SYSTEM]: Would you like to purchase tickets to this event? [USER]: Sure, buy me tickets for the event. [SYSTEM]: What amount would you like to purchase at the moment? [USER]: I only want to buy one ticket at the moment. \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "music"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-number_of_tickets>.\n[USER]: Is there something interesting I can do, hopefully music related? [SYSTEM]: Which city should I look for music events? [USER]: Can you try looking for music events in Atlanta, GA? [SYSTEM]: For that city I found an upcoming event on March 11th at 5 pm, would you be interested in seeing Adam Ant at the Atlanta Symphony Orchestra. [USER]: Sounds great, thanks for finding this event. [SYSTEM]: Would you like to purchase tickets to this event? [USER]: Sure, buy me tickets for the event. [SYSTEM]: What amount would you like to purchase at the moment? [USER]: I only want to buy one ticket at the moment. \n [slot] events_3-number_of_tickets, it indicates Number of tickets to reserve for the event. So the value of slot <events_3-number_of_tickets> is \n",
+        "output": "1"
+    },
+    {
+        "input": "Track the state of the slot <events_3-city> in the input dialogue.\n[USER]: Is there something interesting I can do, hopefully music related? [SYSTEM]: Which city should I look for music events? [USER]: Can you try looking for music events in Atlanta, GA? [SYSTEM]: For that city I found an upcoming event on March 11th at 5 pm, would you be interested in seeing Adam Ant at the Atlanta Symphony Orchestra. [USER]: Sounds great, thanks for finding this event. [SYSTEM]: Would you like to purchase tickets to this event? [USER]: Sure, buy me tickets for the event. [SYSTEM]: What amount would you like to purchase at the moment? [USER]: I only want to buy one ticket at the moment. [SYSTEM]: You would like to buy 1 ticket for Adam Ant performing in Atlanta on March 11th, is that correct? [USER]: That is all correct, no problems here. \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "atlanta"
+    },
+    {
+        "input": "Track the state of the slot <events_3-date> in the input dialogue.\n[USER]: Is there something interesting I can do, hopefully music related? [SYSTEM]: Which city should I look for music events? [USER]: Can you try looking for music events in Atlanta, GA? [SYSTEM]: For that city I found an upcoming event on March 11th at 5 pm, would you be interested in seeing Adam Ant at the Atlanta Symphony Orchestra. [USER]: Sounds great, thanks for finding this event. [SYSTEM]: Would you like to purchase tickets to this event? [USER]: Sure, buy me tickets for the event. [SYSTEM]: What amount would you like to purchase at the moment? [USER]: I only want to buy one ticket at the moment. [SYSTEM]: You would like to buy 1 ticket for Adam Ant performing in Atlanta on March 11th, is that correct? [USER]: That is all correct, no problems here. \n [slot] events_3-date, it indicates Date of event. So the value of slot <events_3-date> is \n",
+        "output": "march 11th"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-event_name>.\n[USER]: Is there something interesting I can do, hopefully music related? [SYSTEM]: Which city should I look for music events? [USER]: Can you try looking for music events in Atlanta, GA? [SYSTEM]: For that city I found an upcoming event on March 11th at 5 pm, would you be interested in seeing Adam Ant at the Atlanta Symphony Orchestra. [USER]: Sounds great, thanks for finding this event. [SYSTEM]: Would you like to purchase tickets to this event? [USER]: Sure, buy me tickets for the event. [SYSTEM]: What amount would you like to purchase at the moment? [USER]: I only want to buy one ticket at the moment. [SYSTEM]: You would like to buy 1 ticket for Adam Ant performing in Atlanta on March 11th, is that correct? [USER]: That is all correct, no problems here. \n [slot] events_3-event_name, it indicates Name of artist or play. So the value of slot <events_3-event_name> is \n",
+        "output": "adam ant"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-event_type>.\n[USER]: Is there something interesting I can do, hopefully music related? [SYSTEM]: Which city should I look for music events? [USER]: Can you try looking for music events in Atlanta, GA? [SYSTEM]: For that city I found an upcoming event on March 11th at 5 pm, would you be interested in seeing Adam Ant at the Atlanta Symphony Orchestra. [USER]: Sounds great, thanks for finding this event. [SYSTEM]: Would you like to purchase tickets to this event? [USER]: Sure, buy me tickets for the event. [SYSTEM]: What amount would you like to purchase at the moment? [USER]: I only want to buy one ticket at the moment. [SYSTEM]: You would like to buy 1 ticket for Adam Ant performing in Atlanta on March 11th, is that correct? [USER]: That is all correct, no problems here. \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "music"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-number_of_tickets>.\n[USER]: Is there something interesting I can do, hopefully music related? [SYSTEM]: Which city should I look for music events? [USER]: Can you try looking for music events in Atlanta, GA? [SYSTEM]: For that city I found an upcoming event on March 11th at 5 pm, would you be interested in seeing Adam Ant at the Atlanta Symphony Orchestra. [USER]: Sounds great, thanks for finding this event. [SYSTEM]: Would you like to purchase tickets to this event? [USER]: Sure, buy me tickets for the event. [SYSTEM]: What amount would you like to purchase at the moment? [USER]: I only want to buy one ticket at the moment. [SYSTEM]: You would like to buy 1 ticket for Adam Ant performing in Atlanta on March 11th, is that correct? [USER]: That is all correct, no problems here. \n [slot] events_3-number_of_tickets, it indicates Number of tickets to reserve for the event. So the value of slot <events_3-number_of_tickets> is \n",
+        "output": "1"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-city>.\n[USER]: Is there something interesting I can do, hopefully music related? [SYSTEM]: Which city should I look for music events? [USER]: Can you try looking for music events in Atlanta, GA? [SYSTEM]: For that city I found an upcoming event on March 11th at 5 pm, would you be interested in seeing Adam Ant at the Atlanta Symphony Orchestra. [USER]: Sounds great, thanks for finding this event. [SYSTEM]: Would you like to purchase tickets to this event? [USER]: Sure, buy me tickets for the event. [SYSTEM]: What amount would you like to purchase at the moment? [USER]: I only want to buy one ticket at the moment. [SYSTEM]: You would like to buy 1 ticket for Adam Ant performing in Atlanta on March 11th, is that correct? [USER]: That is all correct, no problems here. [SYSTEM]: The reservation has been made, hope you enjoy the event. [USER]: Great, thanks for all the help, that is all I needed for now. \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "atlanta"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: Is there something interesting I can do, hopefully music related? [SYSTEM]: Which city should I look for music events? [USER]: Can you try looking for music events in Atlanta, GA? [SYSTEM]: For that city I found an upcoming event on March 11th at 5 pm, would you be interested in seeing Adam Ant at the Atlanta Symphony Orchestra. [USER]: Sounds great, thanks for finding this event. [SYSTEM]: Would you like to purchase tickets to this event? [USER]: Sure, buy me tickets for the event. [SYSTEM]: What amount would you like to purchase at the moment? [USER]: I only want to buy one ticket at the moment. [SYSTEM]: You would like to buy 1 ticket for Adam Ant performing in Atlanta on March 11th, is that correct? [USER]: That is all correct, no problems here. [SYSTEM]: The reservation has been made, hope you enjoy the event. [USER]: Great, thanks for all the help, that is all I needed for now. \n [slot] events_3-date, it indicates Date of event. So the value of slot <events_3-date> is \n",
+        "output": "march 11th"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-event_name>.\n[USER]: Is there something interesting I can do, hopefully music related? [SYSTEM]: Which city should I look for music events? [USER]: Can you try looking for music events in Atlanta, GA? [SYSTEM]: For that city I found an upcoming event on March 11th at 5 pm, would you be interested in seeing Adam Ant at the Atlanta Symphony Orchestra. [USER]: Sounds great, thanks for finding this event. [SYSTEM]: Would you like to purchase tickets to this event? [USER]: Sure, buy me tickets for the event. [SYSTEM]: What amount would you like to purchase at the moment? [USER]: I only want to buy one ticket at the moment. [SYSTEM]: You would like to buy 1 ticket for Adam Ant performing in Atlanta on March 11th, is that correct? [USER]: That is all correct, no problems here. [SYSTEM]: The reservation has been made, hope you enjoy the event. [USER]: Great, thanks for all the help, that is all I needed for now. \n [slot] events_3-event_name, it indicates Name of artist or play. So the value of slot <events_3-event_name> is \n",
+        "output": "adam ant"
+    },
+    {
+        "input": "Track the state of the slot <events_3-event_type> in the input dialogue.\n[USER]: Is there something interesting I can do, hopefully music related? [SYSTEM]: Which city should I look for music events? [USER]: Can you try looking for music events in Atlanta, GA? [SYSTEM]: For that city I found an upcoming event on March 11th at 5 pm, would you be interested in seeing Adam Ant at the Atlanta Symphony Orchestra. [USER]: Sounds great, thanks for finding this event. [SYSTEM]: Would you like to purchase tickets to this event? [USER]: Sure, buy me tickets for the event. [SYSTEM]: What amount would you like to purchase at the moment? [USER]: I only want to buy one ticket at the moment. [SYSTEM]: You would like to buy 1 ticket for Adam Ant performing in Atlanta on March 11th, is that correct? [USER]: That is all correct, no problems here. [SYSTEM]: The reservation has been made, hope you enjoy the event. [USER]: Great, thanks for all the help, that is all I needed for now. \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "music"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-number_of_tickets>.\n[USER]: Is there something interesting I can do, hopefully music related? [SYSTEM]: Which city should I look for music events? [USER]: Can you try looking for music events in Atlanta, GA? [SYSTEM]: For that city I found an upcoming event on March 11th at 5 pm, would you be interested in seeing Adam Ant at the Atlanta Symphony Orchestra. [USER]: Sounds great, thanks for finding this event. [SYSTEM]: Would you like to purchase tickets to this event? [USER]: Sure, buy me tickets for the event. [SYSTEM]: What amount would you like to purchase at the moment? [USER]: I only want to buy one ticket at the moment. [SYSTEM]: You would like to buy 1 ticket for Adam Ant performing in Atlanta on March 11th, is that correct? [USER]: That is all correct, no problems here. [SYSTEM]: The reservation has been made, hope you enjoy the event. [USER]: Great, thanks for all the help, that is all I needed for now. \n [slot] events_3-number_of_tickets, it indicates Number of tickets to reserve for the event. So the value of slot <events_3-number_of_tickets> is \n",
+        "output": "1"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-event_type>.\n[USER]: Can you find me some interesting things to entertain me please? [SYSTEM]: What kind of interesting things or events do you want? [USER]: I love Drama related things \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "theater"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-city>.\n[USER]: Can you find me some interesting things to entertain me please? [SYSTEM]: What kind of interesting things or events do you want? [USER]: I love Drama related things [SYSTEM]: Any place you want to look for events in particular? [USER]: How about around the Pacifica area? \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "pacifica"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: Can you find me some interesting things to entertain me please? [SYSTEM]: What kind of interesting things or events do you want? [USER]: I love Drama related things [SYSTEM]: Any place you want to look for events in particular? [USER]: How about around the Pacifica area? \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "theater"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-city>.\n[USER]: Can you find me some interesting things to entertain me please? [SYSTEM]: What kind of interesting things or events do you want? [USER]: I love Drama related things [SYSTEM]: Any place you want to look for events in particular? [USER]: How about around the Pacifica area? [SYSTEM]: How about catching The Music man which is at Pacifica Spindrift Players on March 1st at 6 pm [USER]: Where is this gonna be taking place? \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "pacifica"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-event_type>.\n[USER]: Can you find me some interesting things to entertain me please? [SYSTEM]: What kind of interesting things or events do you want? [USER]: I love Drama related things [SYSTEM]: Any place you want to look for events in particular? [USER]: How about around the Pacifica area? [SYSTEM]: How about catching The Music man which is at Pacifica Spindrift Players on March 1st at 6 pm [USER]: Where is this gonna be taking place? \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "theater"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-city>.\n[USER]: Can you find me some interesting things to entertain me please? [SYSTEM]: What kind of interesting things or events do you want? [USER]: I love Drama related things [SYSTEM]: Any place you want to look for events in particular? [USER]: How about around the Pacifica area? [SYSTEM]: How about catching The Music man which is at Pacifica Spindrift Players on March 1st at 6 pm [USER]: Where is this gonna be taking place? [SYSTEM]: The address of the venue is 1050 Crespi Drive [USER]: That's good but can you find me other options? \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "pacifica"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-event_type>.\n[USER]: Can you find me some interesting things to entertain me please? [SYSTEM]: What kind of interesting things or events do you want? [USER]: I love Drama related things [SYSTEM]: Any place you want to look for events in particular? [USER]: How about around the Pacifica area? [SYSTEM]: How about catching The Music man which is at Pacifica Spindrift Players on March 1st at 6 pm [USER]: Where is this gonna be taking place? [SYSTEM]: The address of the venue is 1050 Crespi Drive [USER]: That's good but can you find me other options? \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "theater"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-city>.\n[USER]: Can you find me some interesting things to entertain me please? [SYSTEM]: What kind of interesting things or events do you want? [USER]: I love Drama related things [SYSTEM]: Any place you want to look for events in particular? [USER]: How about around the Pacifica area? [SYSTEM]: How about catching The Music man which is at Pacifica Spindrift Players on March 1st at 6 pm [USER]: Where is this gonna be taking place? [SYSTEM]: The address of the venue is 1050 Crespi Drive [USER]: That's good but can you find me other options? [SYSTEM]: I'm sorry, but I can't find anything else that matches your criteria, can I do something else though? [USER]: No thanks, that's all for your help for now \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "pacifica"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-event_type>.\n[USER]: Can you find me some interesting things to entertain me please? [SYSTEM]: What kind of interesting things or events do you want? [USER]: I love Drama related things [SYSTEM]: Any place you want to look for events in particular? [USER]: How about around the Pacifica area? [SYSTEM]: How about catching The Music man which is at Pacifica Spindrift Players on March 1st at 6 pm [USER]: Where is this gonna be taking place? [SYSTEM]: The address of the venue is 1050 Crespi Drive [USER]: That's good but can you find me other options? [SYSTEM]: I'm sorry, but I can't find anything else that matches your criteria, can I do something else though? [USER]: No thanks, that's all for your help for now \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "theater"
+    },
+    {
+        "input": "Track the state of the slot <events_3-city> in the input dialogue.\n[USER]: I will be in Toronto, Canada next Monday and I want to see if you can find some Musical shows I could attend. \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "toronto, canada"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-date>.\n[USER]: I will be in Toronto, Canada next Monday and I want to see if you can find some Musical shows I could attend. \n [slot] events_3-date, it indicates Date of event. So the value of slot <events_3-date> is \n",
+        "output": "next monday"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-event_type>.\n[USER]: I will be in Toronto, Canada next Monday and I want to see if you can find some Musical shows I could attend. \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "music"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-city>.\n[USER]: I will be in Toronto, Canada next Monday and I want to see if you can find some Musical shows I could attend. [SYSTEM]: I came up with 7 of those. One would be called Funtcase and it seems to be a big hit, it is on March 4th and is set to begin at 6:30 pm at the NEST. [USER]: I think I would like that one. I will be needing you to get me 4 tickets alright? \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "toronto, canada"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-date>.\n[USER]: I will be in Toronto, Canada next Monday and I want to see if you can find some Musical shows I could attend. [SYSTEM]: I came up with 7 of those. One would be called Funtcase and it seems to be a big hit, it is on March 4th and is set to begin at 6:30 pm at the NEST. [USER]: I think I would like that one. I will be needing you to get me 4 tickets alright? \n [slot] events_3-date, it indicates Date of event. So the value of slot <events_3-date> is \n",
+        "output": "march 4th"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-event_name>.\n[USER]: I will be in Toronto, Canada next Monday and I want to see if you can find some Musical shows I could attend. [SYSTEM]: I came up with 7 of those. One would be called Funtcase and it seems to be a big hit, it is on March 4th and is set to begin at 6:30 pm at the NEST. [USER]: I think I would like that one. I will be needing you to get me 4 tickets alright? \n [slot] events_3-event_name, it indicates Name of artist or play. So the value of slot <events_3-event_name> is \n",
+        "output": "funtcase"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-event_type>.\n[USER]: I will be in Toronto, Canada next Monday and I want to see if you can find some Musical shows I could attend. [SYSTEM]: I came up with 7 of those. One would be called Funtcase and it seems to be a big hit, it is on March 4th and is set to begin at 6:30 pm at the NEST. [USER]: I think I would like that one. I will be needing you to get me 4 tickets alright? \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "music"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-number_of_tickets>.\n[USER]: I will be in Toronto, Canada next Monday and I want to see if you can find some Musical shows I could attend. [SYSTEM]: I came up with 7 of those. One would be called Funtcase and it seems to be a big hit, it is on March 4th and is set to begin at 6:30 pm at the NEST. [USER]: I think I would like that one. I will be needing you to get me 4 tickets alright? \n [slot] events_3-number_of_tickets, it indicates Number of tickets to reserve for the event. So the value of slot <events_3-number_of_tickets> is \n",
+        "output": "4"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: I will be in Toronto, Canada next Monday and I want to see if you can find some Musical shows I could attend. [SYSTEM]: I came up with 7 of those. One would be called Funtcase and it seems to be a big hit, it is on March 4th and is set to begin at 6:30 pm at the NEST. [USER]: I think I would like that one. I will be needing you to get me 4 tickets alright? [SYSTEM]: Would the following be correct? 4 tickets for the March 4th showing of Funtcase in Toronto. [USER]: That's right you got it. \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "toronto"
+    },
+    {
+        "input": "Track the state of the slot <events_3-date> in the input dialogue.\n[USER]: I will be in Toronto, Canada next Monday and I want to see if you can find some Musical shows I could attend. [SYSTEM]: I came up with 7 of those. One would be called Funtcase and it seems to be a big hit, it is on March 4th and is set to begin at 6:30 pm at the NEST. [USER]: I think I would like that one. I will be needing you to get me 4 tickets alright? [SYSTEM]: Would the following be correct? 4 tickets for the March 4th showing of Funtcase in Toronto. [USER]: That's right you got it. \n [slot] events_3-date, it indicates Date of event. So the value of slot <events_3-date> is \n",
+        "output": "march 4th"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: I will be in Toronto, Canada next Monday and I want to see if you can find some Musical shows I could attend. [SYSTEM]: I came up with 7 of those. One would be called Funtcase and it seems to be a big hit, it is on March 4th and is set to begin at 6:30 pm at the NEST. [USER]: I think I would like that one. I will be needing you to get me 4 tickets alright? [SYSTEM]: Would the following be correct? 4 tickets for the March 4th showing of Funtcase in Toronto. [USER]: That's right you got it. \n [slot] events_3-event_name, it indicates Name of artist or play. So the value of slot <events_3-event_name> is \n",
+        "output": "funtcase"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-event_type>.\n[USER]: I will be in Toronto, Canada next Monday and I want to see if you can find some Musical shows I could attend. [SYSTEM]: I came up with 7 of those. One would be called Funtcase and it seems to be a big hit, it is on March 4th and is set to begin at 6:30 pm at the NEST. [USER]: I think I would like that one. I will be needing you to get me 4 tickets alright? [SYSTEM]: Would the following be correct? 4 tickets for the March 4th showing of Funtcase in Toronto. [USER]: That's right you got it. \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "music"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-number_of_tickets>.\n[USER]: I will be in Toronto, Canada next Monday and I want to see if you can find some Musical shows I could attend. [SYSTEM]: I came up with 7 of those. One would be called Funtcase and it seems to be a big hit, it is on March 4th and is set to begin at 6:30 pm at the NEST. [USER]: I think I would like that one. I will be needing you to get me 4 tickets alright? [SYSTEM]: Would the following be correct? 4 tickets for the March 4th showing of Funtcase in Toronto. [USER]: That's right you got it. \n [slot] events_3-number_of_tickets, it indicates Number of tickets to reserve for the event. So the value of slot <events_3-number_of_tickets> is \n",
+        "output": "4"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-city>.\n[USER]: I will be in Toronto, Canada next Monday and I want to see if you can find some Musical shows I could attend. [SYSTEM]: I came up with 7 of those. One would be called Funtcase and it seems to be a big hit, it is on March 4th and is set to begin at 6:30 pm at the NEST. [USER]: I think I would like that one. I will be needing you to get me 4 tickets alright? [SYSTEM]: Would the following be correct? 4 tickets for the March 4th showing of Funtcase in Toronto. [USER]: That's right you got it. [SYSTEM]: You're seats will be waiting for you, enjoy the show! [USER]: Wait where is it going to be? \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "toronto"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: I will be in Toronto, Canada next Monday and I want to see if you can find some Musical shows I could attend. [SYSTEM]: I came up with 7 of those. One would be called Funtcase and it seems to be a big hit, it is on March 4th and is set to begin at 6:30 pm at the NEST. [USER]: I think I would like that one. I will be needing you to get me 4 tickets alright? [SYSTEM]: Would the following be correct? 4 tickets for the March 4th showing of Funtcase in Toronto. [USER]: That's right you got it. [SYSTEM]: You're seats will be waiting for you, enjoy the show! [USER]: Wait where is it going to be? \n [slot] events_3-date, it indicates Date of event. So the value of slot <events_3-date> is \n",
+        "output": "march 4th"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-event_name>.\n[USER]: I will be in Toronto, Canada next Monday and I want to see if you can find some Musical shows I could attend. [SYSTEM]: I came up with 7 of those. One would be called Funtcase and it seems to be a big hit, it is on March 4th and is set to begin at 6:30 pm at the NEST. [USER]: I think I would like that one. I will be needing you to get me 4 tickets alright? [SYSTEM]: Would the following be correct? 4 tickets for the March 4th showing of Funtcase in Toronto. [USER]: That's right you got it. [SYSTEM]: You're seats will be waiting for you, enjoy the show! [USER]: Wait where is it going to be? \n [slot] events_3-event_name, it indicates Name of artist or play. So the value of slot <events_3-event_name> is \n",
+        "output": "funtcase"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-event_type>.\n[USER]: I will be in Toronto, Canada next Monday and I want to see if you can find some Musical shows I could attend. [SYSTEM]: I came up with 7 of those. One would be called Funtcase and it seems to be a big hit, it is on March 4th and is set to begin at 6:30 pm at the NEST. [USER]: I think I would like that one. I will be needing you to get me 4 tickets alright? [SYSTEM]: Would the following be correct? 4 tickets for the March 4th showing of Funtcase in Toronto. [USER]: That's right you got it. [SYSTEM]: You're seats will be waiting for you, enjoy the show! [USER]: Wait where is it going to be? \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "music"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: I will be in Toronto, Canada next Monday and I want to see if you can find some Musical shows I could attend. [SYSTEM]: I came up with 7 of those. One would be called Funtcase and it seems to be a big hit, it is on March 4th and is set to begin at 6:30 pm at the NEST. [USER]: I think I would like that one. I will be needing you to get me 4 tickets alright? [SYSTEM]: Would the following be correct? 4 tickets for the March 4th showing of Funtcase in Toronto. [USER]: That's right you got it. [SYSTEM]: You're seats will be waiting for you, enjoy the show! [USER]: Wait where is it going to be? \n [slot] events_3-number_of_tickets, it indicates Number of tickets to reserve for the event. So the value of slot <events_3-number_of_tickets> is \n",
+        "output": "4"
+    },
+    {
+        "input": "Track the state of the slot <events_3-city> in the input dialogue.\n[USER]: I will be in Toronto, Canada next Monday and I want to see if you can find some Musical shows I could attend. [SYSTEM]: I came up with 7 of those. One would be called Funtcase and it seems to be a big hit, it is on March 4th and is set to begin at 6:30 pm at the NEST. [USER]: I think I would like that one. I will be needing you to get me 4 tickets alright? [SYSTEM]: Would the following be correct? 4 tickets for the March 4th showing of Funtcase in Toronto. [USER]: That's right you got it. [SYSTEM]: You're seats will be waiting for you, enjoy the show! [USER]: Wait where is it going to be? [SYSTEM]: That address would be 423 College Street. [USER]: Great I do appreciate it. \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "toronto"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-date>.\n[USER]: I will be in Toronto, Canada next Monday and I want to see if you can find some Musical shows I could attend. [SYSTEM]: I came up with 7 of those. One would be called Funtcase and it seems to be a big hit, it is on March 4th and is set to begin at 6:30 pm at the NEST. [USER]: I think I would like that one. I will be needing you to get me 4 tickets alright? [SYSTEM]: Would the following be correct? 4 tickets for the March 4th showing of Funtcase in Toronto. [USER]: That's right you got it. [SYSTEM]: You're seats will be waiting for you, enjoy the show! [USER]: Wait where is it going to be? [SYSTEM]: That address would be 423 College Street. [USER]: Great I do appreciate it. \n [slot] events_3-date, it indicates Date of event. So the value of slot <events_3-date> is \n",
+        "output": "march 4th"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-event_name>.\n[USER]: I will be in Toronto, Canada next Monday and I want to see if you can find some Musical shows I could attend. [SYSTEM]: I came up with 7 of those. One would be called Funtcase and it seems to be a big hit, it is on March 4th and is set to begin at 6:30 pm at the NEST. [USER]: I think I would like that one. I will be needing you to get me 4 tickets alright? [SYSTEM]: Would the following be correct? 4 tickets for the March 4th showing of Funtcase in Toronto. [USER]: That's right you got it. [SYSTEM]: You're seats will be waiting for you, enjoy the show! [USER]: Wait where is it going to be? [SYSTEM]: That address would be 423 College Street. [USER]: Great I do appreciate it. \n [slot] events_3-event_name, it indicates Name of artist or play. So the value of slot <events_3-event_name> is \n",
+        "output": "funtcase"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-event_type>.\n[USER]: I will be in Toronto, Canada next Monday and I want to see if you can find some Musical shows I could attend. [SYSTEM]: I came up with 7 of those. One would be called Funtcase and it seems to be a big hit, it is on March 4th and is set to begin at 6:30 pm at the NEST. [USER]: I think I would like that one. I will be needing you to get me 4 tickets alright? [SYSTEM]: Would the following be correct? 4 tickets for the March 4th showing of Funtcase in Toronto. [USER]: That's right you got it. [SYSTEM]: You're seats will be waiting for you, enjoy the show! [USER]: Wait where is it going to be? [SYSTEM]: That address would be 423 College Street. [USER]: Great I do appreciate it. \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "music"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-number_of_tickets>.\n[USER]: I will be in Toronto, Canada next Monday and I want to see if you can find some Musical shows I could attend. [SYSTEM]: I came up with 7 of those. One would be called Funtcase and it seems to be a big hit, it is on March 4th and is set to begin at 6:30 pm at the NEST. [USER]: I think I would like that one. I will be needing you to get me 4 tickets alright? [SYSTEM]: Would the following be correct? 4 tickets for the March 4th showing of Funtcase in Toronto. [USER]: That's right you got it. [SYSTEM]: You're seats will be waiting for you, enjoy the show! [USER]: Wait where is it going to be? [SYSTEM]: That address would be 423 College Street. [USER]: Great I do appreciate it. \n [slot] events_3-number_of_tickets, it indicates Number of tickets to reserve for the event. So the value of slot <events_3-number_of_tickets> is \n",
+        "output": "4"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-city>.\n[USER]: I will be in Toronto, Canada next Monday and I want to see if you can find some Musical shows I could attend. [SYSTEM]: I came up with 7 of those. One would be called Funtcase and it seems to be a big hit, it is on March 4th and is set to begin at 6:30 pm at the NEST. [USER]: I think I would like that one. I will be needing you to get me 4 tickets alright? [SYSTEM]: Would the following be correct? 4 tickets for the March 4th showing of Funtcase in Toronto. [USER]: That's right you got it. [SYSTEM]: You're seats will be waiting for you, enjoy the show! [USER]: Wait where is it going to be? [SYSTEM]: That address would be 423 College Street. [USER]: Great I do appreciate it. [SYSTEM]: Do you have any other requests? [USER]: No, thanks anyway goodbye \n [slot] events_3-city, it indicates City where the event is taking place. So the value of slot <events_3-city> is \n",
+        "output": "toronto"
+    },
+    {
+        "input": "Given the following dialogue, please predict the value for the slot <events_3-date>.\n[USER]: I will be in Toronto, Canada next Monday and I want to see if you can find some Musical shows I could attend. [SYSTEM]: I came up with 7 of those. One would be called Funtcase and it seems to be a big hit, it is on March 4th and is set to begin at 6:30 pm at the NEST. [USER]: I think I would like that one. I will be needing you to get me 4 tickets alright? [SYSTEM]: Would the following be correct? 4 tickets for the March 4th showing of Funtcase in Toronto. [USER]: That's right you got it. [SYSTEM]: You're seats will be waiting for you, enjoy the show! [USER]: Wait where is it going to be? [SYSTEM]: That address would be 423 College Street. [USER]: Great I do appreciate it. [SYSTEM]: Do you have any other requests? [USER]: No, thanks anyway goodbye \n [slot] events_3-date, it indicates Date of event. So the value of slot <events_3-date> is \n",
+        "output": "march 4th"
+    },
+    {
+        "input": "Track the state of the slot <events_3-event_name> in the input dialogue.\n[USER]: I will be in Toronto, Canada next Monday and I want to see if you can find some Musical shows I could attend. [SYSTEM]: I came up with 7 of those. One would be called Funtcase and it seems to be a big hit, it is on March 4th and is set to begin at 6:30 pm at the NEST. [USER]: I think I would like that one. I will be needing you to get me 4 tickets alright? [SYSTEM]: Would the following be correct? 4 tickets for the March 4th showing of Funtcase in Toronto. [USER]: That's right you got it. [SYSTEM]: You're seats will be waiting for you, enjoy the show! [USER]: Wait where is it going to be? [SYSTEM]: That address would be 423 College Street. [USER]: Great I do appreciate it. [SYSTEM]: Do you have any other requests? [USER]: No, thanks anyway goodbye \n [slot] events_3-event_name, it indicates Name of artist or play. So the value of slot <events_3-event_name> is \n",
+        "output": "funtcase"
+    },
+    {
+        "input": "Given the following dialogue, track the state of the dialogue and predict the value of the slot <events_3-event_type>.\n[USER]: I will be in Toronto, Canada next Monday and I want to see if you can find some Musical shows I could attend. [SYSTEM]: I came up with 7 of those. One would be called Funtcase and it seems to be a big hit, it is on March 4th and is set to begin at 6:30 pm at the NEST. [USER]: I think I would like that one. I will be needing you to get me 4 tickets alright? [SYSTEM]: Would the following be correct? 4 tickets for the March 4th showing of Funtcase in Toronto. [USER]: That's right you got it. [SYSTEM]: You're seats will be waiting for you, enjoy the show! [USER]: Wait where is it going to be? [SYSTEM]: That address would be 423 College Street. [USER]: Great I do appreciate it. [SYSTEM]: Do you have any other requests? [USER]: No, thanks anyway goodbye \n [slot] events_3-event_type, it indicates Type of cultural event. So the value of slot <events_3-event_type> is \n",
+        "output": "music"
+    },
+    {
+        "input": "Track the state of the slot in the input dialogue.\n[USER]: I will be in Toronto, Canada next Monday and I want to see if you can find some Musical shows I could attend. [SYSTEM]: I came up with 7 of those. One would be called Funtcase and it seems to be a big hit, it is on March 4th and is set to begin at 6:30 pm at the NEST. [USER]: I think I would like that one. I will be needing you to get me 4 tickets alright? [SYSTEM]: Would the following be correct? 4 tickets for the March 4th showing of Funtcase in Toronto. [USER]: That's right you got it. [SYSTEM]: You're seats will be waiting for you, enjoy the show! [USER]: Wait where is it going to be? [SYSTEM]: That address would be 423 College Street. [USER]: Great I do appreciate it. [SYSTEM]: Do you have any other requests? [USER]: No, thanks anyway goodbye \n [slot] events_3-number_of_tickets, it indicates Number of tickets to reserve for the event. So the value of slot <events_3-number_of_tickets> is \n",
+        "output": "4"
+    }
+]
